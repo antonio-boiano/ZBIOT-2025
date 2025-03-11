@@ -2,8 +2,8 @@ import pandas as pd
 import os
 import numpy as np
 
-input_dir = "./Data/Aggregated_Data"
-output_dir = "./Data/Sequence_Data"
+input_dir = "Aggregated_Data"
+output_dir = "Sequence_Data"
 os.makedirs(output_dir, exist_ok=True)
 
 input_files = ["Combined_Topology_A.csv", "Combined_Topology_B.csv"]

@@ -3,8 +3,8 @@ import pandas as pd
 
 dataset_dir = "./Data"
 
-output_a_file = "Data/Aggregated_Data/Combined_Topology_A.csv"
-output_b_file = "Data/Aggregated_Data/Combined_Topology_B.csv"
+output_a_file = "Aggregated_Data/Combined_Topology_A.csv"
+output_b_file = "Aggregated_Data/Combined_Topology_B.csv"
 
 all_data_a = []
 all_data_b = []

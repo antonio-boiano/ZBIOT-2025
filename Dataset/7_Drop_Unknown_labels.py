@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-sequence_data_dir = "./Data/Sequence_Data"
+sequence_data_dir = "Sequence_Data"
 
 for file in os.listdir(sequence_data_dir):
     if file.endswith(".csv"):
