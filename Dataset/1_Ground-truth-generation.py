@@ -30,6 +30,12 @@ device_type_mapping_vA = {
     '0xa209': 'Bulb',
     '0x2cae': 'Motion',
     '0xe5c4': 'Bulb',
+    '0xffff': 'Broadcast',
+    '0xfffd': 'Broadcast',
+    '0xfffe': 'Broadcast',
+    '0xfffc': 'Broadcast',
+    '0xfffb': 'Broadcast',
+    '0xfffa': 'Broadcast'
 }
 
 device_name_mapping_vA = {
@@ -55,6 +61,12 @@ device_name_mapping_vA = {
     '0xa209': 'Philips Lamp 2',
     '0x2cae': 'Philips Lamp 3',
     '0xe5c4': 'Philips Motion',
+    '0xffff': 'Broadcast',
+    '0xfffd': 'Broadcast',
+    '0xfffe': 'Broadcast',
+    '0xfffc': 'Broadcast',
+    '0xfffb': 'Broadcast',
+    '0xfffa': 'Broadcast'
 }
 
 
@@ -80,7 +92,13 @@ device_type_mapping_vB = {
     '0x1cd8': 'Bulb',
     '0x5bb9': 'Bulb',
     '0x711c': 'Bulb',
-    '0x059b': 'Motion'    
+    '0x059b': 'Motion',
+    '0xffff': 'Broadcast',
+    '0xfffd': 'Broadcast',
+    '0xfffe': 'Broadcast',
+    '0xfffc': 'Broadcast',
+    '0xfffb': 'Broadcast',
+    '0xfffa': 'Broadcast'
 }
 
 device_name_mapping_vB = {
@@ -105,7 +123,13 @@ device_name_mapping_vB = {
     '0x1cd8': 'Philips Lamp 1',
     '0x5bb9': 'Philips Lamp 2',
     '0x711c': 'Philips Lamp 3',
-    '0x059b': 'Philips Motion' 
+    '0x059b': 'Philips Motion',
+    '0xffff': 'Broadcast',
+    '0xfffd': 'Broadcast',
+    '0xfffe': 'Broadcast',
+    '0xfffc': 'Broadcast',
+    '0xfffb': 'Broadcast',
+    '0xfffa': 'Broadcast'
 }
 
 
@@ -331,18 +355,27 @@ def main(input_file):
             device_name = map_device_info(source_addr, device_name_mapping)
             device_type = map_device_info(source_addr, device_type_mapping)
 
+            destination_addr = safe_get_attr(packet.wpan, 'dst16')
+            device_name_dst = map_device_info(destination_addr, device_name_mapping)
+            device_type_dst = map_device_info(destination_addr, device_type_mapping)
+            
             # Extract ZigBee NWK information
             source_addr_zb = None
             device_name_zb = None
             device_name_zb_dst = None
+            destination_addr_zb = None
             device_type_zb = None
+            device_type_zb_dst = None
             human_cmd = None
 
             try:
                 source_addr_zb = safe_get_attr(packet.ZBEE_NWK, 'src')
             except:
                 pass
-
+            try:
+                destination_addr_zb = safe_get_attr(packet.ZBEE_NWK, 'dst')
+            except:
+                pass
             try:
                 device_name_zb = map_device_info(source_addr_zb, device_name_mapping)
             except:
@@ -357,6 +390,10 @@ def main(input_file):
 
             try:
                 device_type_zb = map_device_info(source_addr_zb, device_type_mapping)
+            except:
+                pass
+            try:
+                device_type_zb_dst = map_device_info(safe_get_attr(packet.ZBEE_NWK, 'dst'), device_type_mapping)
             except:
                 pass
 
@@ -376,9 +413,16 @@ def main(input_file):
                 'Packet Number': packet.number,
                 'Device Name': device_name,
                 'Device Type': device_type,
+                'Source Address': source_addr,
+                'Destination Address': destination_addr,
+                'Device Name Destination': device_name_dst,
+                'Device Type Destination': device_type_dst,
+                'Source Address ZigBee': source_addr_zb,
                 'Device Name ZigBee': device_name_zb,
                 'Device Type ZigBee': device_type_zb,
+                'Destination Address ZigBee': destination_addr_zb,
                 'Device Name ZigBee Destination': device_name_zb_dst,
+                'Device Type ZigBee Destination': device_type_zb_dst,
                 'Human Command': human_cmd,
                 'Packet Type': classify_packet(packet),
                 'Command String': cmd_str,
