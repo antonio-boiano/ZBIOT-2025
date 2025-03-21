@@ -5,7 +5,7 @@ import pandas as pd
 import pyshark
 import re
 
-
+tshark_path = r"D:\Wireshark\tshark.exe"
 # Device mappings
 device_type_mapping_vA = {
     '0x0000': 'Coordinator',
@@ -341,7 +341,14 @@ def main(input_file):
         else:
             raise ValueError(f"Invalid topology:")
             
-    packets = pyshark.FileCapture(input_file)  # Example filter for Zigbee
+    # packets = pyshark.FileCapture(input_file)  # Example filter for Zigbee
+
+    try:
+        packets = pyshark.FileCapture(input_file, tshark_path=tshark_path)
+    except Exception as e:
+        print(f"Error initializing Pyshark with TShark: {tshark_path}")
+        print(f"Exception: {e}")
+        return pd.DataFrame()
     rows = []
     dict_mem = {}
     
@@ -450,7 +457,7 @@ def find_and_process_pcapng(file_path):
                 full_path = os.path.join(root, file)
                 
                 # Create the groundtruth subfolder if it doesn't exist
-                groundtruth_folder = os.path.join(root, "groundtruth")
+                groundtruth_folder = os.path.join(root, "1-Groundtruth")
                 os.makedirs(groundtruth_folder, exist_ok=True)
                 
                 # Construct the output file path in the groundtruth subfolder
@@ -471,6 +478,6 @@ def find_and_process_pcapng(file_path):
     print("All files processed successfully.")
     
     
-root_path = './Dataset/Data'
+root_path = './Data'
 
 find_and_process_pcapng(root_path)
