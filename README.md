@@ -39,6 +39,10 @@ Step 5: **A_5_2-Create-sequence-data-fix-duration.py** extracts features using a
 
 Step 6: **A_6-Merge-and-drop-unknown.py** merges data across different scenarios and removes missing values.
 
+Step 7: **A_7_1-Fix-Packets.ipynb** performs using `"A_6-Merged_sequence_data_fix_durations"` (`Train A → Test A`, `Train B → Test B`, `Train A → Test B`, `Train B → Test A`).
+
+Step 7: **A_7_2-Fix-Durations.ipynb** performs using `"A_6-Merged_sequence_data_fix_packets"`.
+
 ---
 
 ## **Method B: Device-Only Sequence Data**
@@ -54,11 +58,8 @@ Step 5: **B_5_2-Create-sequence-data-fix-duration.py** extracts features using a
 
 Step 6: **B_6-Merge-and-drop-unknown.py** merges data across scenarios and removes missing values.
 
----
+Step 7: **B_7_1-Fix-Packets.ipynb** performs using `"B_6-Merged_sequence_data_fix_durations"` (`Train A → Test A`, `Train B → Test B`, `Train A → Test B`, `Train B → Test A`).
 
-## **Classification & Identification**
-Step 8: **8-1_Same_topology.ipynb** performs device classification within the same topology (`Train A → Test A`, `Train B → Test B`).
-
-Step 8: **8-2_Different_topology.ipynb** performs cross-topology classification (`Train A → Test B`, `Train B → Test A`).
+Step 7: **B_7_2-Fix-Durations.ipynb** performs using `"B_6-Merged_sequence_data_fix_packets"`.
 
 ---
