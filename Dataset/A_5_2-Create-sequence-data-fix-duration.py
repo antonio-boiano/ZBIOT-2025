@@ -19,7 +19,6 @@ def parse_time(x):
         print(f"Error parsing time: {x}, Error: {e}")
         return np.nan
 
-
 for category in ["Idle", "Physical_Interaction", "Scenario", "Web_Interaction"]:
     category_path = os.path.join(dataset_dir, category)
     for topology in ["Topology_A", "Topology_B"]:
@@ -43,37 +42,35 @@ for category in ["Idle", "Physical_Interaction", "Scenario", "Web_Interaction"]:
                     df = pd.read_csv(file_path)
 
                     df["Time_in_seconds"] = df["Time"].apply(parse_time)
+                    df = df.sort_values(by=["Group", "Time_in_seconds"], ascending=[True, True])
 
                     result_data = []
 
-                    start_time = df["Time_in_seconds"].min()
-                    step_size = 1
+                    for group, group_data in df.groupby("Group", sort=False):
+                        start_time = group_data["Time_in_seconds"].min()
+                        step_size = 1
 
-                    while start_time <= df["Time_in_seconds"].max():
-                        end_time = start_time + WINDOW_SIZE_IN_SECONDS
-                        current_window = df[
-                            (df["Time_in_seconds"] >= start_time) &
-                            (df["Time_in_seconds"] < end_time)
+                        while start_time <= group_data["Time_in_seconds"].max():
+                            end_time = start_time + WINDOW_SIZE_IN_SECONDS
+                            current_window = group_data[
+                                (group_data["Time_in_seconds"] >= start_time) &
+                                (group_data["Time_in_seconds"] < end_time)
                             ]
 
-                        if not current_window.empty:
-                            for group, group_data in current_window.groupby("Group"):
-                                if group_data.empty:
-                                    continue
-
-                                avg_packet_length = group_data["Length"].mean()
-                                std_packet_length = group_data["Length"].std()
+                            if not current_window.empty:
+                                avg_packet_length = current_window["Length"].mean()
+                                std_packet_length = current_window["Length"].std()
                                 std_packet_length = std_packet_length if pd.notna(std_packet_length) else 0
-                                avg_iat = group_data["Delta Time"].mean()
-                                std_iat = group_data["Delta Time"].std()
+                                avg_iat = current_window["Delta Time"].mean()
+                                std_iat = current_window["Delta Time"].std()
                                 std_iat = std_iat if pd.notna(std_iat) else 0
-                                max_sequence_number = group_data["Sequence Number"].max()
-                                min_sequence_number = group_data["Sequence Number"].min()
-                                avg_sequence_number = group_data["Sequence Number"].mean()
+                                max_sequence_number = current_window["Sequence Number"].max()
+                                min_sequence_number = current_window["Sequence Number"].min()
+                                avg_sequence_number = current_window["Sequence Number"].mean()
 
                                 result_data.append([
                                     group,
-                                    group_data["Group Type"].iloc[0],
+                                    current_window["Group Type"].iloc[0],
                                     avg_packet_length,
                                     std_packet_length,
                                     avg_iat,
@@ -83,7 +80,7 @@ for category in ["Idle", "Physical_Interaction", "Scenario", "Web_Interaction"]:
                                     avg_sequence_number
                                 ])
 
-                        start_time += step_size
+                            start_time += step_size
 
                     result_df = pd.DataFrame(result_data, columns=[
                         "Device Name", "Device Type", "Average Packet Length", "Packet Standard Variance",
