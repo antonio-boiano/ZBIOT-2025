@@ -7,7 +7,7 @@ Step3: **3_Combine-groundtruth-information.py** is combine the information of "1
 In this case, we have two methods to generate the new sequence data: Method A is **considering the process of conversation between the devices and coordinator**.  
 And another method B is that we simplify the process, we just **focus on the packets from the devices instead of the coordinator**.  
   
-**Method A：**
+**Method A：**  
 Step4: **A_4_Group-combined-dataset.py** is to group all rows where the 'Device Name' or 'Device Name Destination' matches the specified device. Some data entries may appear multiple times if they meet the filtering conditions. And then **remove all rows where the 'Device Name ZigBee' or 'Device Name ZigBee Destination' doesn't match the device**.  
 Step5: **A_5_1_Create-sequence-data-fix-packets.py** is to generate a new sequential dataset by fixing the number of consecutive packets(5 packets) in a sliding window approach, extracting statistical features (e.g., average packet length, sequence number, etc.), and adding device information to generate a new feature datasheet.It is used for subsequent data analysis.The results are stored in the folder "Sequence_Data".  
 Step5: **A_5_2-Create-sequence-data-fix-duration.py** is to generate a new sequential dataset by fixing the duration of consecutive packets(1 seconds) in a sliding window approach. The results are stored in the folder "Sequence_Data".  
