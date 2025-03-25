@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 dataset_dir = "./Data"
-aggregated_output_dir = "Merged_Data/A_6-Merged_sequence_data_fix_durations"
-# aggregated_output_dir = "Merged_Data/A_6-Merged_sequence_data_fix_packets"
+# aggregated_output_dir = "Merged_Data/A_6-Merged_sequence_data_fix_durations"
+aggregated_output_dir = "Merged_Data/A_6-Merged_sequence_data_fix_packets"
 
 os.makedirs(aggregated_output_dir, exist_ok=True)
 
@@ -14,8 +14,8 @@ for topology in topologies:
     aggregated_data = []
 
     for category in categories:
-        sequence_data_path = os.path.join(dataset_dir, category, topology, "A_5_2-Sequence_Data_Fix_Duration")
-        # sequence_data_path = os.path.join(dataset_dir, category, topology, "A_5_1-Sequence_Data_Fix_Packets")
+        # sequence_data_path = os.path.join(dataset_dir, category, topology, "A_5_2-Sequence_Data_Fix_Duration")
+        sequence_data_path = os.path.join(dataset_dir, category, topology, "A_5_1-Sequence_Data_Fix_Packets")
 
 
         if not os.path.exists(sequence_data_path):
@@ -33,6 +33,8 @@ for topology in topologies:
 
                 # Filter out lines where "Device Name" is "Unknown".
                 df = df[df["Device Name"] != "Unknown"]
+                df = df[df["Device Name"] != "Coordinator"]
+                df = df[df["Device Name"] != "Broadcast"]
 
                 # Add "File Name" column
                 original_file_base = os.path.splitext(file.replace("_group_sequence", ".pcapng"))[0]
@@ -48,8 +50,8 @@ for topology in topologies:
         print(f"No data available for topology: {topology}")
         continue
 
-    output_file_name = f"{topology}_fix_duration.csv"
-    # output_file_name = f"{topology}_fix_packets.csv"
+    # output_file_name = f"{topology}_fix_duration.csv"
+    output_file_name = f"{topology}_fix_packets.csv"
     output_file_path = os.path.join(aggregated_output_dir, output_file_name)
     aggregated_df.to_csv(output_file_path, index=False, encoding="utf-8")
     print(f"Aggregated data saved to: {output_file_path}")
