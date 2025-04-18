@@ -3,7 +3,7 @@ import pandas as pd
 
 dataset_dir = "./Data"
 
-for category in ["Idle", "Physical_Interaction", "Scenario", "Web_Interaction"]:
+for category in ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Interaction"]:
     category_path = os.path.join(dataset_dir, category)
     for topology in ["Topology_A", "Topology_B"]:
         topology_path = os.path.join(category_path, topology)
@@ -14,9 +14,7 @@ for category in ["Idle", "Physical_Interaction", "Scenario", "Web_Interaction"]:
         groundtruth_folder = os.path.join(topology_path, "1-Groundtruth")
         # The Information extracted from the pcap file
         for file in os.listdir(os.path.join(topology_path, "2-Information_From_PCAP")):
-
             base_name = file.replace('_keyinformation.csv', '')
-
             groundtruth_file_path = os.path.join(groundtruth_folder, f"{base_name}_groundtruth.csv")
             output_file_path = os.path.join(combined_data_path, f"{base_name}_combined.csv")
 

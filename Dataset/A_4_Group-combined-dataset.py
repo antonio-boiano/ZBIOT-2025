@@ -33,7 +33,7 @@ def group_by_each_device(data):
     result_data = pd.concat(result_data, ignore_index=True)
     return result_data
 
-for category in ["Idle", "Physical_Interaction", "Scenario", "Web_Interaction"]:
+for category in ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Interaction"]:
     category_path = os.path.join(dataset_dir, category)
 
     for topology in ["Topology_A", "Topology_B"]:

@@ -7,7 +7,7 @@ aggregated_output_dir = "Merged_Data/B_6-Merged_sequence_data_fix_durations"
 
 os.makedirs(aggregated_output_dir, exist_ok=True)
 
-categories = ["Idle", "Physical_Interaction", "Scenario", "Web_Interaction"]
+categories = ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Interaction"]
 topologies = ["Topology_A", "Topology_B"]
 
 for topology in topologies:

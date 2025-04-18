@@ -7,7 +7,7 @@ current_index = 0
 
 WINDOW_SIZE = 5  # 滑动窗口大小
 
-for category in ["Idle", "Physical_Interaction", "Scenario", "Web_Interaction"]:
+for category in ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Interaction"]:
     category_path = os.path.join(dataset_dir, category)
     for topology in ["Topology_A", "Topology_B"]:
         topology_path = os.path.join(category_path, topology)
