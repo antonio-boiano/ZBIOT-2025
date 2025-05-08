@@ -31,7 +31,7 @@ for category in ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Intera
                     "-r", file_path,
                     "-T", "fields",  # Output field format
                     "-e", "frame.time",  # time field
-                    "-e", "frame.time_delta",  # timing difference
+                    "-e", "frame.time_delta_displayed",  # timing difference
                     "-e", "frame.len",  # Frame Length field
                     "-e", "wpan.src16",  # IEEE Source Address Field
                     "-e", "wpan.dst16",  # IEEE Destination Address Field
@@ -51,9 +51,18 @@ for category in ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Intera
 
                 df = pd.read_csv(output_file_path)
 
+                df[df.columns[0]] = df[df.columns[0]].str.replace(
+                    r"\s西欧夏令时|\s西欧标准时间|\s西欧标准时", "", regex=True
+                )
+
+                df['frame.time'] = pd.to_datetime(df['frame.time'])
+                df['time_diff_seconds'] = df['frame.time'].diff(1).apply(lambda x: x.total_seconds() if not pd.isna(x) else 0)
+
+                df = df.drop(columns=['frame.time_delta_displayed'])
+
                 new_headers = {
                     "frame.time": "Time",
-                    "frame.time_delta": "Delta Time",
+                    "time_diff_seconds": "Delta Time",
                     "frame.len": "Length",
                     "wpan.src16": "Source IEEE",
                     "wpan.dst16": "Destination IEEE",
@@ -69,9 +78,6 @@ for category in ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Intera
 
                 df = pd.read_csv(output_file_path)
                 # Removal of redundant notes in the time format. The time of different country versions is not the same, pay attention to change
-                df[df.columns[0]] = df[df.columns[0]].str.replace(
-                    r"\s西欧夏令时|\s西欧标准时间|\s西欧标准时", "", regex=True
-                )
 
                 df.to_csv(output_file_path, index=False, encoding='utf-8')
                 print(f"Cleaned and saved CSV file to: {output_file_path}")

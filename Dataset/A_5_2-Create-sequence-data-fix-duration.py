@@ -1,25 +1,42 @@
 import os
 import pandas as pd
-import numpy as np
+from datetime import datetime
 
-WINDOW_SIZE_IN_SECONDS = 1
+def parse_timestamp(ts: str) -> datetime:
+    return datetime.strptime(ts, "%Y/%m/%d %H:%M:%S.%f")
+
+def mad(df):
+    return ((df - df.mean()).abs().mean())
+
+def extract_features(current_window):
+    if len(current_window) > 1:
+        return {
+            "Average Packet Length": current_window["Length"].mean(),
+            "Packet Standard Variance": current_window["Length"].std(),
+            "Maximum Packet Length": current_window["Length"].max(),
+            "Minimum Packet Length": current_window["Length"].min(),
+            "Median Packet Length": current_window["Length"].median(),
+            "Kurtosis Packet Length": current_window["Length"].kurtosis(),
+            "Skew Packet Length": current_window["Length"].skew(),
+            "Mad Packet Length": mad(current_window["Length"]),
+            "Length": len(current_window),
+            "Average IAT": current_window["Time"].diff(1).dt.total_seconds().mean(),
+            "IAT Standard Variance": current_window["Time"].diff(1).dt.total_seconds().std(),
+            "Maximum IAT": current_window["Time"].diff(1).dt.total_seconds().max(),
+            "Minimum IAT": current_window["Time"].diff(1).dt.total_seconds().min(),
+            "Median IAT": current_window["Time"].diff(1).dt.total_seconds().median(),
+            "Kurtosis IAT": current_window["Time"].diff(1).dt.total_seconds().kurtosis(),
+            "Skew IAT": current_window["Time"].diff(1).dt.total_seconds().skew(),
+            "Mad IAT": mad(current_window["Time"].diff(1).dt.total_seconds())
+        }
+    else:
+        return None
+
 
 dataset_dir = "./Data"
+window_sizes = [1, 2, 3, 5]  # in seconds
 
-def parse_time(x):
-    try:
-        time_part = x.split(' ')[-1]
-        time_parts = time_part.split(':')
-        if len(time_parts) == 3:
-            hours = int(time_parts[0]) * 3600
-            minutes = int(time_parts[1]) * 60
-            seconds = float(time_parts[2])
-            return hours + minutes + seconds
-    except Exception as e:
-        print(f"Error parsing time: {x}, Error: {e}")
-        return np.nan
-
-for category in ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Interaction"]:
+for category in ["Idle", "Physical_Interaction", "Power", "Scenario", "Web_Interaction"]:
     category_path = os.path.join(dataset_dir, category)
     for topology in ["Topology_A", "Topology_B"]:
         topology_path = os.path.join(category_path, topology)
@@ -35,63 +52,72 @@ for category in ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Intera
 
             for file in os.listdir(raw_dataset_path):
                 file_path = os.path.join(raw_dataset_path, file)
-                if not file.endswith("_group.csv"):
+                if not file.endswith(".csv"):
                     continue
 
                 try:
                     df = pd.read_csv(file_path)
+                    if "Group" not in df.columns:
+                        print(f"'Group' not found in file: {file_path}")
+                        continue
 
-                    df["Time_in_seconds"] = df["Time"].apply(parse_time)
-                    df = df.sort_values(by=["Group", "Time_in_seconds"], ascending=[True, True])
+                    df["Time"] = pd.to_datetime(df["Time"])
+                    df["Time_second"] = df["Time"].apply(lambda x: x.timestamp())
 
-                    result_data = []
+                    df = df.sort_values(by=["Group", "Time"])
 
-                    for group, group_data in df.groupby("Group", sort=False):
-                        start_time = group_data["Time_in_seconds"].min()
-                        step_size = 1
+                    for window_size in window_sizes:
+                        result_data = []
+                        for group, group_data in df.groupby("Group"):
+                            start_time = group_data["Time"].min()
+                            end_time = group_data["Time"].max()
 
-                        while start_time <= group_data["Time_in_seconds"].max():
-                            end_time = start_time + WINDOW_SIZE_IN_SECONDS
-                            current_window = group_data[
-                                (group_data["Time_in_seconds"] >= start_time) &
-                                (group_data["Time_in_seconds"] < end_time)
-                            ]
+                            current_start = start_time
+                            while current_start < end_time:
+                                current_end = current_start + pd.Timedelta(seconds=window_size)
+                                current_window = group_data[(group_data["Time"] >= current_start) & (group_data["Time"] < current_end)]
 
-                            if not current_window.empty:
-                                avg_packet_length = current_window["Length"].mean()
-                                std_packet_length = current_window["Length"].std()
-                                std_packet_length = std_packet_length if pd.notna(std_packet_length) else 0
-                                avg_iat = current_window["Delta Time"].mean()
-                                std_iat = current_window["Delta Time"].std()
-                                std_iat = std_iat if pd.notna(std_iat) else 0
-                                max_sequence_number = current_window["Sequence Number"].max()
-                                min_sequence_number = current_window["Sequence Number"].min()
-                                avg_sequence_number = current_window["Sequence Number"].mean()
+                                if len(current_window) < 2:
+                                    current_start += pd.Timedelta(seconds=1)
+                                    continue
 
-                                result_data.append([
-                                    group,
-                                    current_window["Group Type"].iloc[0],
-                                    avg_packet_length,
-                                    std_packet_length,
-                                    avg_iat,
-                                    std_iat,
-                                    max_sequence_number,
-                                    min_sequence_number,
-                                    avg_sequence_number
-                                ])
+                                dev_name = current_window.iloc[0, 0]
+                                upl_wind = current_window[current_window["Device Name Destination"] == dev_name]
+                                dnl_wind = current_window[current_window["Device Name"] == dev_name]
 
-                            start_time += step_size
+                                dev_info = {
+                                    "Device Name": dev_name,
+                                    "Device Type": current_window.iloc[0, 1],
+                                    "File Name": file_path
+                                }
+                                dev_df = pd.DataFrame([dev_info])
 
-                    result_df = pd.DataFrame(result_data, columns=[
-                        "Device Name", "Device Type", "Average Packet Length", "Packet Standard Variance",
-                        "Average IAT", "IAT Standard Variance", "Sequence Number Maximum",
-                        "Sequence Number Minimum", "Sequence Number Average"
-                    ])
+                                up_dict = extract_features(upl_wind)
+                                dn_dict = extract_features(dnl_wind)
+                                tot_dict = extract_features(current_window)
 
-                    new_file_name = file.replace("_group", "_group_sequence")
-                    output_file_path = os.path.join(sequence_output_path, new_file_name)
-                    result_df.to_csv(output_file_path, index=False, encoding="utf-8")
-                    print(f"Generated feature sequence saved to: {output_file_path}")
+                                up_df = pd.DataFrame([up_dict]) if up_dict else pd.DataFrame([{}])
+                                dn_df = pd.DataFrame([dn_dict]) if dn_dict else pd.DataFrame([{}])
+                                tot_df = pd.DataFrame([tot_dict]) if tot_dict else pd.DataFrame([{}])
+
+                                if up_dict:
+                                    up_df.columns = ['UP_' + col for col in up_df.columns]
+                                if dn_dict:
+                                    dn_df.columns = ['DOWN_' + col for col in dn_df.columns]
+                                if tot_dict:
+                                    tot_df.columns = ['TOT_' + col for col in tot_df.columns]
+
+                                features_combined = pd.concat([dev_df, up_df, dn_df, tot_df], axis=1)
+                                result_data.append(features_combined.iloc[0])
+
+                                current_start += pd.Timedelta(seconds=1)
+
+                        if result_data:
+                            result_df = pd.DataFrame(result_data)
+                            new_file_name = file.replace("_group", f"_group_sequence_{window_size}s")
+                            output_file_path = os.path.join(sequence_output_path, new_file_name)
+                            result_df.to_csv(output_file_path, index=False, encoding="utf-8")
+                            print(f"Generated feature sequence saved to: {output_file_path}")
 
                 except Exception as e:
                     print(f"Error processing file {file_path}: {e}")

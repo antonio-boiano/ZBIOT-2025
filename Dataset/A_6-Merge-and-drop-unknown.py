@@ -2,56 +2,83 @@ import os
 import pandas as pd
 
 dataset_dir = "./Data"
-aggregated_output_dir = "Merged_Data/A_6-Merged_sequence_data_fix_durations"
-# aggregated_output_dir = "Merged_Data/A_6-Merged_sequence_data_fix_packets"
+# 设置两个不同的输出目录
+aggregated_output_dir_duration = "Merged_Data/A_6-Merged_sequence_data_fix_durations"
+# aggregated_output_dir_packet = "Merged_Data/A_6-Merged_sequence_data_fix_packets"
 
-os.makedirs(aggregated_output_dir, exist_ok=True)
+# 创建输出目录
+os.makedirs(aggregated_output_dir_duration, exist_ok=True)
+# os.makedirs(aggregated_output_dir_packet, exist_ok=True)
 
-categories = ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Interaction"]
+categories = ["Idle", "Physical_Interaction", "Power", "Scenario", "Web_Interaction"]
 topologies = ["Topology_A", "Topology_B"]
 
+window_sizes_duration = [1, 2, 3, 5]
+# window_sizes_packet = [3, 5, 10, 15]
+# window_sizes_packet = [5]
+
+# # 处理 fix_durations 数据
 for topology in topologies:
-    aggregated_data = []
+    for window_size in window_sizes_duration:
+        aggregated_data_duration = []
 
-    for category in categories:
-        sequence_data_path = os.path.join(dataset_dir, category, topology, "A_5_2-Sequence_Data_Fix_Duration")
-        # sequence_data_path = os.path.join(dataset_dir, category, topology, "A_5_1-Sequence_Data_Fix_Packets")
+        for category in categories:
+            sequence_data_path_duration = os.path.join(dataset_dir, category, topology, "A_5_2-Sequence_Data_Fix_Duration")
 
+            if os.path.exists(sequence_data_path_duration):
+                for file in os.listdir(sequence_data_path_duration):
+                    file_path = os.path.join(sequence_data_path_duration, file)
+                    if file.endswith(f"_group_sequence_{window_size}s.csv"):
+                        try:
+                            df = pd.read_csv(file_path)
+                            df = df[df["Device Name"] != "Unknown"]
+                            df = df[df["Device Type"] != "Temperature"]
+                            df = df[df["Device Type"] != "Vibration"]
+                            original_file_base = os.path.splitext(file.replace("_group_sequence", ".pcapng"))[0]
+                            # df.insert(2, "File Name", f"{category}_{topology}_{original_file_base}_{window_size}s")
+                            aggregated_data_duration.append(df)
+                        except Exception as e:
+                            print(f"Error processing file {file_path}: {e}")
 
-        if not os.path.exists(sequence_data_path):
-            print(f"Directory not found: {sequence_data_path}")
-            continue
+        # 如果有数据，将其合并并保存
+        if aggregated_data_duration:
+            aggregated_df_duration = pd.concat(aggregated_data_duration, ignore_index=True)
+            output_file_name_duration = f"{topology}_fix_duration_{window_size}s.csv"
+            output_file_path_duration = os.path.join(aggregated_output_dir_duration, output_file_name_duration)
+            aggregated_df_duration.to_csv(output_file_path_duration, index=False, encoding="utf-8")
+            print(f"Aggregated duration data saved to: {output_file_path_duration}")
+        else:
+            print(f"No data available for topology: {topology}, window size: {window_size}s (duration)")
 
-        for file in os.listdir(sequence_data_path):
-            file_path = os.path.join(sequence_data_path, file)
-
-            if not file.endswith(".csv"):
-                continue
-
-            try:
-                df = pd.read_csv(file_path)
-
-                # Filter out lines where "Device Name" is "Unknown".
-                df = df[df["Device Name"] != "Unknown"]
-                df = df[df["Device Name"] != "Coordinator"]
-                df = df[df["Device Name"] != "Broadcast"]
-
-                # Add "File Name" column
-                original_file_base = os.path.splitext(file.replace("_group_sequence", ".pcapng"))[0]
-                df.insert(2, "File Name", f"{category}_{topology}_{original_file_base}")
-                aggregated_data.append(df)
-
-            except Exception as e:
-                print(f"Error processing file {file_path}: {e}")
-
-    if aggregated_data:
-        aggregated_df = pd.concat(aggregated_data, ignore_index=True)
-    else:
-        print(f"No data available for topology: {topology}")
-        continue
-
-    output_file_name = f"{topology}_fix_duration.csv"
-    # output_file_name = f"{topology}_fix_packets.csv"
-    output_file_path = os.path.join(aggregated_output_dir, output_file_name)
-    aggregated_df.to_csv(output_file_path, index=False, encoding="utf-8")
-    print(f"Aggregated data saved to: {output_file_path}")
+# 处理 fix_packets 数据
+# for topology in topologies:
+#     for window_size in window_sizes_packet:
+#         aggregated_data_packet = []
+#
+#         for category in categories:
+#             sequence_data_path_packet = os.path.join(dataset_dir, category, topology, "A_5_1-Sequence_Data_Fix_Packets")
+#
+#             if os.path.exists(sequence_data_path_packet):
+#                 for file in os.listdir(sequence_data_path_packet):
+#                     file_path = os.path.join(sequence_data_path_packet, file)
+#                     if file.endswith(f"_group_sequence_{window_size}.csv"):
+#                         try:
+#                             df = pd.read_csv(file_path)
+#                             df = df[df["Device Name"] != "Unknown"]
+#                             df = df[df["Device Type"] != "Temperature"]
+#                             df = df[df["Device Type"] != "Vibration"]
+#                             original_file_base = os.path.splitext(file.replace("_group_sequence", ".pcapng"))[0]
+#                             # df.insert(2, "File Name", f"{category}_{topology}_{original_file_base}_{window_size}")
+#                             aggregated_data_packet.append(df)
+#                         except Exception as e:
+#                             print(f"Error processing file {file_path}: {e}")
+#
+#         # 如果有数据，将其合并并保存
+#         if aggregated_data_packet:
+#             aggregated_df_packet = pd.concat(aggregated_data_packet, ignore_index=True)
+#             output_file_name_packet = f"{topology}_fix_packets_{window_size}.csv"
+#             output_file_path_packet = os.path.join(aggregated_output_dir_packet, output_file_name_packet)
+#             aggregated_df_packet.to_csv(output_file_path_packet, index=False, encoding="utf-8")
+#             print(f"Aggregated packet data saved to: {output_file_path_packet}")
+#         else:
+#             print(f"No data available for topology: {topology}, window size: {window_size} (packets)")
