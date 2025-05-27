@@ -1,0 +1,231 @@
+Long captures
+
+Thread network:
+IEEE 802.15.4 channel:20
+IPv6 Mesh Local Preﬁx:fd48:3aa9:102b:c766::/64
+Master key:812332540e46c5022e266d9a983016c5
+
+MAC + IPV6 Addresses:
+OTBR    Raspberry 4:        e2:f7:ef:32:aa:9a:c4:74     fdb5:c4e4:f57d:1:f579:5a68:466c:8819
+AIRCON  ESP Viola:          16:b9:a9:98:5b:83:06:dc     fdb5:c4e4:f57d:1:dc70:ac03:9464:8f53
+PLUG    ESP Giallo:         a6:61:97:2d:27:f1:f3:7d     fdb5:c4e4:f57d:1:3664:9df2:34f3:5d5f
+LIGHT   ESP Bianco:         56:e2:7c:88:8b:3f:94:28     fdb5:c4e4:f57d:1:5da9:e5be:21f7:e11f
+PLUG    ESP Rosso:          3e:15:d5:65:48:01:fe:56     fdb5:c4e4:f57d:1:b0d9:d37d:2334:3146
+LIGHT   ESP Azzurro:        ae:9f:d8:a8:7e:a6:4f:ab     fdb5:c4e4:f57d:1:c691:dd53:6119:254a
+AIRCON  ESP Arancione:      4a:4b:d9:a6:be:89:7a:3d     fdb5:c4e4:f57d:1:1a34:d8b5:eb70:4dbe
+LIGHT   Nanoleaf 0176:      f6:9d:0a:73:00:b9:5e:30     fdb5:c4e4:f57d:1:1e:d549:c963:a584
+LIGHT   Nanoleaf 1624:      1e:e4:8d:4c:6e:c8:0c:d3     fdb5:c4e4:f57d:1:c173:df66:bed3:8d49
+LIGHT   Nanoleaf 2248:      da:d5:b2:c1:fb:55:3b:1c     fdb5:c4e4:f57d:1:f237:b1fc:d311:94cf
+PLUG    Onvis:              02:b4:bd:0c:ea:5b:05:2c     fdb5:c4e4:f57d:1:6e72:ba2c:b8cd:a94f
+MOTION  Aqara motion:       60:b2:02:04:37:70:02:00     fdb5:c4e4:f57d:1:bc6e:e728:c109:aae7
+DOOR    Aqara doorwindow:   70:b2:02:04:03:6d:02:00     fdb5:c4e4:f57d:1:177c:e542:b37b:211b
+
+
+Capture 1:
+Start:      13/05/2025 20:48
+Duration:   12h
+
+Topology at start:
+> meshdiag topology children
+id:15 rloc16:0x3c00 ext-addr:e2f7ef32aa9ac474 ver:4 - me - leader - br
+    3-links:{ 10 35 38 40 43 56 }
+    2-links:{ 02 62 }
+    1-links:{ 57 }
+    children: none
+id:02 rloc16:0x0800 ext-addr:dad5b2c1fb553b1c
+    3-links:{ 10 35 38 40 56 }
+    2-links:{ 15 }
+    1-links:{ 43 57 }
+    children: none
+id:10 rloc16:0x2800 ext-addr:56e27c888b3f9428 ver:5
+    3-links:{ 02 15 35 38 43 56 }
+    2-links:{ 40 }
+    children: none
+id:35 rloc16:0x8c00 ext-addr:02b4bd0cea5b052c ver:4
+    3-links:{ 02 10 15 21 38 40 43 56 62 }
+    2-links:{ 57 }
+    children: none
+id:21 rloc16:0x5400 ext-addr:a661972d27f1f37d ver:5
+    3-links:{ 35 38 56 }
+    children: none
+id:40 rloc16:0xa000 ext-addr:3e15d5654801fe56 ver:5
+    3-links:{ 02 15 35 38 56 57 62 }
+    children: none
+id:43 rloc16:0xac00 ext-addr:f69d0a7300b95e30
+    3-links:{ 15 35 56 }
+    2-links:{ 10 }
+    1-links:{ 02 }
+    children: none
+id:38 rloc16:0x9800 ext-addr:4a4bd9a6be897a3d ver:5
+    3-links:{ 02 10 15 21 35 40 56 57 62 }
+    children: none
+id:56 rloc16:0xe000 ext-addr:ae9fd8a87ea64fab ver:5
+    3-links:{ 02 10 15 21 35 38 40 43 62 }
+    2-links:{ 57 }
+    children:
+        rloc16:0xe002 lq:3, mode:-
+        rloc16:0xe003 lq:3, mode:-
+id:62 rloc16:0xf800 ext-addr:16b9a9985b8306dc ver:5
+    3-links:{ 35 38 40 56 57 }
+    2-links:{ 15 }
+    children: none
+id:57 rloc16:0xe400 ext-addr:1ee48d4c6ec80cd3
+    3-links:{ 38 40 }
+    2-links:{ 56 62 }
+    1-links:{ 02 15 35 }
+    children: none
+Done
+
+Final topology:
+> meshdiag topology children
+id:15 rloc16:0x3c00 ext-addr:e2f7ef32aa9ac474 ver:4 - me - leader - br
+    3-links:{ 10 35 38 40 43 56 }
+    2-links:{ 02 57 62 }
+    children: none
+id:02 rloc16:0x0800 ext-addr:dad5b2c1fb553b1c
+    3-links:{ 10 35 38 40 56 }
+    2-links:{ 15 }
+    1-links:{ 21 43 57 }
+    children: none
+id:10 rloc16:0x2800 ext-addr:56e27c888b3f9428 ver:5
+    3-links:{ 02 15 35 38 43 56 }
+    children: none
+id:35 rloc16:0x8c00 ext-addr:02b4bd0cea5b052c ver:4
+    3-links:{ 02 10 15 21 38 40 43 56 62 }
+    2-links:{ 57 }
+    children: none
+id:40 rloc16:0xa000 ext-addr:3e15d5654801fe56 ver:5
+    3-links:{ 02 15 35 38 56 57 62 }
+    children: none
+id:43 rloc16:0xac00 ext-addr:f69d0a7300b95e30
+    3-links:{ 10 15 35 56 }
+    1-links:{ 02 }
+    children: none
+id:38 rloc16:0x9800 ext-addr:4a4bd9a6be897a3d ver:5
+    3-links:{ 02 10 15 21 35 40 56 57 62 }
+    children: none
+id:56 rloc16:0xe000 ext-addr:ae9fd8a87ea64fab ver:5
+    3-links:{ 02 10 15 21 35 38 40 43 62 }
+    2-links:{ 57 }
+    children:
+        rloc16:0xe002 lq:3, mode:-
+        rloc16:0xe003 lq:3, mode:-
+id:21 rloc16:0x5400 ext-addr:a661972d27f1f37d ver:5
+    3-links:{ 35 38 56 }
+    children: none
+id:57 rloc16:0xe400 ext-addr:1ee48d4c6ec80cd3
+    3-links:{ 38 40 }
+    2-links:{ 35 56 62 }
+    1-links:{ 02 15 }
+    children: none
+id:62 rloc16:0xf800 ext-addr:16b9a9985b8306dc ver:5
+    3-links:{ 15 35 38 40 56 57 }
+    2-links:{ 21 }
+    children: none
+Done
+
+
+
+
+Capture 2:
+Start:      14/05/2025 09:44
+Duration:   12h
+
+Topology at start:
+> meshdiag topology children
+id:15 rloc16:0x3c00 ext-addr:e2f7ef32aa9ac474 ver:4 - me - leader - br
+    3-links:{ 21 35 38 56 57 62 }
+    2-links:{ 02 }
+    1-links:{ 10 }
+    children: none
+id:02 rloc16:0x0800 ext-addr:dad5b2c1fb553b1c
+    3-links:{ 10 38 40 56 }
+    2-links:{ 15 43 }
+    1-links:{ 35 }
+    children: none
+id:21 rloc16:0x5400 ext-addr:a661972d27f1f37d ver:5
+    3-links:{ 15 35 38 56 57 62 }
+    children: none
+id:35 rloc16:0x8c00 ext-addr:02b4bd0cea5b052c ver:4
+    3-links:{ 15 21 38 56 57 62 }
+    2-links:{ 02 10 40 43 }
+    children: none
+id:10 rloc16:0x2800 ext-addr:56e27c888b3f9428 ver:5
+    3-links:{ 02 38 40 56 62 }
+    2-links:{ 15 35 43 }
+    children: none
+id:38 rloc16:0x9800 ext-addr:4a4bd9a6be897a3d ver:5
+    3-links:{ 02 10 15 21 35 40 43 56 57 62 }
+    children:
+        rloc16:0x9801 lq:3, mode:-
+        rloc16:0x9802 lq:3, mode:-
+id:57 rloc16:0xe400 ext-addr:1ee48d4c6ec80cd3
+    3-links:{ 15 21 35 38 62 }
+    2-links:{ 56 }
+    children: none
+id:62 rloc16:0xf800 ext-addr:16b9a9985b8306dc ver:5
+    3-links:{ 10 15 21 35 38 43 56 57 }
+    2-links:{ 40 }
+    children: none
+id:43 rloc16:0xac00 ext-addr:f69d0a7300b95e30
+    3-links:{ 56 }
+    2-links:{ 02 35 38 62 }
+    1-links:{ 10 }
+    children: none
+id:56 rloc16:0xe000 ext-addr:ae9fd8a87ea64fab ver:5
+    3-links:{ 02 10 15 21 35 38 40 43 57 62 }
+    children: none
+id:40 rloc16:0xa000 ext-addr:3e15d5654801fe56 ver:5
+    3-links:{ 02 10 38 56 }
+    2-links:{ 35 62 }
+    children: none
+Done
+
+Final topology:
+> meshdiag topology children
+id:15 rloc16:0x3c00 ext-addr:e2f7ef32aa9ac474 ver:4 - me - leader - br
+    3-links:{ 21 35 38 56 57 62 }
+    1-links:{ 02 10 40 }
+    children: none
+id:02 rloc16:0x0800 ext-addr:dad5b2c1fb553b1c
+    3-links:{ 10 40 56 }
+    2-links:{ 35 38 }
+    1-links:{ 15 43 }
+    children: none
+id:21 rloc16:0x5400 ext-addr:a661972d27f1f37d ver:5
+    3-links:{ 15 35 38 56 57 62 }
+    children: none
+id:35 rloc16:0x8c00 ext-addr:02b4bd0cea5b052c ver:4
+    3-links:{ 15 21 38 56 57 62 }
+    2-links:{ 02 10 40 43 }
+    children: none
+id:38 rloc16:0x9800 ext-addr:4a4bd9a6be897a3d ver:5
+    3-links:{ 02 10 15 21 35 40 43 56 57 62 }
+    children: none
+id:40 rloc16:0xa000 ext-addr:3e15d5654801fe56 ver:5
+    3-links:{ 02 10 38 56 }
+    2-links:{ 62 }
+    children: none
+id:10 rloc16:0x2800 ext-addr:56e27c888b3f9428 ver:5
+    3-links:{ 02 38 40 56 62 }
+    2-links:{ 15 35 43 }
+    children: none
+id:57 rloc16:0xe400 ext-addr:1ee48d4c6ec80cd3
+    3-links:{ 15 21 35 38 62 }
+    2-links:{ 56 }
+    children: none
+id:62 rloc16:0xf800 ext-addr:16b9a9985b8306dc ver:5
+    3-links:{ 10 15 21 35 38 40 56 57 }
+    2-links:{ 43 }
+    children: none
+id:56 rloc16:0xe000 ext-addr:ae9fd8a87ea64fab ver:5
+    3-links:{ 02 10 15 21 35 38 40 43 57 62 }
+    children:
+        rloc16:0xe002 lq:3, mode:-
+        rloc16:0xe003 lq:3, mode:-
+id:43 rloc16:0xac00 ext-addr:f69d0a7300b95e30
+    3-links:{ 56 }
+    2-links:{ 38 }
+    1-links:{ 02 10 35 62 }
+    children: none
+Done

@@ -2,22 +2,15 @@ import os
 import pandas as pd
 
 dataset_dir = "./Data"
-# 设置两个不同的输出目录
 aggregated_output_dir_duration = "Merged_Data/A_6-Merged_sequence_data_fix_durations"
-# aggregated_output_dir_packet = "Merged_Data/A_6-Merged_sequence_data_fix_packets"
 
-# 创建输出目录
 os.makedirs(aggregated_output_dir_duration, exist_ok=True)
-# os.makedirs(aggregated_output_dir_packet, exist_ok=True)
 
 categories = ["Idle", "Physical_Interaction", "Power", "Scenario", "Web_Interaction"]
 topologies = ["Topology_A", "Topology_B"]
 
 window_sizes_duration = [1, 2, 3, 5]
-# window_sizes_packet = [3, 5, 10, 15]
-# window_sizes_packet = [5]
 
-# # 处理 fix_durations 数据
 for topology in topologies:
     for window_size in window_sizes_duration:
         aggregated_data_duration = []
@@ -34,8 +27,12 @@ for topology in topologies:
                             df = df[df["Device Name"] != "Unknown"]
                             df = df[df["Device Type"] != "Temperature"]
                             df = df[df["Device Type"] != "Vibration"]
-                            original_file_base = os.path.splitext(file.replace("_group_sequence", ".pcapng"))[0]
-                            # df.insert(2, "File Name", f"{category}_{topology}_{original_file_base}_{window_size}s")
+                            df = df[df["Device Type"] != "Button"]
+                            df = df[df["Device Type"] != "Door"]
+                            for col in df.columns:
+                                if df[col].isnull().any():
+                                    df[col] = df[col].fillna(-1)
+
                             aggregated_data_duration.append(df)
                         except Exception as e:
                             print(f"Error processing file {file_path}: {e}")
@@ -50,7 +47,19 @@ for topology in topologies:
         else:
             print(f"No data available for topology: {topology}, window size: {window_size}s (duration)")
 
-# 处理 fix_packets 数据
+
+
+# dataset_dir = "./Data"
+# aggregated_output_dir_packet = "Merged_Data/A_6-Merged_sequence_data_fix_packets"
+#
+# os.makedirs(aggregated_output_dir_packet, exist_ok=True)
+#
+# categories = ["Idle", "Physical_Interaction", "Power", "Scenario", "Web_Interaction"]
+# topologies = ["Topology_A", "Topology_B"]
+#
+# # window_sizes_packet = [3, 5, 10, 15]
+# window_sizes_packet = [10]
+#
 # for topology in topologies:
 #     for window_size in window_sizes_packet:
 #         aggregated_data_packet = []
@@ -65,11 +74,35 @@ for topology in topologies:
 #                         try:
 #                             df = pd.read_csv(file_path)
 #                             df = df[df["Device Name"] != "Unknown"]
-#                             df = df[df["Device Type"] != "Temperature"]
-#                             df = df[df["Device Type"] != "Vibration"]
+#                             # df = df[df["Device Type"] != "Temperature"]
+#                             # df = df[df["Device Type"] != "Vibration"]
 #                             original_file_base = os.path.splitext(file.replace("_group_sequence", ".pcapng"))[0]
 #                             # df.insert(2, "File Name", f"{category}_{topology}_{original_file_base}_{window_size}")
 #                             aggregated_data_packet.append(df)
+#                         except Exception as e:
+#                             print(f"Error processing file {file_path}: {e}")
+# for topology in topologies:
+#     for window_size in window_sizes_packet:
+#         aggregated_data_packet = []
+#
+#         for category in categories:
+#             sequence_data_path_packet = os.path.join(dataset_dir, category, topology, "A_5_1-Sequence_Data_Fix_Packets")
+#
+#             if os.path.exists(sequence_data_path_packet):
+#                 for file in os.listdir(sequence_data_path_packet):
+#                     file_path = os.path.join(sequence_data_path_packet, file)
+#                     if file.endswith(f"_group_sequence_{window_size}.csv"):
+#                         try:
+#                             df = pd.read_csv(file_path)
+#                             df = df[df["Device Name"] != "Unknown"]
+#
+#                             # 遍历每列进行分类填充
+#                             for col in df.columns:
+#                                 if df[col].isnull().any():
+#                                     df[col] = df[col].fillna(-1)
+#
+#                             aggregated_data_packet.append(df)
+#
 #                         except Exception as e:
 #                             print(f"Error processing file {file_path}: {e}")
 #
@@ -82,3 +115,5 @@ for topology in topologies:
 #             print(f"Aggregated packet data saved to: {output_file_path_packet}")
 #         else:
 #             print(f"No data available for topology: {topology}, window size: {window_size} (packets)")
+
+
