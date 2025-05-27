@@ -34,17 +34,17 @@ def extract_features(current_window):
 
 
 dataset_dir = "D:\ZBIOT-2025\Dataset"
-window_sizes = [1, 2, 3, 5]  # in seconds
+window_sizes = [5]  # in seconds
 
 long_path = os.path.join(dataset_dir, "Long captures")
 
 for device_name_folder in os.listdir(long_path):
     raw_dataset_path = os.path.join(long_path, device_name_folder)
 
-    if not os.path.isdir(raw_dataset_path) or not device_name_folder.startswith("A_4-Group_dataset"):
+    if not os.path.isdir(raw_dataset_path) or not device_name_folder.startswith("4-Sort_dataset"):
         continue
 
-    sequence_output_path = os.path.join(long_path, "A_5_2-Sequence_Data_Fix_Duration")
+    sequence_output_path = os.path.join(long_path, "5-Sequence_Data_Fix_Duration")
     os.makedirs(sequence_output_path, exist_ok=True)
 
     for file in os.listdir(raw_dataset_path):
@@ -54,18 +54,15 @@ for device_name_folder in os.listdir(long_path):
 
         try:
             df = pd.read_csv(file_path)
-            if "Group" not in df.columns:
-                print(f"'Group' not found in file: {file_path}")
-                continue
 
             df["Time"] = pd.to_datetime(df["Time"])
             df["Time_second"] = df["Time"].apply(lambda x: x.timestamp())
 
-            df = df.sort_values(by=["Group", "Time"])
+            df = df.sort_values(by=["Device Name", "Time"])
 
             for window_size in window_sizes:
                 result_data = []
-                for group, group_data in df.groupby("Group"):
+                for group, group_data in df.groupby("Device Name"):
                     start_time = group_data["Time"].min()
                     end_time = group_data["Time"].max()
 
@@ -78,13 +75,13 @@ for device_name_folder in os.listdir(long_path):
                             current_start += pd.Timedelta(seconds=1)
                             continue
 
-                        dev_name = current_window.iloc[0, 0]
+                        dev_name = current_window.iloc[0, 1]
                         upl_wind = current_window[current_window["Device Name Destination"] == dev_name]
                         dnl_wind = current_window[current_window["Device Name"] == dev_name]
 
                         dev_info = {
                             "Device Name": dev_name,
-                            "Device Type": current_window.iloc[0, 1],
+                            "Device Type": current_window.iloc[0, 2],
                             "File Name": file_path
                         }
                         dev_df = pd.DataFrame([dev_info])
@@ -111,7 +108,7 @@ for device_name_folder in os.listdir(long_path):
 
                 if result_data:
                     result_df = pd.DataFrame(result_data)
-                    new_file_name = file.replace("_group", f"_group_sequence_{window_size}s")
+                    new_file_name = file.replace("_sort", f"_sequence_{window_size}s")
                     output_file_path = os.path.join(sequence_output_path, new_file_name)
                     result_df.to_csv(output_file_path, index=False, encoding="utf-8")
                     print(f"Generated feature sequence saved to: {output_file_path}")

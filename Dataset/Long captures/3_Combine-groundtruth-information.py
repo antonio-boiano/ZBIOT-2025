@@ -18,7 +18,7 @@ for file in os.listdir(os.path.join(long_path, "2-Information_From_PCAP")):
 
     try:
         groundtruth_df = pd.read_csv(groundtruth_file_path,
-                                     usecols=[ "Device Name","Device Type","Device Name Destination","Device Type Destination"])
+                                     usecols=[ "Packet Number","Device Name","Device Type","Device Name Destination","Device Type Destination"])
     except ValueError:
         continue
 
