@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-dataset_dir = "D:\\ZBIOT-2025\\Dataset\\Long captures"
+dataset_dir = "."
 aggregated_output_dir_duration = "6-Merge-and-drop-unknown"
 aggregated_data_duration = []
 os.makedirs(aggregated_output_dir_duration, exist_ok=True)

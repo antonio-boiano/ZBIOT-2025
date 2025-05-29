@@ -32,11 +32,9 @@ def extract_features(current_window):
     else:
         return None
 
-
-dataset_dir = "D:\ZBIOT-2025\Dataset"
 window_sizes = [5]  # in seconds
 
-long_path = os.path.join(dataset_dir, "Long captures")
+long_path = "."
 
 for device_name_folder in os.listdir(long_path):
     raw_dataset_path = os.path.join(long_path, device_name_folder)

@@ -2,11 +2,10 @@ import os
 import subprocess
 import pandas as pd
 
-# Enter the correct tshark address
-tshark_path = "D:/Wireshark/tshark.exe"
-dataset_dir = "D:\ZBIOT-2025\Dataset"
+# Define path to tshark executable (should be in $PATH)
+tshark_path = "tshark"
 
-long_path = os.path.join(dataset_dir, "Long captures")
+long_path = "."
 
 
 for file in os.listdir(long_path):
@@ -50,7 +49,7 @@ for file in os.listdir(long_path):
         df = pd.read_csv(output_file_path)
 
         df[df.columns[0]] = df[df.columns[0]].str.replace(
-            r"\s西欧夏令时|\s西欧标准时间|\s西欧标准时", "", regex=True
+            " ora legale Europa occidentale", "", regex=True
         )
 
         df['frame.time'] = pd.to_datetime(df['frame.time'])

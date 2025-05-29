@@ -2,8 +2,8 @@ import os
 import pandas as pd
 import pyshark
 
-# Define path to tshark executable
-tshark_path = r"D:\Wireshark\tshark.exe"
+# Define path to tshark executable (should be in $PATH)
+tshark_path = "tshark"
 
 # Device name and type mappings
 device_name_mapping_long= {
@@ -177,5 +177,5 @@ def find_and_process_pcapng(file_path):
     print("All files processed successfully.")
 
 if __name__ == "__main__":
-    root_path = r"D:\ZBIOT-2025\Dataset\Long captures"
+    root_path = "."
     find_and_process_pcapng(root_path)

@@ -1,8 +1,7 @@
 import os
 import pandas as pd
 
-dataset_dir = "D:\\ZBIOT-2025\\Dataset"
-long_path = os.path.join(dataset_dir, "Long captures")
+long_path = "."
 
 topology_path = os.path.join(long_path, "3-Combined_dataset")
 saveto_path = os.path.join(long_path, "4-Sort_dataset")

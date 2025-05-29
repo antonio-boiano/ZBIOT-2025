@@ -1,9 +1,7 @@
 import os
 import pandas as pd
 
-dataset_dir = "D:\ZBIOT-2025\Dataset"
-
-long_path = os.path.join(dataset_dir, "Long captures")
+long_path = "."
 
 # New File to save the Combined Data
 combined_data_path = os.path.join(long_path, "3-Combined_dataset")
