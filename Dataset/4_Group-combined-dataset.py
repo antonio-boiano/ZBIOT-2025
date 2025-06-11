@@ -7,14 +7,13 @@ def group_by_each_device(data):
 
     unique_devices = pd.unique(data[['Device Name', 'Device Name Destination']].values.ravel('K'))
     for device in unique_devices:
-        # Filter out rows related to the current device
+
+
         related_rows = (data['Device Name'] == device) | (data['Device Name Destination'] == device)
         group_data = data[related_rows].copy()
 
-        # Add group name column (first column)
         group_data.insert(0, 'Group', f"{device}")
 
-        # Dynamically generate Group Type columns
         if 'Group Type' in group_data.columns:
             group_data.drop(columns=['Group Type'], inplace=True)
 
