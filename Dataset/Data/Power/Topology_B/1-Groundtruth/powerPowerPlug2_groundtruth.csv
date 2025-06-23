@@ -1,0 +1,1060 @@
+Packet Number,Device Name,Device Type,Source Address,Destination Address,Device Name Destination,Device Type Destination,Source Address ZigBee,Device Name ZigBee,Device Type ZigBee,Destination Address ZigBee,Device Name ZigBee Destination,Device Type ZigBee Destination,Human Command,Packet Type,Command String
+1,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '179', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+2,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '179', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+3,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '179', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+4,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '179', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+5,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+6,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+7,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+8,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+9,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+10,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '187', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+11,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '187', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+12,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '187', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+13,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '187', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+14,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+15,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+16,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+17,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+18,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '183', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+19,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '183', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+20,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '183', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+21,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '183', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+22,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+23,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+24,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+25,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+26,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+27,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+28,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+29,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+30,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+31,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+32,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+33,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+34,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '187', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+35,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '187', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+36,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '187', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+37,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '187', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+38,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '183', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+39,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '183', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+40,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '183', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+41,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '183', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+42,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '189', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+43,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '189', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+44,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '189', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+45,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '189', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+46,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+47,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+48,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+49,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+50,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+51,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+52,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+53,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+54,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+55,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+56,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+57,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+58,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+59,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+60,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+61,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+62,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+63,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+64,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+65,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,0x3d95,Power Plug 1,Socket,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+66,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,0x3d95,Power Plug 1,Socket,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+67,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,0x3d95,Power Plug 1,Socket,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+68,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+69,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+70,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,0x3d95,Power Plug 1,Socket,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+71,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+72,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+73,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+74,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+75,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+76,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+77,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+78,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+79,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+80,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Sequence Number': '105', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xd001', 'Data Type': 'Array (0x48)', 'Elements Type': 'Unknown (0x02)', 'Elements Number': '1536'}"
+81,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+82,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Sequence Number': '106', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xd002', 'Data Type': 'Array (0x48)', 'Elements Type': 'Unknown (0x02)', 'Elements Number': '2560'}"
+83,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+84,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+85,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+86,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+87,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+88,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+89,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Default Response (0x0b),"{'Sequence Number': '107', 'Command': 'Default Response (0x0b)', 'Response to Command': '0x0a', 'Status': 'Success (0x00)'}"
+90,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+91,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,APS: Ack,
+92,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+93,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+94,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+95,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+96,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Default Response (0x0b),"{'Sequence Number': '108', 'Command': 'Default Response (0x0b)', 'Response to Command': '0x0a', 'Status': 'Success (0x00)'}"
+97,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+98,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+99,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+100,Unknown,Unknown,0x1d85,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+101,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Sequence Number': '109', 'Command': 'Report Attributes (0x0a)', 'Attribute': ['Application Version (0x0001)', 'Unknown (0xffe2)', 'Unknown (0xffe4)'], 'Data Type': ['8-Bit Unsigned Integer (0x20)', '8-Bit Unsigned Integer (0x20)', '8-Bit Unsigned Integer (0x20)'], 'Uint8': ['77 (0x4d)', '54 (0x36)', '1 (0x01)']}"
+102,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+103,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Sequence Number': '109', 'Command': 'Report Attributes (0x0a)', 'Attribute': ['Application Version (0x0001)', 'Unknown (0xffe2)', 'Unknown (0xffe4)'], 'Data Type': ['8-Bit Unsigned Integer (0x20)', '8-Bit Unsigned Integer (0x20)', '8-Bit Unsigned Integer (0x20)'], 'Uint8': ['77 (0x4d)', '54 (0x36)', '1 (0x01)']}"
+104,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+105,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+106,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+107,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+108,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,APS: Ack,
+109,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+110,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+111,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+112,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+113,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+114,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,0x3d95,Power Plug 1,Socket,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+115,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+116,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+117,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes Response (0x01),"{'Sequence Number': '110', 'Command': 'Read Attributes Response (0x01)', 'Attribute': 'Local Time (0x0007)', 'Status': 'Success (0x00)', 'Data Type': '32-Bit Unsigned Integer (0x23)', 'Uint32': '751912808 (0x2cd14768)'}"
+118,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes Response (0x01),"{'Sequence Number': '110', 'Command': 'Read Attributes Response (0x01)', 'Attribute': 'Local Time (0x0007)', 'Status': 'Success (0x00)', 'Data Type': '32-Bit Unsigned Integer (0x23)', 'Uint32': '751912808 (0x2cd14768)'}"
+119,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+120,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+121,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+122,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Sequence Number': '111', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xd001', 'Data Type': 'Array (0x48)', 'Elements Type': 'Unknown (0x02)', 'Elements Number': '1536'}"
+123,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+124,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+125,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+126,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+127,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+128,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Sequence Number': '111', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xd001', 'Data Type': 'Array (0x48)', 'Elements Type': 'Unknown (0x02)', 'Elements Number': '1536'}"
+129,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+130,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+131,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+132,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Sequence Number': '112', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xd002', 'Data Type': 'Array (0x48)', 'Elements Type': 'Unknown (0x02)', 'Elements Number': '2560'}"
+133,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+134,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+135,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+136,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+137,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Sequence Number': '113', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xd001', 'Data Type': 'Array (0x48)', 'Elements Type': 'Unknown (0x02)', 'Elements Number': '1536'}"
+138,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+139,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+140,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+141,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Sequence Number': '113', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xd001', 'Data Type': 'Array (0x48)', 'Elements Type': 'Unknown (0x02)', 'Elements Number': '1536'}"
+142,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+143,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+144,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+145,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+146,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+147,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Sequence Number': '115', 'Command': 'Report Attributes (0x0a)', 'Attribute': ['OnOff (0x0000)', 'OnTime (0x4001)', 'OffWaitTime (0x4002)', 'Unknown (0x8001)', 'Unknown (0x8002)', 'Unknown (0x5000)', 'Unknown (0x8000)'], 'Data Type': ['Boolean (0x10)', '16-Bit Unsigned Integer (0x21)', '16-Bit Unsigned Integer (0x21)', '8-Bit Enumeration (0x30)', '8-Bit Enumeration (0x30)', '8-Bit Enumeration (0x30)', 'Boolean (0x10)'], 'On Time': '0.0 seconds', 'Off Wait Time': '0.0 seconds', 'Uint8': ['1 (0x01)', '2 (0x02)', '1 (0x01)']}"
+148,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+149,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Default Response (0x0b),"{'Sequence Number': '115', 'Command': 'Default Response (0x0b)', 'Response to Command': '0x0a', 'Status': 'Success (0x00)'}"
+150,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+151,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,APS: Ack,
+152,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+153,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Sequence Number': '116', 'Command': 'Report Attributes (0x0a)', 'Attribute': ['0xd010', '0xd030', '0xd000', '0xd001', '0xd002', '0xd003', '0xd004', '0xd005'], 'Data Type': ['8-Bit Enumeration (0x30)', '8-Bit Enumeration (0x30)', '8-Bit Unsigned Integer (0x20)', '32-Bit Bitmap (0x1b)', '32-Bit Unsigned Integer (0x23)', '32-Bit Unsigned Integer (0x23)', '32-Bit Unsigned Integer (0x23)', '32-Bit Unsigned Integer (0x23)'], 'Uint8': ['2 (0x02)', '0 (0x00)', '0 (0x00)'], 'Bitmap32': '0x00000000', 'Uint32': ['0 (0x00000000)', '0 (0x00000000)', '0 (0x00000000)', '0 (0x00000000)']}"
+154,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+155,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+156,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+157,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,APS: Ack,
+158,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+159,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+160,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+161,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+162,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+163,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '199', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+164,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+165,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Read Attributes Response (0x01),"{'Sequence Number': '199', 'Command': 'Read Attributes Response (0x01)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)'], 'Status': ['Success (0x00)', 'Success (0x00)'], 'Data Type': ['48-Bit Unsigned Integer (0x25)', '8-Bit Bitmap (0x18)'], 'Uint48': '101 (0x0000000000000065)', 'Bitmap8': '0x00'}"
+166,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+167,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+168,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+169,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+170,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+171,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+172,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+173,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+174,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+175,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+176,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+177,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Read Attributes Response (0x01),"{'Sequence Number': '203', 'Command': 'Read Attributes Response (0x01)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)'], 'Status': ['Success (0x00)', 'Success (0x00)', 'Success (0x00)'], 'Data Type': ['16-Bit Signed Integer (0x29)', '16-Bit Unsigned Integer (0x21)', '16-Bit Unsigned Integer (0x21)'], 'Int16': '0', 'Uint16': ['0 (0x0000)', '220 (0x00dc)']}"
+178,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+179,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+180,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+181,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '205', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+182,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '205', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+183,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '205', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+184,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '205', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+185,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '207', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+186,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '207', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+187,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '207', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+188,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '207', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+189,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+190,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+191,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+192,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+193,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,APS: Ack,
+194,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+195,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+196,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+197,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+198,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+199,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+200,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+201,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+202,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+203,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '207', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+204,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '207', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+205,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '207', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+206,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '207', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+207,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+208,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+209,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+210,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+211,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '205', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+212,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '205', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+213,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '205', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+214,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '205', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+215,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '207', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+216,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '207', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+217,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '207', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+218,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '207', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+219,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,0x3d95,Power Plug 1,Socket,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+220,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+221,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+222,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+223,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+224,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '209', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+225,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '209', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+226,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '209', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+227,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '209', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+228,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+229,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+230,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+231,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+232,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '209', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+233,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '209', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+234,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '209', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+235,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '209', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+236,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '211', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+237,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '211', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+238,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '211', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+239,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '211', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+240,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+241,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+242,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+243,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+244,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+245,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+246,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+247,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+248,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+249,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+250,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+251,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+252,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+253,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+254,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+255,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+256,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+257,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+258,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+259,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+260,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+261,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+262,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+263,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+264,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+265,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '213', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+266,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '213', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+267,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '213', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+268,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '213', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+269,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+270,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+271,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+272,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+273,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '215', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+274,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '215', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+275,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '215', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+276,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '215', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+277,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+278,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+279,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+280,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+281,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+282,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+283,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+284,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+285,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+286,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+287,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+288,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+289,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+290,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+291,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '217', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+292,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '217', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+293,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '217', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+294,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '217', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+295,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+296,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+297,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Read Attributes Response (0x01),"{'Sequence Number': '219', 'Command': 'Read Attributes Response (0x01)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)'], 'Status': ['Success (0x00)', 'Success (0x00)'], 'Data Type': ['48-Bit Unsigned Integer (0x25)', '8-Bit Bitmap (0x18)'], 'Uint48': '101 (0x0000000000000065)', 'Bitmap8': '0x00'}"
+298,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+299,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '221', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+300,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '221', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+301,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '221', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+302,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '221', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+303,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+304,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+305,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+306,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+307,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+308,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+309,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Read Attributes Response (0x01),"{'Sequence Number': '223', 'Command': 'Read Attributes Response (0x01)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)'], 'Status': ['Success (0x00)', 'Success (0x00)', 'Success (0x00)'], 'Data Type': ['16-Bit Signed Integer (0x29)', '16-Bit Unsigned Integer (0x21)', '16-Bit Unsigned Integer (0x21)'], 'Int16': '0', 'Uint16': ['0 (0x0000)', '219 (0x00db)']}"
+310,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+311,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,APS: Ack,
+312,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+313,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+314,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+315,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+316,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+317,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '227', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+318,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '227', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+319,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '227', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+320,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '227', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+321,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+322,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+323,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+324,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+325,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,APS: Ack,
+326,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+327,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '217', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+328,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '217', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+329,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '217', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+330,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '217', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+331,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '225', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+332,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '225', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+333,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '225', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+334,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '225', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+335,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+336,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+337,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+338,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+339,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '221', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+340,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '221', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+341,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '221', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+342,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '221', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+343,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '225', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+344,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '225', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+345,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '225', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+346,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '225', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+347,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '227', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+348,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '227', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+349,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '227', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+350,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '227', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+351,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+352,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+353,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,0x3d95,Power Plug 1,Socket,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+354,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Sequence Number': '117', 'Command': 'Report Attributes (0x0a)', 'Attribute': ['RMS Voltage (0x0505)', 'RMS Current (0x0508)', 'Active Power (0x050b)'], 'Data Type': ['16-Bit Unsigned Integer (0x21)', '16-Bit Unsigned Integer (0x21)', '16-Bit Signed Integer (0x29)'], 'Uint16': ['219 (0x00db)', '0 (0x0000)'], 'Int16': '0'}"
+355,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+356,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+357,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+358,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,APS: Ack,
+359,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+360,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+361,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+362,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Default Response (0x0b),"{'Sequence Number': '118', 'Command': 'Default Response (0x0b)', 'Response to Command': '0x0a', 'Status': 'Success (0x00)'}"
+363,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+364,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+365,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+366,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+367,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '231', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+368,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '231', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+369,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '231', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+370,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '231', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+371,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+372,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+373,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0,Read Attributes Response (0x01),"{'Sequence Number': '233', 'Command': 'Read Attributes Response (0x01)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)'], 'Status': ['Success (0x00)', 'Success (0x00)'], 'Data Type': ['48-Bit Unsigned Integer (0x25)', '8-Bit Bitmap (0x18)'], 'Uint48': '101 (0x0000000000000065)', 'Bitmap8': '0x00'}"
+374,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+375,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+376,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+377,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+378,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+379,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+380,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+381,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+382,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+383,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+384,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+385,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+386,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+387,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+388,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+389,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+390,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+391,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+392,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+393,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '241', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+394,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '241', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+395,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '241', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+396,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '241', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+397,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,APS: Ack,
+398,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+399,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '235', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+400,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '235', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+401,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '235', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+402,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '235', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+403,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+404,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+405,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+406,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+407,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '239', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+408,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '239', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+409,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '239', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+410,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '239', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+411,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+412,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+413,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+414,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+415,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+416,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+417,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+418,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+419,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+420,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+421,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+422,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+423,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '241', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+424,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '241', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+425,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '241', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+426,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '241', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+427,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,0x3d95,Power Plug 1,Socket,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+428,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+429,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,0x3d95,Power Plug 1,Socket,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+430,Aqara Motion,Motion,0x27d7,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+431,Coordinator,Coordinator,0x0000,0x27d7,Aqara Motion,Motion,,Unknown,Unknown,,,,0,Ack,
+432,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+433,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '243', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+434,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '243', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+435,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '243', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+436,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '243', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+437,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '245', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+438,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+439,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+440,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+441,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '247', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+442,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '247', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+443,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '247', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+444,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '247', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+445,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+446,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+447,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+448,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+449,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+450,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,Ack,
+451,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,APS: Ack,
+452,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+453,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+454,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+455,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+456,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+457,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '251', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+458,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '251', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+459,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '251', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+460,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '251', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+461,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '253', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+462,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '253', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+463,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '253', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+464,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '253', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+465,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,APS: Ack,
+466,Power Plug 1,Socket,0x3d95,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+467,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+468,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+469,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+470,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+471,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '243', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+472,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '243', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+473,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '243', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+474,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '243', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+475,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+476,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+477,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+478,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+479,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+480,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+481,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+482,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+483,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+484,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+485,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+486,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+487,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '251', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+488,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '251', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+489,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '251', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+490,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '251', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+491,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '253', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+492,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '253', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+493,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '253', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+494,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '253', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+495,Power Plug 1,Socket,0x3d95,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+496,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+497,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+498,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+499,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+500,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+501,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+502,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+503,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+504,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+505,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+506,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+507,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+508,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+509,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,0xe01d,Aqara Door 2,Door,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '176', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!�\\v\\x03(\\x1B\\x04!�\\x13\\x05!\\f'}"
+510,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,0xe01d,Aqara Door 2,Door,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '176', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!�\\v\\x03(\\x1B\\x04!�\\x13\\x05!\\f'}"
+511,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,0xe01d,Aqara Door 2,Door,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '176', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!�\\v\\x03(\\x1B\\x04!�\\x13\\x05!\\f'}"
+512,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,0xe01d,Aqara Door 2,Door,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '176', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!�\\v\\x03(\\x1B\\x04!�\\x13\\x05!\\f'}"
+513,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+514,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+515,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+516,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+517,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,0xe01d,Aqara Door 2,Door,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '176', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!�\\v\\x03(\\x1B\\x04!�\\x13\\x05!\\f'}"
+518,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,0xe01d,Aqara Door 2,Door,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '176', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!�\\v\\x03(\\x1B\\x04!�\\x13\\x05!\\f'}"
+519,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+520,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,0xe01d,Aqara Door 2,Door,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '176', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!�\\v\\x03(\\x1B\\x04!�\\x13\\x05!\\f'}"
+521,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+522,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+523,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+524,Aqara Door 2,Door,0xe01d,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+525,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+526,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+527,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+528,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+529,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+530,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '1', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+531,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '1', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+532,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '1', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+533,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '1', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+534,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '3', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+535,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '3', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+536,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '3', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+537,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '3', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+538,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+539,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+540,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+541,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+542,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '255', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+543,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '255', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+544,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '255', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+545,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '255', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+546,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '7', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+547,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '7', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+548,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '7', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+549,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '7', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+550,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+551,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+552,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+553,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+554,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+555,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+556,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+557,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+558,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '5', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+559,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '5', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+560,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '5', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+561,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '5', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+562,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '255', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+563,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '255', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+564,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '255', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+565,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '255', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+566,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+567,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+568,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+569,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+570,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '1', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+571,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '1', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+572,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '1', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+573,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '1', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+574,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '7', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+575,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '7', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+576,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '7', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+577,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '7', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+578,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+579,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+580,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+581,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+582,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '9', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+583,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '9', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+584,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '9', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+585,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '9', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+586,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '9', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+587,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '9', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+588,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '9', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+589,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '9', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+590,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '9', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+591,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '9', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+592,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '9', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+593,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '9', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+594,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+595,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+596,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+597,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+598,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+599,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '11', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+600,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '11', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+601,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '11', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+602,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '11', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+603,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+604,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+605,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+606,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+607,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+608,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+609,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+610,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+611,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '17', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+612,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '17', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+613,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '17', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+614,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '17', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+615,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+616,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+617,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+618,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+619,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '11', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+620,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '11', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+621,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '11', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+622,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '11', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+623,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '13', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+624,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '13', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+625,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '13', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+626,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,0x0000,Coordinator,Coordinator,0x3d95,Power Plug 1,Socket,0,Read Attributes (0x00),"{'Sequence Number': '13', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+627,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+628,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+629,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+630,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+631,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+632,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+633,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+634,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+635,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+636,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+637,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+638,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+639,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+640,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+641,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+642,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+643,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+644,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+645,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+646,Coordinator,Coordinator,0x0000,0x3d95,Power Plug 1,Socket,,Unknown,Unknown,,,,0,,
+647,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+648,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+649,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+650,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+651,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+652,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+653,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+654,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+655,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+656,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+657,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+658,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+659,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+660,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+661,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+662,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+663,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+664,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+665,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+666,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '21', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+667,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+668,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+669,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+670,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+671,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+672,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+673,Aqara Motion,Motion,0x27d7,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+674,Coordinator,Coordinator,0x0000,0x27d7,Aqara Motion,Motion,,Unknown,Unknown,,,,0,Ack,
+675,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+676,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+677,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+678,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+679,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+680,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+681,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+682,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+683,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+684,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '31', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+685,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '31', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+686,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '31', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+687,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '31', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+688,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+689,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+690,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+691,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+692,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+693,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+694,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+695,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+696,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+697,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+698,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+699,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+700,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '23', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+701,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '23', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+702,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '23', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+703,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '23', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+704,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+705,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+706,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+707,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+708,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '31', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+709,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '31', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+710,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '31', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+711,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '31', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+712,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+713,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+714,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+715,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+716,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '27', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+717,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '27', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+718,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '31', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+719,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '31', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+720,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '31', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+721,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '31', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+722,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '33', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+723,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '33', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+724,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '33', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+725,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '33', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+726,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+727,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '33', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+728,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '33', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+729,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '33', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+730,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '33', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+731,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+732,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+733,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+734,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+735,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+736,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+737,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+738,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+739,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+740,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+741,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+742,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+743,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+744,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+745,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+746,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+747,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+748,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+749,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+750,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+751,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+752,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+753,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+754,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+755,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+756,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+757,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+758,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+759,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+760,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+761,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '35', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+762,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+763,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+764,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+765,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+766,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+767,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+768,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+769,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '37', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+770,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '37', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+771,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '37', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+772,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,0x0000,Coordinator,Coordinator,0x711c,Philips Lamp 3,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '37', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+773,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+774,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+775,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+776,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+777,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+778,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+779,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+780,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+781,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+782,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+783,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+784,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+785,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+786,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+787,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+788,Coordinator,Coordinator,0x0000,0xec7f,Ledvance Bulb,Bulb,,Unknown,Unknown,,,,0,,
+789,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+790,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+791,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+792,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+793,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '39', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+794,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '39', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+795,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '39', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+796,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '39', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+797,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+798,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+799,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+800,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+801,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+802,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+803,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+804,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+805,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+806,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+807,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+808,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+809,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+810,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+811,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+812,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+813,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+814,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+815,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+816,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+817,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+818,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+819,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+820,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+821,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+822,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+823,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+824,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+825,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+826,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+827,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+828,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x1cd8,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '41', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+829,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+830,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+831,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+832,Coordinator,Coordinator,0x0000,0x1cd8,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+833,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+834,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+835,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+836,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+837,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+838,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+839,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '47', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+840,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '47', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+841,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '47', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+842,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '47', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+843,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '51', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+844,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '51', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+845,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '51', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+846,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '51', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+847,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '43', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+848,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '43', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+849,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '43', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+850,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '43', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+851,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+852,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+853,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+854,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+855,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '51', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+856,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '51', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+857,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '51', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+858,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '51', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+859,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+860,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+861,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+862,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+863,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+864,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+865,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+866,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+867,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+868,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+869,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+870,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+871,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '43', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+872,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '43', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+873,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '43', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+874,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '43', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+875,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+876,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+877,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+878,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+879,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '51', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+880,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '51', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+881,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '51', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+882,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '51', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+883,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+884,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+885,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+886,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+887,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+888,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+889,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+890,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+891,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+892,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+893,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+894,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+895,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+896,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+897,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+898,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+899,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+900,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+901,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+902,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+903,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+904,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+905,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+906,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+907,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+908,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+909,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+910,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+911,Aqara Motion,Motion,0x27d7,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+912,Coordinator,Coordinator,0x0000,0x27d7,Aqara Motion,Motion,,Unknown,Unknown,,,,0,Ack,
+913,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+914,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+915,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+916,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+917,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+918,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+919,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+920,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+921,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+922,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+923,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+924,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+925,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+926,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+927,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+928,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+929,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+930,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+931,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '59', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+932,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '59', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+933,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '59', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+934,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '59', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+935,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+936,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+937,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+938,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+939,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '63', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+940,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '63', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+941,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '63', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+942,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '63', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+943,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+944,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+945,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+946,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+947,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+948,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+949,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+950,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+951,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+952,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+953,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+954,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+955,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '59', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+956,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '59', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+957,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '59', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+958,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '59', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+959,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '63', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+960,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '63', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+961,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '63', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+962,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '63', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+963,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+964,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+965,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+966,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+967,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+968,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+969,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+970,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+971,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+972,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+973,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+974,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+975,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+976,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+977,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+978,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+979,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+980,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+981,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+982,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+983,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '65', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+984,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+985,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+986,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+987,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+988,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '67', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+989,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '67', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+990,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '67', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+991,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '67', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+992,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+993,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '71', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+994,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '71', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+995,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '71', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+996,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '71', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+997,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+998,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+999,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1000,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1001,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+1002,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+1003,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+1004,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+1005,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '71', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+1006,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '71', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+1007,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '71', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+1008,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '71', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+1009,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '75', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+1010,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '75', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+1011,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '75', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+1012,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '75', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+1013,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '67', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1014,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '67', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1015,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '67', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1016,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '67', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1017,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+1018,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+1019,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+1020,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+1021,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1022,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1023,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1024,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1025,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+1026,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+1027,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+1028,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+1029,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '71', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+1030,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '71', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+1031,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '71', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+1032,Coordinator,Coordinator,0x0000,0xe1a6,Smart Socket,Socket,0x0000,Coordinator,Coordinator,0xe1a6,Smart Socket,Socket,0,Read Attributes (0x00),"{'Sequence Number': '71', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Active Power (0x050b)', 'RMS Current (0x0508)', 'RMS Voltage (0x0505)']}"
+1033,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1034,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1035,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1036,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1037,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+1038,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '77', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1039,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '77', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1040,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '77', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1041,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '77', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1042,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1043,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1044,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1045,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1046,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '77', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1047,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '77', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1048,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '77', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1049,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '77', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1050,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1051,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1052,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1053,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,,Unknown,Unknown,,,,0,,
+1054,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '77', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1055,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '77', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1056,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '77', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1057,Coordinator,Coordinator,0x0000,0xa706,Power Plug 2,Socket,0x0000,Coordinator,Coordinator,0xa706,Power Plug 2,Socket,0,Read Attributes (0x00),"{'Sequence Number': '77', 'Command': 'Read Attributes (0x00)', 'Attribute': ['Current Summation Delivered (0x0000)', 'Status (0x0200)']}"
+1058,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+1059,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,

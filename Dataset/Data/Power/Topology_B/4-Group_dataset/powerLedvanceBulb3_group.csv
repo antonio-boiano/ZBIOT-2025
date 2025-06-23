@@ -1,0 +1,715 @@
+Group,Group Type,Device Name,Device Type,Device Name Destination,Device Type Destination,Device Name ZigBee,Device Type ZigBee,Device Name ZigBee Destination,Device Type ZigBee Destination,Time,Length,Source IEEE,Destination IEEE,Sequence Number,Source ZigBee,Destination ZigBee,Delta Time
+Ledvance Smart+ Plug,Socket,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,2023-10-29 15:43:08.000000,53,0x0112,0xffff,33.0,0x0112,0xfffc,0.0
+Ledvance Smart+ Plug,Socket,Ledvance Smart+ Plug,Socket,Ledvance Bulb,Bulb,Ledvance Smart+ Plug,Socket,Ledvance Bulb,Bulb,2023-10-29 15:43:23.717745,49,0x0112,0xec7f,41.0,0x0112,0xec7f,0.014117
+Ledvance Smart+ Plug,Socket,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,2023-10-29 15:44:53.004585,53,0x0112,0xffff,56.0,0x0112,0xfffc,2.374624
+Ledvance Smart+ Plug,Socket,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,2023-10-29 15:46:53.027950,53,0x0112,0xffff,72.0,0x0112,0xfffc,2.322426
+Ledvance Smart+ Plug,Socket,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,2023-10-29 15:47:08.021466,53,0x0112,0xffff,73.0,0x0112,0xfffc,11.800608
+Ledvance Smart+ Plug,Socket,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,2023-10-29 15:47:23.026822,53,0x0112,0xffff,76.0,0x0112,0xfffc,2.208366
+Ledvance Smart+ Plug,Socket,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,2023-10-29 15:47:53.030494,53,0x0112,0xffff,80.0,0x0112,0xfffc,2.198945
+Aqara Motion,Motion,Aqara Motion,Motion,Coordinator,Coordinator,Aqara Motion,Motion,Coordinator,Coordinator,2023-10-29 15:43:42.511906,57,0x27d7,0x0000,142.0,0x27d7,0x0000,0.82891
+Aqara Motion,Motion,Aqara Motion,Motion,Coordinator,Coordinator,Aqara Motion,Motion,Coordinator,Coordinator,2023-10-29 15:44:30.932561,57,0x27d7,0x0000,147.0,0x27d7,0x0000,0.017636
+Aqara Motion,Motion,Aqara Motion,Motion,Coordinator,Coordinator,Aqara Motion,Motion,Coordinator,Coordinator,2023-10-29 15:45:13.752555,57,0x27d7,0x0000,148.0,0x27d7,0x0000,2.646366
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:43:11.850482,49,0x0000,0xec7f,194.0,0x0000,0xec7f,0.011347
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:43:11.863655,59,0x0000,0xec7f,195.0,0x0000,0xec7f,0.010859
+Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:43:11.874548,55,0xec7f,0x0000,217.0,0xec7f,0x0000,0.00342
+Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:43:11.904681,50,0xec7f,0x0000,220.0,0xec7f,0x0000,0.01378
+Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:43:11.916257,45,0xec7f,0x0000,221.0,0xec7f,0x0000,0.009593
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:12.274742,56,0x0000,0xffff,198.0,0x0000,0xfffc,0.146066
+Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:43:12.693897,55,0xec7f,0x0000,226.0,0xec7f,0x0000,0.007386
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:43:12.725931,45,0x0000,0xec7f,200.0,0x0000,0xec7f,0.003028
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:43:12.766012,50,0x0000,0xec7f,201.0,0x0000,0xec7f,0.038272
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:43:12.768797,50,0x0000,0xec7f,201.0,0x0000,0xec7f,0.000816
+Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:43:13.373698,55,0xec7f,0x0000,232.0,0xec7f,0x0000,0.490705
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.697781,54,0x0000,0xe1a6,207.0,0x0000,0xe1a6,0.010801
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.702326,54,0x0000,0xe1a6,207.0,0x0000,0xe1a6,0.004545
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.716834,54,0x0000,0xe1a6,207.0,0x0000,0xe1a6,0.008176
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.722942,54,0x0000,0xe1a6,207.0,0x0000,0xe1a6,0.006108
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.770525,54,0x0000,0xe1a6,210.0,0x0000,0xe1a6,0.003178
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.780764,54,0x0000,0xe1a6,210.0,0x0000,0xe1a6,0.010239
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.788961,54,0x0000,0xe1a6,210.0,0x0000,0xe1a6,0.008197
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.792690,54,0x0000,0xe1a6,210.0,0x0000,0xe1a6,0.003729
+Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:43:19.853460,63,0xa706,0x0000,75.0,0xa706,0x0000,0.002699
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.910870,54,0x0000,0xe1a6,217.0,0x0000,0xe1a6,0.016338
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.915892,54,0x0000,0xe1a6,217.0,0x0000,0xe1a6,0.005022
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.920203,54,0x0000,0xe1a6,217.0,0x0000,0xe1a6,0.004311
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.924258,54,0x0000,0xe1a6,217.0,0x0000,0xe1a6,0.004055
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:20.411982,59,0x0000,0xffff,219.0,0x0000,0xfffc,0.351522
+Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:43:41.537704,55,0xec7f,0x0000,247.0,0xec7f,0x0000,0.430677
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:43:41.629349,50,0x0000,0xec7f,225.0,0x0000,0xec7f,0.026082
+Coordinator,Coordinator,Aqara Motion,Motion,Coordinator,Coordinator,Aqara Motion,Motion,Coordinator,Coordinator,2023-10-29 15:43:42.511906,57,0x27d7,0x0000,142.0,0x27d7,0x0000,0.82891
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.906006,50,0x0000,0x1cd8,227.0,0x0000,0x1cd8,0.171981
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.911528,50,0x0000,0x1cd8,227.0,0x0000,0x1cd8,0.005522
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.916806,50,0x0000,0x1cd8,227.0,0x0000,0x1cd8,0.005278
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.919842,50,0x0000,0x1cd8,227.0,0x0000,0x1cd8,0.003036
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.951575,50,0x0000,0x1cd8,228.0,0x0000,0x1cd8,0.031733
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.955127,50,0x0000,0x1cd8,228.0,0x0000,0x1cd8,0.003552
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.959728,50,0x0000,0x1cd8,228.0,0x0000,0x1cd8,0.004601
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.965108,50,0x0000,0x1cd8,228.0,0x0000,0x1cd8,0.00538
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.003854,50,0x0000,0x1cd8,229.0,0x0000,0x1cd8,0.038746
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.008581,50,0x0000,0x1cd8,229.0,0x0000,0x1cd8,0.004727
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.013002,50,0x0000,0x1cd8,229.0,0x0000,0x1cd8,0.004421
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.017971,50,0x0000,0x1cd8,229.0,0x0000,0x1cd8,0.004969
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.283036,50,0x0000,0x1cd8,234.0,0x0000,0x1cd8,0.043824
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.287914,50,0x0000,0x1cd8,234.0,0x0000,0x1cd8,0.004878
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.291436,50,0x0000,0x1cd8,234.0,0x0000,0x1cd8,0.003522
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.296295,50,0x0000,0x1cd8,234.0,0x0000,0x1cd8,0.004859
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.320249,50,0x0000,0x1cd8,235.0,0x0000,0x1cd8,0.023954
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.323209,50,0x0000,0x1cd8,235.0,0x0000,0x1cd8,0.00296
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.326849,50,0x0000,0x1cd8,235.0,0x0000,0x1cd8,0.00364
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.330747,50,0x0000,0x1cd8,235.0,0x0000,0x1cd8,0.003898
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.354429,50,0x0000,0x1cd8,236.0,0x0000,0x1cd8,0.023682
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.357603,50,0x0000,0x1cd8,236.0,0x0000,0x1cd8,0.003174
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.361182,50,0x0000,0x1cd8,236.0,0x0000,0x1cd8,0.003579
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.370138,50,0x0000,0x1cd8,236.0,0x0000,0x1cd8,0.008956
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.419574,50,0x0000,0x1cd8,237.0,0x0000,0x1cd8,0.049436
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.424423,50,0x0000,0x1cd8,237.0,0x0000,0x1cd8,0.004849
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.429865,50,0x0000,0x1cd8,237.0,0x0000,0x1cd8,0.005442
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.433862,50,0x0000,0x1cd8,237.0,0x0000,0x1cd8,0.003997
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.659057,52,0x0000,0xe1a6,238.0,0x0000,0xe1a6,0.873409
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.663563,52,0x0000,0xe1a6,238.0,0x0000,0xe1a6,0.004506
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.671309,52,0x0000,0xe1a6,238.0,0x0000,0xe1a6,0.007746
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.675433,52,0x0000,0xe1a6,238.0,0x0000,0xe1a6,0.004124
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.706771,54,0x0000,0xe1a6,240.0,0x0000,0xe1a6,0.015894
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.713563,54,0x0000,0xe1a6,240.0,0x0000,0xe1a6,0.006792
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.718253,54,0x0000,0xe1a6,240.0,0x0000,0xe1a6,0.002715
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.722792,54,0x0000,0xe1a6,240.0,0x0000,0xe1a6,0.004539
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.731425,54,0x0000,0xa706,241.0,0x0000,0xa706,0.008633
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.736877,54,0x0000,0xa706,241.0,0x0000,0xa706,0.003383
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.762002,54,0x0000,0xa706,241.0,0x0000,0xa706,0.007486
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.767273,54,0x0000,0xa706,241.0,0x0000,0xa706,0.00319
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.773918,52,0x0000,0xe1a6,242.0,0x0000,0xe1a6,0.004563
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.777142,52,0x0000,0xe1a6,242.0,0x0000,0xe1a6,0.003224
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.782359,52,0x0000,0xe1a6,242.0,0x0000,0xe1a6,0.005217
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.788081,52,0x0000,0xe1a6,242.0,0x0000,0xe1a6,0.005722
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.848791,54,0x0000,0xa706,245.0,0x0000,0xa706,0.00764
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.851887,54,0x0000,0xa706,245.0,0x0000,0xa706,0.001014
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.855675,54,0x0000,0xa706,245.0,0x0000,0xa706,0.003788
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.866362,52,0x0000,0xe1a6,246.0,0x0000,0xe1a6,0.008616
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.873158,52,0x0000,0xe1a6,246.0,0x0000,0xe1a6,0.006796
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.876569,52,0x0000,0xe1a6,246.0,0x0000,0xe1a6,0.003411
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.881626,52,0x0000,0xe1a6,246.0,0x0000,0xe1a6,0.005057
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.894844,45,0x0000,0xa706,247.0,0x0000,0xa706,0.013218
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.898348,45,0x0000,0xa706,247.0,0x0000,0xa706,0.001712
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.901949,45,0x0000,0xa706,247.0,0x0000,0xa706,0.001808
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.905525,45,0x0000,0xa706,247.0,0x0000,0xa706,0.001787
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.934285,52,0x0000,0xa706,249.0,0x0000,0xa706,0.007719
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.938268,52,0x0000,0xa706,249.0,0x0000,0xa706,0.001967
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.943583,52,0x0000,0xa706,249.0,0x0000,0xa706,0.003298
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.951564,52,0x0000,0xa706,249.0,0x0000,0xa706,0.005975
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:49.994570,59,0x0000,0xffff,251.0,0x0000,0xfffc,0.004667
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.005654,45,0x0000,0xa706,252.0,0x0000,0xa706,0.004481
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.010355,45,0x0000,0xa706,252.0,0x0000,0xa706,0.002913
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.017384,45,0x0000,0xa706,252.0,0x0000,0xa706,0.005236
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.021579,45,0x0000,0xa706,252.0,0x0000,0xa706,0.002404
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.034327,52,0x0000,0xa706,253.0,0x0000,0xa706,0.010957
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.037661,52,0x0000,0xa706,253.0,0x0000,0xa706,0.001318
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.045320,52,0x0000,0xa706,253.0,0x0000,0xa706,0.007659
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.059657,52,0x0000,0xa706,253.0,0x0000,0xa706,0.012322
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.107574,52,0x0000,0xa706,255.0,0x0000,0xa706,0.015925
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.112436,52,0x0000,0xa706,255.0,0x0000,0xa706,0.002856
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.117903,52,0x0000,0xa706,255.0,0x0000,0xa706,0.003463
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.121769,52,0x0000,0xa706,255.0,0x0000,0xa706,0.001849
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.200932,45,0x0000,0xa706,1.0,0x0000,0xa706,0.052415
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.205839,45,0x0000,0xa706,1.0,0x0000,0xa706,0.004907
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.210725,45,0x0000,0xa706,1.0,0x0000,0xa706,0.003102
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.214333,45,0x0000,0xa706,1.0,0x0000,0xa706,0.001825
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:50.671674,59,0x0000,0xffff,3.0,0x0000,0xfffc,0.22599
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:00.740286,56,0x0000,0xffff,4.0,0x0000,0xfffc,3.438804
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:16.319116,56,0x0000,0xffff,5.0,0x0000,0xfffc,8.302463
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:19.688498,59,0x0000,0xffff,7.0,0x0000,0xfffc,0.012387
+Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:44:19.740837,66,0xa706,0x0000,95.0,0xa706,0x0000,0.00762
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:44:19.779839,45,0x0000,0xa706,11.0,0x0000,0xa706,0.007893
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:44:19.784255,45,0x0000,0xa706,11.0,0x0000,0xa706,0.002623
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.797337,54,0x0000,0xe1a6,12.0,0x0000,0xe1a6,0.011299
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.800714,54,0x0000,0xe1a6,12.0,0x0000,0xe1a6,0.003377
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.805178,54,0x0000,0xe1a6,12.0,0x0000,0xe1a6,0.004464
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.808842,54,0x0000,0xe1a6,12.0,0x0000,0xe1a6,0.003664
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.835923,52,0x0000,0xe1a6,14.0,0x0000,0xe1a6,0.003722
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.846470,52,0x0000,0xe1a6,14.0,0x0000,0xe1a6,0.010547
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.854645,52,0x0000,0xe1a6,14.0,0x0000,0xe1a6,0.008175
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.858745,52,0x0000,0xe1a6,14.0,0x0000,0xe1a6,0.0041
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.872081,54,0x0000,0xe1a6,15.0,0x0000,0xe1a6,0.006541
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.876126,54,0x0000,0xe1a6,15.0,0x0000,0xe1a6,0.004045
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.879932,54,0x0000,0xe1a6,15.0,0x0000,0xe1a6,0.003806
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.884698,54,0x0000,0xe1a6,15.0,0x0000,0xe1a6,0.004766
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:44:19.892244,45,0x0000,0xa706,16.0,0x0000,0xa706,0.007546
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:44:19.896344,45,0x0000,0xa706,16.0,0x0000,0xa706,0.002307
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:20.356904,59,0x0000,0xffff,20.0,0x0000,0xfffc,0.072013
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:30.914925,56,0x0000,0xffff,22.0,0x0000,0xfffc,2.253244
+Coordinator,Coordinator,Aqara Motion,Motion,Coordinator,Coordinator,Aqara Motion,Motion,Coordinator,Coordinator,2023-10-29 15:44:30.932561,57,0x27d7,0x0000,147.0,0x27d7,0x0000,0.017636
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:44:35.838093,54,0x0000,0xec7f,23.0,0x0000,0x711c,4.903325
+Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:44:36.085193,57,0xa706,0x0000,103.0,0xa706,0x0000,0.008697
+Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:44:36.147027,57,0xec7f,0x0000,9.0,0xec7f,0x0000,0.012193
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:44:40.890930,54,0x0000,0xec7f,26.0,0x0000,0x711c,2.87827
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:44:44.512473,51,0x0000,0xec7f,28.0,0x0000,0xec7f,0.007512
+Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:44:46.515436,55,0xec7f,0x0000,22.0,0xec7f,0x0000,0.855447
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:44:46.581920,45,0x0000,0xec7f,30.0,0x0000,0xec7f,0.018457
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:44:46.628606,49,0x0000,0xec7f,31.0,0x0000,0xec7f,0.044877
+Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:44:46.634071,55,0xec7f,0x0000,24.0,0xec7f,0x0000,0.003528
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:49.691408,59,0x0000,0xffff,33.0,0x0000,0xfffc,0.010787
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.704886,54,0x0000,0xe1a6,34.0,0x0000,0xe1a6,0.013478
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.708927,54,0x0000,0xe1a6,34.0,0x0000,0xe1a6,0.004041
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.714423,54,0x0000,0xe1a6,34.0,0x0000,0xe1a6,0.002632
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.722261,54,0x0000,0xe1a6,34.0,0x0000,0xe1a6,0.007838
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:44:49.730956,54,0x0000,0xa706,35.0,0x0000,0xa706,0.008695
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.745138,52,0x0000,0xe1a6,36.0,0x0000,0xe1a6,0.001988
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.757063,52,0x0000,0xe1a6,36.0,0x0000,0xe1a6,0.011925
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.761356,52,0x0000,0xe1a6,36.0,0x0000,0xe1a6,0.004293
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.768386,52,0x0000,0xe1a6,36.0,0x0000,0xe1a6,0.004885
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.776915,54,0x0000,0xe1a6,37.0,0x0000,0xe1a6,0.008529
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.782323,54,0x0000,0xe1a6,37.0,0x0000,0xe1a6,0.005408
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.791156,54,0x0000,0xe1a6,37.0,0x0000,0xe1a6,0.008833
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.796267,54,0x0000,0xe1a6,37.0,0x0000,0xe1a6,0.005111
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:50.339397,59,0x0000,0xffff,44.0,0x0000,0xfffc,0.067133
+Coordinator,Coordinator,Aqara Motion,Motion,Coordinator,Coordinator,Aqara Motion,Motion,Coordinator,Coordinator,2023-10-29 15:45:13.752555,57,0x27d7,0x0000,148.0,0x27d7,0x0000,2.646366
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:18.472742,56,0x0000,0xffff,47.0,0x0000,0xfffc,2.946877
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:19.696803,59,0x0000,0xffff,49.0,0x0000,0xfffc,0.008972
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.782576,52,0x0000,0xe1a6,52.0,0x0000,0xe1a6,0.010847
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.786070,52,0x0000,0xe1a6,52.0,0x0000,0xe1a6,0.003494
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.789211,52,0x0000,0xe1a6,52.0,0x0000,0xe1a6,0.003141
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.792729,52,0x0000,0xe1a6,52.0,0x0000,0xe1a6,0.003518
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:19.799894,45,0x0000,0xa706,53.0,0x0000,0xa706,0.007165
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:19.807824,45,0x0000,0xa706,53.0,0x0000,0xa706,0.00793
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:19.811910,45,0x0000,0xa706,53.0,0x0000,0xa706,0.002295
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.819450,54,0x0000,0xe1a6,54.0,0x0000,0xe1a6,0.005747
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.824604,54,0x0000,0xe1a6,54.0,0x0000,0xe1a6,0.005154
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.829144,54,0x0000,0xe1a6,54.0,0x0000,0xe1a6,0.00454
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.834005,54,0x0000,0xe1a6,54.0,0x0000,0xe1a6,0.004861
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.889315,54,0x0000,0xe1a6,57.0,0x0000,0xe1a6,0.00818
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.894084,54,0x0000,0xe1a6,57.0,0x0000,0xe1a6,0.004769
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.900547,54,0x0000,0xe1a6,57.0,0x0000,0xe1a6,0.006463
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.905656,54,0x0000,0xe1a6,57.0,0x0000,0xe1a6,0.005109
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:19.912238,45,0x0000,0xa706,58.0,0x0000,0xa706,0.006582
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:19.915731,45,0x0000,0xa706,58.0,0x0000,0xa706,0.003493
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:19.986345,59,0x0000,0xffff,59.0,0x0000,0xfffc,0.06882
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:20.672243,59,0x0000,0xffff,61.0,0x0000,0xfffc,0.017576
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:34.875789,56,0x0000,0xffff,62.0,0x0000,0xfffc,8.729347
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:49.745011,54,0x0000,0xe1a6,65.0,0x0000,0xe1a6,0.049085
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:49.748441,54,0x0000,0xe1a6,65.0,0x0000,0xe1a6,0.00343
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:49.755416,54,0x0000,0xe1a6,65.0,0x0000,0xe1a6,0.006975
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:49.795114,52,0x0000,0xe1a6,67.0,0x0000,0xe1a6,0.004274
+Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:45:49.831648,66,0xa706,0x0000,125.0,0xa706,0x0000,0.005254
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:50.025756,45,0x0000,0xa706,72.0,0x0000,0xa706,0.029179
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:50.028981,45,0x0000,0xa706,72.0,0x0000,0xa706,0.001445
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:50.034417,45,0x0000,0xa706,72.0,0x0000,0xa706,0.003655
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:50.043185,52,0x0000,0xa706,73.0,0x0000,0xa706,0.006974
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:50.102380,45,0x0000,0xa706,75.0,0x0000,0xa706,0.001229
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:50.115457,45,0x0000,0xa706,75.0,0x0000,0xa706,0.013077
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:50.122035,59,0x0000,0xffff,76.0,0x0000,0xfffc,0.006578
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:50.763272,59,0x0000,0xffff,79.0,0x0000,0xfffc,0.275146
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:11.832250,50,0x0000,0xa706,82.0,0x0000,0xa706,0.041425
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:11.835534,50,0x0000,0xa706,82.0,0x0000,0xa706,0.003284
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:11.839112,50,0x0000,0xa706,82.0,0x0000,0xa706,0.001625
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:11.842908,50,0x0000,0xa706,82.0,0x0000,0xa706,0.001853
+Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:46:11.853344,45,0xa706,0x0000,136.0,0xa706,0x0000,0.00095
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.667929,52,0x0000,0xe1a6,83.0,0x0000,0xe1a6,7.812762
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.671654,52,0x0000,0xe1a6,83.0,0x0000,0xe1a6,0.003725
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.678019,52,0x0000,0xe1a6,83.0,0x0000,0xe1a6,0.006365
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.682330,52,0x0000,0xe1a6,83.0,0x0000,0xe1a6,0.004311
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.701701,54,0x0000,0xe1a6,85.0,0x0000,0xe1a6,0.008276
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.709098,54,0x0000,0xe1a6,85.0,0x0000,0xe1a6,0.007397
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.714500,54,0x0000,0xe1a6,85.0,0x0000,0xe1a6,0.005402
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.719938,54,0x0000,0xe1a6,85.0,0x0000,0xe1a6,0.005438
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.740176,52,0x0000,0xe1a6,86.0,0x0000,0xe1a6,0.009609
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.745231,52,0x0000,0xe1a6,86.0,0x0000,0xe1a6,0.005055
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.749500,52,0x0000,0xe1a6,86.0,0x0000,0xe1a6,0.004269
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.753079,52,0x0000,0xe1a6,86.0,0x0000,0xe1a6,0.003579
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.795306,54,0x0000,0xe1a6,88.0,0x0000,0xe1a6,0.007989
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.799852,54,0x0000,0xe1a6,88.0,0x0000,0xe1a6,0.004546
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.804170,54,0x0000,0xe1a6,88.0,0x0000,0xe1a6,0.004318
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.808870,54,0x0000,0xe1a6,88.0,0x0000,0xe1a6,0.0047
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:19.856297,54,0x0000,0xa706,91.0,0x0000,0xa706,0.006312
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:19.861549,54,0x0000,0xa706,91.0,0x0000,0xa706,0.003171
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:19.866251,54,0x0000,0xa706,91.0,0x0000,0xa706,0.002622
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.878967,54,0x0000,0xe1a6,92.0,0x0000,0xe1a6,0.006749
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.883418,54,0x0000,0xe1a6,92.0,0x0000,0xe1a6,0.004451
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.900633,54,0x0000,0xe1a6,92.0,0x0000,0xe1a6,0.017215
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.904732,54,0x0000,0xe1a6,92.0,0x0000,0xe1a6,0.004099
+Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:46:19.965161,63,0xa706,0x0000,139.0,0xa706,0x0000,0.005115
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:20.008799,45,0x0000,0xa706,97.0,0x0000,0xa706,0.005933
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:20.013440,45,0x0000,0xa706,97.0,0x0000,0xa706,0.004641
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:20.018005,45,0x0000,0xa706,97.0,0x0000,0xa706,0.004565
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:20.081226,59,0x0000,0xffff,98.0,0x0000,0xfffc,0.061428
+Coordinator,Coordinator,Sonoff Temperature,Temperature,Coordinator,Coordinator,Sonoff Temperature,Temperature,Coordinator,Coordinator,2023-10-29 15:46:35.152951,53,0x4615,0x0000,230.0,0x4615,0x0000,8.936478
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:39.483521,53,0x0000,0xffff,102.0,0x0000,0xfffc,3.820304
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:49.699935,59,0x0000,0xffff,104.0,0x0000,0xfffc,0.010992
+Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:46:49.752540,66,0xa706,0x0000,144.0,0xa706,0x0000,0.007546
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.756575,52,0x0000,0xe1a6,107.0,0x0000,0xe1a6,0.00154
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.768280,52,0x0000,0xe1a6,107.0,0x0000,0xe1a6,0.011705
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.772832,52,0x0000,0xe1a6,107.0,0x0000,0xe1a6,0.004552
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.778379,52,0x0000,0xe1a6,107.0,0x0000,0xe1a6,0.005547
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.859984,52,0x0000,0xe1a6,111.0,0x0000,0xe1a6,0.006502
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.864980,52,0x0000,0xe1a6,111.0,0x0000,0xe1a6,0.004996
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.870643,52,0x0000,0xe1a6,111.0,0x0000,0xe1a6,0.005663
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.874706,52,0x0000,0xe1a6,111.0,0x0000,0xe1a6,0.004063
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.889394,54,0x0000,0xe1a6,113.0,0x0000,0xe1a6,0.006663
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.897279,54,0x0000,0xe1a6,113.0,0x0000,0xe1a6,0.007885
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.901320,54,0x0000,0xe1a6,113.0,0x0000,0xe1a6,0.004041
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.905871,54,0x0000,0xe1a6,113.0,0x0000,0xe1a6,0.004551
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:49.914355,52,0x0000,0xa706,114.0,0x0000,0xa706,0.008484
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:49.921281,52,0x0000,0xa706,114.0,0x0000,0xa706,0.006926
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:49.924869,52,0x0000,0xa706,114.0,0x0000,0xa706,0.003588
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:49.928474,52,0x0000,0xa706,114.0,0x0000,0xa706,0.003605
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.941681,54,0x0000,0xe1a6,115.0,0x0000,0xe1a6,0.011202
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.947575,54,0x0000,0xe1a6,115.0,0x0000,0xe1a6,0.005894
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.952946,54,0x0000,0xe1a6,115.0,0x0000,0xe1a6,0.005371
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.958231,54,0x0000,0xe1a6,115.0,0x0000,0xe1a6,0.005285
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:50.019114,52,0x0000,0xa706,117.0,0x0000,0xa706,0.035275
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:50.024757,52,0x0000,0xa706,117.0,0x0000,0xa706,0.005643
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:50.028169,52,0x0000,0xa706,117.0,0x0000,0xa706,0.001397
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:50.036003,52,0x0000,0xa706,117.0,0x0000,0xa706,0.004173
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:50.705524,59,0x0000,0xffff,120.0,0x0000,0xfffc,0.289992
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.914991,50,0x0000,0x1cd8,121.0,0x0000,0x1cd8,1.887041
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.918371,50,0x0000,0x1cd8,121.0,0x0000,0x1cd8,0.00338
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.921949,50,0x0000,0x1cd8,121.0,0x0000,0x1cd8,0.003578
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.926240,50,0x0000,0x1cd8,121.0,0x0000,0x1cd8,0.004291
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.953660,50,0x0000,0x1cd8,122.0,0x0000,0x1cd8,0.02742
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.957154,50,0x0000,0x1cd8,122.0,0x0000,0x1cd8,0.003494
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.961692,50,0x0000,0x1cd8,122.0,0x0000,0x1cd8,0.004538
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.966495,50,0x0000,0x1cd8,122.0,0x0000,0x1cd8,0.004803
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.065211,50,0x0000,0x1cd8,124.0,0x0000,0x1cd8,0.05231
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.068171,50,0x0000,0x1cd8,124.0,0x0000,0x1cd8,0.00296
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.072709,50,0x0000,0x1cd8,124.0,0x0000,0x1cd8,0.004538
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.078000,50,0x0000,0x1cd8,124.0,0x0000,0x1cd8,0.005291
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.197986,50,0x0000,0x1cd8,126.0,0x0000,0x1cd8,0.064611
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.201958,50,0x0000,0x1cd8,126.0,0x0000,0x1cd8,0.003972
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.212882,50,0x0000,0x1cd8,126.0,0x0000,0x1cd8,0.010924
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.216757,50,0x0000,0x1cd8,126.0,0x0000,0x1cd8,0.003875
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.259092,50,0x0000,0x1cd8,127.0,0x0000,0x1cd8,0.042335
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.263869,50,0x0000,0x1cd8,127.0,0x0000,0x1cd8,0.004777
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.268610,50,0x0000,0x1cd8,127.0,0x0000,0x1cd8,0.004741
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.271813,50,0x0000,0x1cd8,127.0,0x0000,0x1cd8,0.003203
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.362371,50,0x0000,0x1cd8,129.0,0x0000,0x1cd8,0.041851
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.365819,50,0x0000,0x1cd8,129.0,0x0000,0x1cd8,0.003448
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.369078,50,0x0000,0x1cd8,129.0,0x0000,0x1cd8,0.003259
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.372336,50,0x0000,0x1cd8,129.0,0x0000,0x1cd8,0.003258
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:55.929969,53,0x0000,0xffff,131.0,0x0000,0xfffc,0.510726
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:47:11.155780,53,0x0000,0xffff,132.0,0x0000,0xfffc,3.134314
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.678816,52,0x0000,0xe1a6,133.0,0x0000,0xe1a6,8.498527
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.683106,52,0x0000,0xe1a6,133.0,0x0000,0xe1a6,0.00429
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.688115,52,0x0000,0xe1a6,133.0,0x0000,0xe1a6,0.005009
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.692725,52,0x0000,0xe1a6,133.0,0x0000,0xe1a6,0.00461
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.760048,52,0x0000,0xe1a6,136.0,0x0000,0xe1a6,0.008279
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.764563,52,0x0000,0xe1a6,136.0,0x0000,0xe1a6,0.004515
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.771792,52,0x0000,0xe1a6,136.0,0x0000,0xe1a6,0.007229
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.781894,52,0x0000,0xe1a6,136.0,0x0000,0xe1a6,0.010102
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:19.788631,54,0x0000,0xa706,137.0,0x0000,0xa706,0.006737
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.839456,52,0x0000,0xe1a6,140.0,0x0000,0xe1a6,0.005128
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.849601,52,0x0000,0xe1a6,140.0,0x0000,0xe1a6,0.006879
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.852948,52,0x0000,0xe1a6,140.0,0x0000,0xe1a6,0.003347
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.856771,52,0x0000,0xe1a6,140.0,0x0000,0xe1a6,0.003823
+Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:47:19.883683,63,0xa706,0x0000,153.0,0xa706,0x0000,0.005123
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.944050,54,0x0000,0xe1a6,144.0,0x0000,0xe1a6,0.025684
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.948750,54,0x0000,0xe1a6,144.0,0x0000,0xe1a6,0.0047
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.953667,54,0x0000,0xe1a6,144.0,0x0000,0xe1a6,0.004917
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.962217,54,0x0000,0xe1a6,144.0,0x0000,0xe1a6,0.00855
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:47:20.442104,59,0x0000,0xffff,146.0,0x0000,0xfffc,0.091281
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:47:41.999891,54,0x0000,0xec7f,151.0,0x0000,0x711c,0.003185
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:47:42.003103,54,0x0000,0xec7f,151.0,0x0000,0x711c,0.003212
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:47:42.006377,54,0x0000,0xec7f,151.0,0x0000,0x711c,0.003274
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:47:42.191765,54,0x0000,0xec7f,154.0,0x0000,0x711c,0.080579
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:47:42.195013,54,0x0000,0xec7f,154.0,0x0000,0x711c,0.003248
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:47:42.198226,54,0x0000,0xec7f,154.0,0x0000,0x711c,0.003213
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:47:42.275291,54,0x0000,0xec7f,155.0,0x0000,0x711c,0.073853
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:47:42.278476,54,0x0000,0xec7f,155.0,0x0000,0x711c,0.003185
+Coordinator,Coordinator,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:47:42.281688,54,0x0000,0xec7f,155.0,0x0000,0x711c,0.003212
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:47:43.449369,50,0x0000,0xffff,158.0,0x0000,0xfffc,1.036529
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:49.682979,52,0x0000,0xe1a6,159.0,0x0000,0xe1a6,6.23361
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:49.802201,52,0x0000,0xe1a6,163.0,0x0000,0xe1a6,0.011292
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:49.807695,52,0x0000,0xe1a6,163.0,0x0000,0xe1a6,0.005494
+Coordinator,Coordinator,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:49.825208,52,0x0000,0xe1a6,163.0,0x0000,0xe1a6,0.017513
+Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:47:49.859863,66,0xa706,0x0000,160.0,0xa706,0x0000,0.005126
+Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:47:49.867367,66,0xa706,0x0000,161.0,0xa706,0x0000,0.002621
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:49.961808,45,0x0000,0xa706,166.0,0x0000,0xa706,0.048108
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:49.964737,45,0x0000,0xa706,166.0,0x0000,0xa706,0.002929
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:49.967695,45,0x0000,0xa706,166.0,0x0000,0xa706,0.002958
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:49.970653,45,0x0000,0xa706,166.0,0x0000,0xa706,0.002958
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:50.130562,52,0x0000,0xa706,171.0,0x0000,0xa706,0.018317
+Coordinator,Coordinator,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:50.135758,52,0x0000,0xa706,171.0,0x0000,0xa706,0.005196
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:48:16.190006,53,0x0000,0xffff,176.0,0x0000,0xfffc,17.678896
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:11.782232,65,0xec7f,0xffff,213.0,0xec7f,0xfffd,0.928846
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:11.789195,64,0xec7f,0xffff,215.0,0xec7f,0xfffd,0.003225
+Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:43:11.850482,49,0x0000,0xec7f,194.0,0x0000,0xec7f,0.011347
+Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:43:11.863655,59,0x0000,0xec7f,195.0,0x0000,0xec7f,0.010859
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:43:11.874548,55,0xec7f,0x0000,217.0,0xec7f,0x0000,0.00342
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:43:11.904681,50,0xec7f,0x0000,220.0,0xec7f,0x0000,0.01378
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:43:11.916257,45,0xec7f,0x0000,221.0,0xec7f,0x0000,0.009593
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:43:12.693897,55,0xec7f,0x0000,226.0,0xec7f,0x0000,0.007386
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:12.714162,65,0xec7f,0xffff,227.0,0xec7f,0xfffd,0.018122
+Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:43:12.725931,45,0x0000,0xec7f,200.0,0x0000,0xec7f,0.003028
+Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:43:12.766012,50,0x0000,0xec7f,201.0,0x0000,0xec7f,0.038272
+Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:43:12.768797,50,0x0000,0xec7f,201.0,0x0000,0xec7f,0.000816
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:12.794012,64,0xec7f,0xffff,229.0,0xec7f,0xfffd,0.013834
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:43:13.373698,55,0xec7f,0x0000,232.0,0xec7f,0x0000,0.490705
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:20.060460,56,0xec7f,0xffff,240.0,0xec7f,0xfffc,0.008192
+Ledvance Bulb,Bulb,Ledvance Smart+ Plug,Socket,Ledvance Bulb,Bulb,Ledvance Smart+ Plug,Socket,Ledvance Bulb,Bulb,2023-10-29 15:43:23.717745,49,0x0112,0xec7f,41.0,0x0112,0xec7f,0.014117
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:38.586289,56,0xec7f,0xffff,246.0,0xec7f,0xfffc,0.582603
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:43:41.537704,55,0xec7f,0x0000,247.0,0xec7f,0x0000,0.430677
+Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:43:41.629349,50,0x0000,0xec7f,225.0,0x0000,0xec7f,0.026082
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:44:36.147027,57,0xec7f,0x0000,9.0,0xec7f,0x0000,0.012193
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:44:44.465216,54,0xec7f,0xffff,17.0,0xec7f,0xfffd,3.306782
+Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:44:44.512473,51,0x0000,0xec7f,28.0,0x0000,0xec7f,0.007512
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:44:44.942696,54,0xec7f,0xffff,20.0,0xec7f,0xfffd,0.166521
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:44:46.515436,55,0xec7f,0x0000,22.0,0xec7f,0x0000,0.855447
+Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:44:46.581920,45,0x0000,0xec7f,30.0,0x0000,0xec7f,0.018457
+Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,2023-10-29 15:44:46.628606,49,0x0000,0xec7f,31.0,0x0000,0xec7f,0.044877
+Ledvance Bulb,Bulb,Ledvance Bulb,Bulb,Coordinator,Coordinator,Ledvance Bulb,Bulb,Coordinator,Coordinator,2023-10-29 15:44:46.634071,55,0xec7f,0x0000,24.0,0xec7f,0x0000,0.003528
+Power Plug 2,Socket,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:43:19.853460,63,0xa706,0x0000,75.0,0xa706,0x0000,0.002699
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.731425,54,0x0000,0xa706,241.0,0x0000,0xa706,0.008633
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.736877,54,0x0000,0xa706,241.0,0x0000,0xa706,0.003383
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.762002,54,0x0000,0xa706,241.0,0x0000,0xa706,0.007486
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.767273,54,0x0000,0xa706,241.0,0x0000,0xa706,0.00319
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.848791,54,0x0000,0xa706,245.0,0x0000,0xa706,0.00764
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.851887,54,0x0000,0xa706,245.0,0x0000,0xa706,0.001014
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.855675,54,0x0000,0xa706,245.0,0x0000,0xa706,0.003788
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.894844,45,0x0000,0xa706,247.0,0x0000,0xa706,0.013218
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.898348,45,0x0000,0xa706,247.0,0x0000,0xa706,0.001712
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.901949,45,0x0000,0xa706,247.0,0x0000,0xa706,0.001808
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.905525,45,0x0000,0xa706,247.0,0x0000,0xa706,0.001787
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.934285,52,0x0000,0xa706,249.0,0x0000,0xa706,0.007719
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.938268,52,0x0000,0xa706,249.0,0x0000,0xa706,0.001967
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.943583,52,0x0000,0xa706,249.0,0x0000,0xa706,0.003298
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:49.951564,52,0x0000,0xa706,249.0,0x0000,0xa706,0.005975
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.005654,45,0x0000,0xa706,252.0,0x0000,0xa706,0.004481
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.010355,45,0x0000,0xa706,252.0,0x0000,0xa706,0.002913
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.017384,45,0x0000,0xa706,252.0,0x0000,0xa706,0.005236
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.021579,45,0x0000,0xa706,252.0,0x0000,0xa706,0.002404
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.034327,52,0x0000,0xa706,253.0,0x0000,0xa706,0.010957
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.037661,52,0x0000,0xa706,253.0,0x0000,0xa706,0.001318
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.045320,52,0x0000,0xa706,253.0,0x0000,0xa706,0.007659
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.059657,52,0x0000,0xa706,253.0,0x0000,0xa706,0.012322
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.107574,52,0x0000,0xa706,255.0,0x0000,0xa706,0.015925
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.112436,52,0x0000,0xa706,255.0,0x0000,0xa706,0.002856
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.117903,52,0x0000,0xa706,255.0,0x0000,0xa706,0.003463
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.121769,52,0x0000,0xa706,255.0,0x0000,0xa706,0.001849
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.200932,45,0x0000,0xa706,1.0,0x0000,0xa706,0.052415
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.205839,45,0x0000,0xa706,1.0,0x0000,0xa706,0.004907
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.210725,45,0x0000,0xa706,1.0,0x0000,0xa706,0.003102
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:43:50.214333,45,0x0000,0xa706,1.0,0x0000,0xa706,0.001825
+Power Plug 2,Socket,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:44:19.740837,66,0xa706,0x0000,95.0,0xa706,0x0000,0.00762
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:44:19.779839,45,0x0000,0xa706,11.0,0x0000,0xa706,0.007893
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:44:19.784255,45,0x0000,0xa706,11.0,0x0000,0xa706,0.002623
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:44:19.892244,45,0x0000,0xa706,16.0,0x0000,0xa706,0.007546
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:44:19.896344,45,0x0000,0xa706,16.0,0x0000,0xa706,0.002307
+Power Plug 2,Socket,Power Plug 2,Socket,Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,2023-10-29 15:44:26.081432,56,0xa706,0xffff,100.0,0xa706,0xfffc,5.427426
+Power Plug 2,Socket,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:44:36.085193,57,0xa706,0x0000,103.0,0xa706,0x0000,0.008697
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:44:49.730956,54,0x0000,0xa706,35.0,0x0000,0xa706,0.008695
+Power Plug 2,Socket,Power Plug 2,Socket,Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,2023-10-29 15:45:11.106189,56,0xa706,0xffff,115.0,0xa706,0xfffc,8.877157
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:19.799894,45,0x0000,0xa706,53.0,0x0000,0xa706,0.007165
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:19.807824,45,0x0000,0xa706,53.0,0x0000,0xa706,0.00793
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:19.811910,45,0x0000,0xa706,53.0,0x0000,0xa706,0.002295
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:19.912238,45,0x0000,0xa706,58.0,0x0000,0xa706,0.006582
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:19.915731,45,0x0000,0xa706,58.0,0x0000,0xa706,0.003493
+Power Plug 2,Socket,Power Plug 2,Socket,Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,2023-10-29 15:45:26.146442,56,0xa706,0xffff,121.0,0xa706,0xfffc,3.129859
+Power Plug 2,Socket,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:45:49.831648,66,0xa706,0x0000,125.0,0xa706,0x0000,0.005254
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:50.025756,45,0x0000,0xa706,72.0,0x0000,0xa706,0.029179
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:50.028981,45,0x0000,0xa706,72.0,0x0000,0xa706,0.001445
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:50.034417,45,0x0000,0xa706,72.0,0x0000,0xa706,0.003655
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:50.043185,52,0x0000,0xa706,73.0,0x0000,0xa706,0.006974
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:50.102380,45,0x0000,0xa706,75.0,0x0000,0xa706,0.001229
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:45:50.115457,45,0x0000,0xa706,75.0,0x0000,0xa706,0.013077
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:11.832250,50,0x0000,0xa706,82.0,0x0000,0xa706,0.041425
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:11.835534,50,0x0000,0xa706,82.0,0x0000,0xa706,0.003284
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:11.839112,50,0x0000,0xa706,82.0,0x0000,0xa706,0.001625
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:11.842908,50,0x0000,0xa706,82.0,0x0000,0xa706,0.001853
+Power Plug 2,Socket,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:46:11.853344,45,0xa706,0x0000,136.0,0xa706,0x0000,0.00095
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:19.856297,54,0x0000,0xa706,91.0,0x0000,0xa706,0.006312
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:19.861549,54,0x0000,0xa706,91.0,0x0000,0xa706,0.003171
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:19.866251,54,0x0000,0xa706,91.0,0x0000,0xa706,0.002622
+Power Plug 2,Socket,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:46:19.965161,63,0xa706,0x0000,139.0,0xa706,0x0000,0.005115
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:20.008799,45,0x0000,0xa706,97.0,0x0000,0xa706,0.005933
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:20.013440,45,0x0000,0xa706,97.0,0x0000,0xa706,0.004641
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:20.018005,45,0x0000,0xa706,97.0,0x0000,0xa706,0.004565
+Power Plug 2,Socket,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:46:49.752540,66,0xa706,0x0000,144.0,0xa706,0x0000,0.007546
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:49.914355,52,0x0000,0xa706,114.0,0x0000,0xa706,0.008484
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:49.921281,52,0x0000,0xa706,114.0,0x0000,0xa706,0.006926
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:49.924869,52,0x0000,0xa706,114.0,0x0000,0xa706,0.003588
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:49.928474,52,0x0000,0xa706,114.0,0x0000,0xa706,0.003605
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:50.019114,52,0x0000,0xa706,117.0,0x0000,0xa706,0.035275
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:50.024757,52,0x0000,0xa706,117.0,0x0000,0xa706,0.005643
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:50.028169,52,0x0000,0xa706,117.0,0x0000,0xa706,0.001397
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:46:50.036003,52,0x0000,0xa706,117.0,0x0000,0xa706,0.004173
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:19.788631,54,0x0000,0xa706,137.0,0x0000,0xa706,0.006737
+Power Plug 2,Socket,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:47:19.883683,63,0xa706,0x0000,153.0,0xa706,0x0000,0.005123
+Power Plug 2,Socket,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:47:49.859863,66,0xa706,0x0000,160.0,0xa706,0x0000,0.005126
+Power Plug 2,Socket,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,2023-10-29 15:47:49.867367,66,0xa706,0x0000,161.0,0xa706,0x0000,0.002621
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:49.961808,45,0x0000,0xa706,166.0,0x0000,0xa706,0.048108
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:49.964737,45,0x0000,0xa706,166.0,0x0000,0xa706,0.002929
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:49.967695,45,0x0000,0xa706,166.0,0x0000,0xa706,0.002958
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:49.970653,45,0x0000,0xa706,166.0,0x0000,0xa706,0.002958
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:50.130562,52,0x0000,0xa706,171.0,0x0000,0xa706,0.018317
+Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,Coordinator,Coordinator,Power Plug 2,Socket,2023-10-29 15:47:50.135758,52,0x0000,0xa706,171.0,0x0000,0xa706,0.005196
+Unknown,Unknown,Power Plug 2,Socket,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:43:19.843286,63,0xa706,0x0700,75.0,,,0.007455
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:43:20.719743,5,,,43.0,,,0.001943
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:43:20.731111,45,,,80.0,,,0.005942
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:43:20.732934,5,,,80.0,,,0.001823
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:43:20.748697,5,,,,,,0.001954
+Unknown,Unknown,Power Plug 2,Socket,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:43:26.103109,56,0xa706,0xf59a,86.0,,,1.907941
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:43:49.945589,5,,,,,,0.002006
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:43:57.301482,46,,,193.0,,,1.229633
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:44:19.894037,5,,,,,,0.001793
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:44:36.134834,5,,,104.0,,,0.006779
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:45:20.014532,59,,,119.0,,,0.028187
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:45:49.790840,106,0x58a8,0x5000,123.0,,,0.020023
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:45:49.826394,107,0xa77e,0x1790,125.0,,,0.010104
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:45:49.935176,5,,,119.0,,,0.001793
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:45:50.030762,106,,,85.0,,,0.001781
+Unknown,Unknown,Unknown,Unknown,Broadcast,Broadcast,Unknown,Unknown,,,2023-10-29 15:46:19.872218,59,0xe706,0xffff,138.0,,,0.003887
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:46:48.502591,106,,,,,,5.344507
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:46:50.031830,11,0x0447,,130.0,,,0.001647
+Unknown,Unknown,Unknown,Unknown,Broadcast,Broadcast,Unknown,Unknown,,,2023-10-29 15:47:11.180289,56,0x677e,0xffff,150.0,,,0.024509
+Unknown,Unknown,Unknown,Unknown,Ledvance Bulb,Bulb,Unknown,Unknown,,,2023-10-29 15:47:41.996706,54,,0xec7f,146.0,,,0.061196
+Unknown,Unknown,Unknown,Unknown,Ledvance Bulb,Bulb,Unknown,Unknown,,,2023-10-29 15:47:42.284961,54,0xd000,0xec7f,155.0,,,0.003273
+Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,,,2023-10-29 15:47:50.103901,5,,,62.0,,,0.001794
+Sonoff Temperature,Temperature,Sonoff Temperature,Temperature,Coordinator,Coordinator,Sonoff Temperature,Temperature,Coordinator,Coordinator,2023-10-29 15:46:35.152951,53,0x4615,0x0000,230.0,0x4615,0x0000,8.936478
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,2023-10-29 15:43:08.000000,53,0x0112,0xffff,33.0,0x0112,0xfffc,0.0
+Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:11.782232,65,0xec7f,0xffff,213.0,0xec7f,0xfffd,0.928846
+Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:11.789195,64,0xec7f,0xffff,215.0,0xec7f,0xfffd,0.003225
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:11.882719,64,0xa706,0xffff,67.0,0xec7f,0xfffd,0.002287
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:12.274742,56,0x0000,0xffff,198.0,0x0000,0xfffc,0.146066
+Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:12.714162,65,0xec7f,0xffff,227.0,0xec7f,0xfffd,0.018122
+Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:12.794012,64,0xec7f,0xffff,229.0,0xec7f,0xfffd,0.013834
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:19.705894,59,0x0112,0xffff,37.0,0x0000,0xfffc,0.003568
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:19.798036,59,0x0112,0xffff,38.0,0x0000,0xfffc,0.005346
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:20.007312,59,0xa706,0xffff,76.0,0x0000,0xfffc,0.083054
+Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:20.060460,56,0xec7f,0xffff,240.0,0xec7f,0xfffc,0.008192
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:20.411982,59,0x0000,0xffff,219.0,0x0000,0xfffc,0.351522
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:23.949327,55,0xa706,0xffff,84.0,0xec7f,0xfffc,0.139374
+Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:43:38.586289,56,0xec7f,0xffff,246.0,0xec7f,0xfffc,0.582603
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:49.812217,59,0xa706,0xffff,89.0,0x0000,0xfffc,0.005737
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:49.994570,59,0x0000,0xffff,251.0,0x0000,0xfffc,0.004667
+Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:50.064212,59,0xec7f,0xffff,252.0,0x0000,0xfffc,0.002547
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:50.066700,59,0xa706,0xffff,91.0,0x0000,0xfffc,0.002488
+Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:50.445684,59,0xec7f,0xffff,253.0,0x0000,0xfffc,0.125022
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:43:50.671674,59,0x0000,0xffff,3.0,0x0000,0xfffc,0.22599
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:00.740286,56,0x0000,0xffff,4.0,0x0000,0xfffc,3.438804
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:16.319116,56,0x0000,0xffff,5.0,0x0000,0xfffc,8.302463
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:19.688498,59,0x0000,0xffff,7.0,0x0000,0xfffc,0.012387
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:19.865540,59,0xa706,0xffff,97.0,0x0000,0xfffc,0.006795
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:20.119711,59,0xa706,0xffff,98.0,0x0000,0xfffc,0.078814
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:20.356904,59,0x0000,0xffff,20.0,0x0000,0xfffc,0.072013
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,2023-10-29 15:44:26.081432,56,0xa706,0xffff,100.0,0xa706,0xfffc,5.427426
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:30.914925,56,0x0000,0xffff,22.0,0x0000,0xfffc,2.253244
+Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:44:44.465216,54,0xec7f,0xffff,17.0,0xec7f,0xfffd,3.306782
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:44:44.504961,54,0x0000,0xffff,27.0,0xec7f,0xfffd,0.039745
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:44:44.555686,54,0x0112,0xffff,53.0,0xec7f,0xfffd,0.036838
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:44:44.776175,54,0xa706,0xffff,107.0,0xec7f,0xfffd,0.210826
+Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,Ledvance Bulb,Bulb,Broadcast,Broadcast,2023-10-29 15:44:44.942696,54,0xec7f,0xffff,20.0,0xec7f,0xfffd,0.166521
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:49.691408,59,0x0000,0xffff,33.0,0x0000,0xfffc,0.010787
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:49.711791,59,0x0112,0xffff,54.0,0x0000,0xfffc,0.002864
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:44:50.339397,59,0x0000,0xffff,44.0,0x0000,0xfffc,0.067133
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,2023-10-29 15:44:53.004585,53,0x0112,0xffff,56.0,0x0112,0xfffc,2.374624
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,2023-10-29 15:45:11.106189,56,0xa706,0xffff,115.0,0xa706,0xfffc,8.877157
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:18.472742,56,0x0000,0xffff,47.0,0x0000,0xfffc,2.946877
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:19.696803,59,0x0000,0xffff,49.0,0x0000,0xfffc,0.008972
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:19.986345,59,0x0000,0xffff,59.0,0x0000,0xfffc,0.06882
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:20.314717,59,0x0112,0xffff,59.0,0x0000,0xfffc,0.022188
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:20.672243,59,0x0000,0xffff,61.0,0x0000,0xfffc,0.017576
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,2023-10-29 15:45:26.146442,56,0xa706,0xffff,121.0,0xa706,0xfffc,3.129859
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:34.875789,56,0x0000,0xffff,62.0,0x0000,0xfffc,8.729347
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:50.122035,59,0x0000,0xffff,76.0,0x0000,0xfffc,0.006578
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:45:50.763272,59,0x0000,0xffff,79.0,0x0000,0xfffc,0.275146
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:19.730567,59,0x0112,0xffff,66.0,0x0000,0xfffc,0.010629
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:19.980329,59,0x0112,0xffff,67.0,0x0000,0xfffc,0.012769
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:20.081226,59,0x0000,0xffff,98.0,0x0000,0xfffc,0.061428
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:20.126321,59,0xa706,0xffff,140.0,0x0000,0xfffc,0.045095
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:20.380436,59,0xa706,0xffff,141.0,0x0000,0xfffc,0.254115
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:39.483521,53,0x0000,0xffff,102.0,0x0000,0xfffc,3.820304
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:49.699935,59,0x0000,0xffff,104.0,0x0000,0xfffc,0.010992
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:50.161391,59,0xa706,0xffff,147.0,0x0000,0xfffc,0.074165
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:50.705524,59,0x0000,0xffff,120.0,0x0000,0xfffc,0.289992
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,2023-10-29 15:46:53.027950,53,0x0112,0xffff,72.0,0x0112,0xfffc,2.322426
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:46:55.929969,53,0x0000,0xffff,131.0,0x0000,0xfffc,0.510726
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,2023-10-29 15:47:08.021466,53,0x0112,0xffff,73.0,0x0112,0xfffc,11.800608
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:47:11.155780,53,0x0000,0xffff,132.0,0x0000,0xfffc,3.134314
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:47:19.719515,59,0x0112,0xffff,74.0,0x0000,0xfffc,0.018901
+Broadcast,Broadcast,Power Plug 2,Socket,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:47:20.350823,59,0xa706,0xffff,155.0,0x0000,0xfffc,0.254024
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:47:20.442104,59,0x0000,0xffff,146.0,0x0000,0xfffc,0.091281
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,2023-10-29 15:47:23.026822,53,0x0112,0xffff,76.0,0x0112,0xfffc,2.208366
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:47:43.449369,50,0x0000,0xffff,158.0,0x0000,0xfffc,1.036529
+Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,Ledvance Smart+ Plug,Socket,Broadcast,Broadcast,2023-10-29 15:47:53.030494,53,0x0112,0xffff,80.0,0x0112,0xfffc,2.198945
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-29 15:48:16.190006,53,0x0000,0xffff,176.0,0x0000,0xfffc,17.678896
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.697781,54,0x0000,0xe1a6,207.0,0x0000,0xe1a6,0.010801
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.702326,54,0x0000,0xe1a6,207.0,0x0000,0xe1a6,0.004545
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.716834,54,0x0000,0xe1a6,207.0,0x0000,0xe1a6,0.008176
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.722942,54,0x0000,0xe1a6,207.0,0x0000,0xe1a6,0.006108
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.770525,54,0x0000,0xe1a6,210.0,0x0000,0xe1a6,0.003178
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.780764,54,0x0000,0xe1a6,210.0,0x0000,0xe1a6,0.010239
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.788961,54,0x0000,0xe1a6,210.0,0x0000,0xe1a6,0.008197
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.792690,54,0x0000,0xe1a6,210.0,0x0000,0xe1a6,0.003729
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.910870,54,0x0000,0xe1a6,217.0,0x0000,0xe1a6,0.016338
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.915892,54,0x0000,0xe1a6,217.0,0x0000,0xe1a6,0.005022
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.920203,54,0x0000,0xe1a6,217.0,0x0000,0xe1a6,0.004311
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:19.924258,54,0x0000,0xe1a6,217.0,0x0000,0xe1a6,0.004055
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.659057,52,0x0000,0xe1a6,238.0,0x0000,0xe1a6,0.873409
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.663563,52,0x0000,0xe1a6,238.0,0x0000,0xe1a6,0.004506
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.671309,52,0x0000,0xe1a6,238.0,0x0000,0xe1a6,0.007746
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.675433,52,0x0000,0xe1a6,238.0,0x0000,0xe1a6,0.004124
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.706771,54,0x0000,0xe1a6,240.0,0x0000,0xe1a6,0.015894
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.713563,54,0x0000,0xe1a6,240.0,0x0000,0xe1a6,0.006792
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.718253,54,0x0000,0xe1a6,240.0,0x0000,0xe1a6,0.002715
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.722792,54,0x0000,0xe1a6,240.0,0x0000,0xe1a6,0.004539
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.773918,52,0x0000,0xe1a6,242.0,0x0000,0xe1a6,0.004563
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.777142,52,0x0000,0xe1a6,242.0,0x0000,0xe1a6,0.003224
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.782359,52,0x0000,0xe1a6,242.0,0x0000,0xe1a6,0.005217
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.788081,52,0x0000,0xe1a6,242.0,0x0000,0xe1a6,0.005722
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.866362,52,0x0000,0xe1a6,246.0,0x0000,0xe1a6,0.008616
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.873158,52,0x0000,0xe1a6,246.0,0x0000,0xe1a6,0.006796
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.876569,52,0x0000,0xe1a6,246.0,0x0000,0xe1a6,0.003411
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:43:49.881626,52,0x0000,0xe1a6,246.0,0x0000,0xe1a6,0.005057
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.797337,54,0x0000,0xe1a6,12.0,0x0000,0xe1a6,0.011299
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.800714,54,0x0000,0xe1a6,12.0,0x0000,0xe1a6,0.003377
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.805178,54,0x0000,0xe1a6,12.0,0x0000,0xe1a6,0.004464
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.808842,54,0x0000,0xe1a6,12.0,0x0000,0xe1a6,0.003664
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.835923,52,0x0000,0xe1a6,14.0,0x0000,0xe1a6,0.003722
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.846470,52,0x0000,0xe1a6,14.0,0x0000,0xe1a6,0.010547
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.854645,52,0x0000,0xe1a6,14.0,0x0000,0xe1a6,0.008175
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.858745,52,0x0000,0xe1a6,14.0,0x0000,0xe1a6,0.0041
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.872081,54,0x0000,0xe1a6,15.0,0x0000,0xe1a6,0.006541
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.876126,54,0x0000,0xe1a6,15.0,0x0000,0xe1a6,0.004045
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.879932,54,0x0000,0xe1a6,15.0,0x0000,0xe1a6,0.003806
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:19.884698,54,0x0000,0xe1a6,15.0,0x0000,0xe1a6,0.004766
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.704886,54,0x0000,0xe1a6,34.0,0x0000,0xe1a6,0.013478
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.708927,54,0x0000,0xe1a6,34.0,0x0000,0xe1a6,0.004041
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.714423,54,0x0000,0xe1a6,34.0,0x0000,0xe1a6,0.002632
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.722261,54,0x0000,0xe1a6,34.0,0x0000,0xe1a6,0.007838
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.745138,52,0x0000,0xe1a6,36.0,0x0000,0xe1a6,0.001988
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.757063,52,0x0000,0xe1a6,36.0,0x0000,0xe1a6,0.011925
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.761356,52,0x0000,0xe1a6,36.0,0x0000,0xe1a6,0.004293
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.768386,52,0x0000,0xe1a6,36.0,0x0000,0xe1a6,0.004885
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.776915,54,0x0000,0xe1a6,37.0,0x0000,0xe1a6,0.008529
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.782323,54,0x0000,0xe1a6,37.0,0x0000,0xe1a6,0.005408
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.791156,54,0x0000,0xe1a6,37.0,0x0000,0xe1a6,0.008833
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:44:49.796267,54,0x0000,0xe1a6,37.0,0x0000,0xe1a6,0.005111
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.782576,52,0x0000,0xe1a6,52.0,0x0000,0xe1a6,0.010847
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.786070,52,0x0000,0xe1a6,52.0,0x0000,0xe1a6,0.003494
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.789211,52,0x0000,0xe1a6,52.0,0x0000,0xe1a6,0.003141
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.792729,52,0x0000,0xe1a6,52.0,0x0000,0xe1a6,0.003518
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.819450,54,0x0000,0xe1a6,54.0,0x0000,0xe1a6,0.005747
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.824604,54,0x0000,0xe1a6,54.0,0x0000,0xe1a6,0.005154
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.829144,54,0x0000,0xe1a6,54.0,0x0000,0xe1a6,0.00454
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.834005,54,0x0000,0xe1a6,54.0,0x0000,0xe1a6,0.004861
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.889315,54,0x0000,0xe1a6,57.0,0x0000,0xe1a6,0.00818
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.894084,54,0x0000,0xe1a6,57.0,0x0000,0xe1a6,0.004769
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.900547,54,0x0000,0xe1a6,57.0,0x0000,0xe1a6,0.006463
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:19.905656,54,0x0000,0xe1a6,57.0,0x0000,0xe1a6,0.005109
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:49.745011,54,0x0000,0xe1a6,65.0,0x0000,0xe1a6,0.049085
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:49.748441,54,0x0000,0xe1a6,65.0,0x0000,0xe1a6,0.00343
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:49.755416,54,0x0000,0xe1a6,65.0,0x0000,0xe1a6,0.006975
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:45:49.795114,52,0x0000,0xe1a6,67.0,0x0000,0xe1a6,0.004274
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.667929,52,0x0000,0xe1a6,83.0,0x0000,0xe1a6,7.812762
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.671654,52,0x0000,0xe1a6,83.0,0x0000,0xe1a6,0.003725
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.678019,52,0x0000,0xe1a6,83.0,0x0000,0xe1a6,0.006365
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.682330,52,0x0000,0xe1a6,83.0,0x0000,0xe1a6,0.004311
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.701701,54,0x0000,0xe1a6,85.0,0x0000,0xe1a6,0.008276
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.709098,54,0x0000,0xe1a6,85.0,0x0000,0xe1a6,0.007397
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.714500,54,0x0000,0xe1a6,85.0,0x0000,0xe1a6,0.005402
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.719938,54,0x0000,0xe1a6,85.0,0x0000,0xe1a6,0.005438
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.740176,52,0x0000,0xe1a6,86.0,0x0000,0xe1a6,0.009609
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.745231,52,0x0000,0xe1a6,86.0,0x0000,0xe1a6,0.005055
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.749500,52,0x0000,0xe1a6,86.0,0x0000,0xe1a6,0.004269
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.753079,52,0x0000,0xe1a6,86.0,0x0000,0xe1a6,0.003579
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.795306,54,0x0000,0xe1a6,88.0,0x0000,0xe1a6,0.007989
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.799852,54,0x0000,0xe1a6,88.0,0x0000,0xe1a6,0.004546
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.804170,54,0x0000,0xe1a6,88.0,0x0000,0xe1a6,0.004318
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.808870,54,0x0000,0xe1a6,88.0,0x0000,0xe1a6,0.0047
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.878967,54,0x0000,0xe1a6,92.0,0x0000,0xe1a6,0.006749
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.883418,54,0x0000,0xe1a6,92.0,0x0000,0xe1a6,0.004451
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.900633,54,0x0000,0xe1a6,92.0,0x0000,0xe1a6,0.017215
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:19.904732,54,0x0000,0xe1a6,92.0,0x0000,0xe1a6,0.004099
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.756575,52,0x0000,0xe1a6,107.0,0x0000,0xe1a6,0.00154
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.768280,52,0x0000,0xe1a6,107.0,0x0000,0xe1a6,0.011705
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.772832,52,0x0000,0xe1a6,107.0,0x0000,0xe1a6,0.004552
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.778379,52,0x0000,0xe1a6,107.0,0x0000,0xe1a6,0.005547
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.859984,52,0x0000,0xe1a6,111.0,0x0000,0xe1a6,0.006502
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.864980,52,0x0000,0xe1a6,111.0,0x0000,0xe1a6,0.004996
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.870643,52,0x0000,0xe1a6,111.0,0x0000,0xe1a6,0.005663
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.874706,52,0x0000,0xe1a6,111.0,0x0000,0xe1a6,0.004063
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.889394,54,0x0000,0xe1a6,113.0,0x0000,0xe1a6,0.006663
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.897279,54,0x0000,0xe1a6,113.0,0x0000,0xe1a6,0.007885
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.901320,54,0x0000,0xe1a6,113.0,0x0000,0xe1a6,0.004041
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.905871,54,0x0000,0xe1a6,113.0,0x0000,0xe1a6,0.004551
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.941681,54,0x0000,0xe1a6,115.0,0x0000,0xe1a6,0.011202
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.947575,54,0x0000,0xe1a6,115.0,0x0000,0xe1a6,0.005894
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.952946,54,0x0000,0xe1a6,115.0,0x0000,0xe1a6,0.005371
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:46:49.958231,54,0x0000,0xe1a6,115.0,0x0000,0xe1a6,0.005285
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.678816,52,0x0000,0xe1a6,133.0,0x0000,0xe1a6,8.498527
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.683106,52,0x0000,0xe1a6,133.0,0x0000,0xe1a6,0.00429
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.688115,52,0x0000,0xe1a6,133.0,0x0000,0xe1a6,0.005009
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.692725,52,0x0000,0xe1a6,133.0,0x0000,0xe1a6,0.00461
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.760048,52,0x0000,0xe1a6,136.0,0x0000,0xe1a6,0.008279
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.764563,52,0x0000,0xe1a6,136.0,0x0000,0xe1a6,0.004515
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.771792,52,0x0000,0xe1a6,136.0,0x0000,0xe1a6,0.007229
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.781894,52,0x0000,0xe1a6,136.0,0x0000,0xe1a6,0.010102
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.839456,52,0x0000,0xe1a6,140.0,0x0000,0xe1a6,0.005128
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.849601,52,0x0000,0xe1a6,140.0,0x0000,0xe1a6,0.006879
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.852948,52,0x0000,0xe1a6,140.0,0x0000,0xe1a6,0.003347
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.856771,52,0x0000,0xe1a6,140.0,0x0000,0xe1a6,0.003823
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.944050,54,0x0000,0xe1a6,144.0,0x0000,0xe1a6,0.025684
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.948750,54,0x0000,0xe1a6,144.0,0x0000,0xe1a6,0.0047
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.953667,54,0x0000,0xe1a6,144.0,0x0000,0xe1a6,0.004917
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:19.962217,54,0x0000,0xe1a6,144.0,0x0000,0xe1a6,0.00855
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:49.682979,52,0x0000,0xe1a6,159.0,0x0000,0xe1a6,6.23361
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:49.802201,52,0x0000,0xe1a6,163.0,0x0000,0xe1a6,0.011292
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:49.807695,52,0x0000,0xe1a6,163.0,0x0000,0xe1a6,0.005494
+Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,Coordinator,Coordinator,Smart Socket,Socket,2023-10-29 15:47:49.825208,52,0x0000,0xe1a6,163.0,0x0000,0xe1a6,0.017513
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.906006,50,0x0000,0x1cd8,227.0,0x0000,0x1cd8,0.171981
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.911528,50,0x0000,0x1cd8,227.0,0x0000,0x1cd8,0.005522
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.916806,50,0x0000,0x1cd8,227.0,0x0000,0x1cd8,0.005278
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.919842,50,0x0000,0x1cd8,227.0,0x0000,0x1cd8,0.003036
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.951575,50,0x0000,0x1cd8,228.0,0x0000,0x1cd8,0.031733
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.955127,50,0x0000,0x1cd8,228.0,0x0000,0x1cd8,0.003552
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.959728,50,0x0000,0x1cd8,228.0,0x0000,0x1cd8,0.004601
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:45.965108,50,0x0000,0x1cd8,228.0,0x0000,0x1cd8,0.00538
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.003854,50,0x0000,0x1cd8,229.0,0x0000,0x1cd8,0.038746
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.008581,50,0x0000,0x1cd8,229.0,0x0000,0x1cd8,0.004727
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.013002,50,0x0000,0x1cd8,229.0,0x0000,0x1cd8,0.004421
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.017971,50,0x0000,0x1cd8,229.0,0x0000,0x1cd8,0.004969
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.283036,50,0x0000,0x1cd8,234.0,0x0000,0x1cd8,0.043824
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.287914,50,0x0000,0x1cd8,234.0,0x0000,0x1cd8,0.004878
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.291436,50,0x0000,0x1cd8,234.0,0x0000,0x1cd8,0.003522
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.296295,50,0x0000,0x1cd8,234.0,0x0000,0x1cd8,0.004859
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.320249,50,0x0000,0x1cd8,235.0,0x0000,0x1cd8,0.023954
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.323209,50,0x0000,0x1cd8,235.0,0x0000,0x1cd8,0.00296
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.326849,50,0x0000,0x1cd8,235.0,0x0000,0x1cd8,0.00364
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.330747,50,0x0000,0x1cd8,235.0,0x0000,0x1cd8,0.003898
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.354429,50,0x0000,0x1cd8,236.0,0x0000,0x1cd8,0.023682
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.357603,50,0x0000,0x1cd8,236.0,0x0000,0x1cd8,0.003174
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.361182,50,0x0000,0x1cd8,236.0,0x0000,0x1cd8,0.003579
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.370138,50,0x0000,0x1cd8,236.0,0x0000,0x1cd8,0.008956
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.419574,50,0x0000,0x1cd8,237.0,0x0000,0x1cd8,0.049436
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.424423,50,0x0000,0x1cd8,237.0,0x0000,0x1cd8,0.004849
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.429865,50,0x0000,0x1cd8,237.0,0x0000,0x1cd8,0.005442
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:43:46.433862,50,0x0000,0x1cd8,237.0,0x0000,0x1cd8,0.003997
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.914991,50,0x0000,0x1cd8,121.0,0x0000,0x1cd8,1.887041
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.918371,50,0x0000,0x1cd8,121.0,0x0000,0x1cd8,0.00338
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.921949,50,0x0000,0x1cd8,121.0,0x0000,0x1cd8,0.003578
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.926240,50,0x0000,0x1cd8,121.0,0x0000,0x1cd8,0.004291
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.953660,50,0x0000,0x1cd8,122.0,0x0000,0x1cd8,0.02742
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.957154,50,0x0000,0x1cd8,122.0,0x0000,0x1cd8,0.003494
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.961692,50,0x0000,0x1cd8,122.0,0x0000,0x1cd8,0.004538
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:54.966495,50,0x0000,0x1cd8,122.0,0x0000,0x1cd8,0.004803
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.065211,50,0x0000,0x1cd8,124.0,0x0000,0x1cd8,0.05231
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.068171,50,0x0000,0x1cd8,124.0,0x0000,0x1cd8,0.00296
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.072709,50,0x0000,0x1cd8,124.0,0x0000,0x1cd8,0.004538
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.078000,50,0x0000,0x1cd8,124.0,0x0000,0x1cd8,0.005291
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.197986,50,0x0000,0x1cd8,126.0,0x0000,0x1cd8,0.064611
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.201958,50,0x0000,0x1cd8,126.0,0x0000,0x1cd8,0.003972
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.212882,50,0x0000,0x1cd8,126.0,0x0000,0x1cd8,0.010924
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.216757,50,0x0000,0x1cd8,126.0,0x0000,0x1cd8,0.003875
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.259092,50,0x0000,0x1cd8,127.0,0x0000,0x1cd8,0.042335
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.263869,50,0x0000,0x1cd8,127.0,0x0000,0x1cd8,0.004777
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.268610,50,0x0000,0x1cd8,127.0,0x0000,0x1cd8,0.004741
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.271813,50,0x0000,0x1cd8,127.0,0x0000,0x1cd8,0.003203
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.362371,50,0x0000,0x1cd8,129.0,0x0000,0x1cd8,0.041851
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.365819,50,0x0000,0x1cd8,129.0,0x0000,0x1cd8,0.003448
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.369078,50,0x0000,0x1cd8,129.0,0x0000,0x1cd8,0.003259
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-29 15:46:55.372336,50,0x0000,0x1cd8,129.0,0x0000,0x1cd8,0.003258
+Philips Lamp 3,Bulb,Ledvance Bulb,Bulb,Philips Lamp 3,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:44:35.843068,54,0xec7f,0x711c,4.0,0x0000,0x711c,0.002878
+Philips Lamp 3,Bulb,Ledvance Bulb,Bulb,Philips Lamp 3,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:44:35.847724,54,0xec7f,0x711c,4.0,0x0000,0x711c,0.004656
+Philips Lamp 3,Bulb,Ledvance Bulb,Bulb,Philips Lamp 3,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:44:35.851735,54,0xec7f,0x711c,4.0,0x0000,0x711c,0.004011
+Philips Lamp 3,Bulb,Ledvance Bulb,Bulb,Philips Lamp 3,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:44:35.856407,54,0xec7f,0x711c,4.0,0x0000,0x711c,0.004672
+Philips Lamp 3,Bulb,Ledvance Bulb,Bulb,Philips Lamp 3,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:44:36.004816,54,0xec7f,0x711c,7.0,0x0000,0x711c,0.048121
+Philips Lamp 3,Bulb,Ledvance Bulb,Bulb,Philips Lamp 3,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:44:36.008807,54,0xec7f,0x711c,7.0,0x0000,0x711c,0.003991
+Philips Lamp 3,Bulb,Ledvance Bulb,Bulb,Philips Lamp 3,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:44:36.018273,54,0xec7f,0x711c,7.0,0x0000,0x711c,0.003566
+Philips Lamp 3,Bulb,Ledvance Bulb,Bulb,Philips Lamp 3,Bulb,Coordinator,Coordinator,Philips Lamp 3,Bulb,2023-10-29 15:44:36.022573,54,0xec7f,0x711c,7.0,0x0000,0x711c,0.0043

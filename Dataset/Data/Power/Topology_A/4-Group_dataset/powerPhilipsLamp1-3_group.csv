@@ -1,0 +1,145 @@
+Group,Group Type,Device Name,Device Type,Device Name Destination,Device Type Destination,Device Name ZigBee,Device Type ZigBee,Device Name ZigBee Destination,Device Type ZigBee Destination,Time,Length,Source IEEE,Destination IEEE,Sequence Number,Source ZigBee,Destination ZigBee,Delta Time
+Sonoff Motion 2,Motion,Sonoff Motion 2,Motion,Coordinator,Coordinator,Sonoff Motion 2,Motion,Coordinator,Coordinator,2023-10-15 17:55:29.000000,54,0x4e52,0x0000,12,0x4e52,0x0000,0.0
+Sonoff Motion 2,Motion,Sonoff Motion 2,Motion,Coordinator,Coordinator,Sonoff Motion 2,Motion,Coordinator,Coordinator,2023-10-15 17:57:35.916314,54,0x4e52,0x0000,17,0x4e52,0x0000,0.767323
+Sonoff Motion 2,Motion,Sonoff Motion 2,Motion,Coordinator,Coordinator,Sonoff Motion 2,Motion,Coordinator,Coordinator,2023-10-15 17:59:26.214463,54,0x4e52,0x0000,19,0x4e52,0x0000,0.785866
+Coordinator,Coordinator,Sonoff Motion 2,Motion,Coordinator,Coordinator,Sonoff Motion 2,Motion,Coordinator,Coordinator,2023-10-15 17:55:29.000000,54,0x4e52,0x0000,12,0x4e52,0x0000,0.0
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:55:36.651539,49,0x0000,0xe5c4,135,0x0000,0xe5c4,0.044364
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:55:37.098405,50,0x0000,0xffff,137,0x0000,0xfffc,0.015635
+Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,2023-10-15 17:55:37.473143,48,0xe5c4,0x0000,97,0xe5c4,0x0000,0.004357
+Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,2023-10-15 17:55:37.504980,58,0xe5c4,0x0000,98,0xe5c4,0x0000,0.01115
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:55:37.574656,39,0x0000,0xe5c4,142,0x0000,0xe5c4,0.014471
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:55:37.581050,67,0x0000,0xe5c4,143,0x0000,0xe5c4,0.003703
+Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,2023-10-15 17:55:37.588295,48,0xe5c4,0x0000,102,0xe5c4,0x0000,0.004718
+Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,2023-10-15 17:55:43.854337,52,0xe5c4,0x0000,105,0xe5c4,0x0000,2.139836
+Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,2023-10-15 17:55:43.863691,52,0xe5c4,0x0000,106,0xe5c4,0x0000,0.007308
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:55:53.787489,50,0x0000,0xffff,144,0x0000,0xfffc,9.921751
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.432433,54,0x0000,0x482d,147,0x0000,0xa209,0.628119
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.437693,54,0x0000,0x482d,147,0x0000,0xa209,0.00526
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.440799,54,0x0000,0x482d,147,0x0000,0xa209,0.003106
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.445992,54,0x0000,0x482d,147,0x0000,0xa209,0.005193
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.484861,54,0x0000,0x482d,148,0x0000,0xa209,0.038869
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.489798,54,0x0000,0x482d,148,0x0000,0xa209,0.004937
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.494609,54,0x0000,0x482d,148,0x0000,0xa209,0.004811
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.499420,54,0x0000,0x482d,148,0x0000,0xa209,0.004811
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.595905,54,0x0000,0x482d,150,0x0000,0xa209,0.036571
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.599882,54,0x0000,0x482d,150,0x0000,0xa209,0.003977
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.603044,54,0x0000,0x482d,150,0x0000,0xa209,0.003162
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.607908,54,0x0000,0x482d,150,0x0000,0xa209,0.004864
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.714562,54,0x0000,0x482d,152,0x0000,0xa209,0.053579
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.717699,54,0x0000,0x482d,152,0x0000,0xa209,0.003137
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.723203,54,0x0000,0x482d,152,0x0000,0xa209,0.005504
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.727909,54,0x0000,0x482d,152,0x0000,0xa209,0.004706
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.929642,54,0x0000,0x482d,157,0x0000,0xa209,0.024332
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.933414,54,0x0000,0x482d,157,0x0000,0xa209,0.003772
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.937469,54,0x0000,0x482d,157,0x0000,0xa209,0.004055
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 17:56:40.942871,54,0x0000,0x482d,157,0x0000,0xa209,0.005402
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:56:44.561170,50,0x0000,0xffff,158,0x0000,0xfffc,3.618299
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:57:18.111991,50,0x0000,0xffff,160,0x0000,0xfffc,1.043045
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:57:35.148991,50,0x0000,0xffff,161,0x0000,0xfffc,0.933232
+Coordinator,Coordinator,Sonoff Motion 2,Motion,Coordinator,Coordinator,Sonoff Motion 2,Motion,Coordinator,Coordinator,2023-10-15 17:57:35.916314,54,0x4e52,0x0000,17,0x4e52,0x0000,0.767323
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.447466,50,0x0000,0x482d,167,0x0000,0x482d,0.027198
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.450433,50,0x0000,0x482d,167,0x0000,0x482d,0.002967
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.453759,50,0x0000,0x482d,167,0x0000,0x482d,0.003326
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.457983,50,0x0000,0x482d,167,0x0000,0x482d,0.004224
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.751898,50,0x0000,0x482d,172,0x0000,0x482d,0.023298
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.755185,50,0x0000,0x482d,172,0x0000,0x482d,0.003287
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.758512,50,0x0000,0x482d,172,0x0000,0x482d,0.003327
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.762094,50,0x0000,0x482d,172,0x0000,0x482d,0.003582
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.928793,50,0x0000,0x482d,175,0x0000,0x482d,0.05037
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.933144,50,0x0000,0x482d,175,0x0000,0x482d,0.004351
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.936521,50,0x0000,0x482d,175,0x0000,0x482d,0.003377
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.939464,50,0x0000,0x482d,175,0x0000,0x482d,0.002943
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:24.873817,50,0x0000,0xe5c4,179,0x0000,0xe5c4,3.010252
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:24.877267,50,0x0000,0xe5c4,179,0x0000,0xe5c4,0.00345
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:24.882772,50,0x0000,0xe5c4,179,0x0000,0xe5c4,0.005505
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:24.887736,50,0x0000,0xe5c4,179,0x0000,0xe5c4,0.004964
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.086383,50,0x0000,0xe5c4,183,0x0000,0xe5c4,0.032501
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.091860,50,0x0000,0xe5c4,183,0x0000,0xe5c4,0.005477
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.096184,50,0x0000,0xe5c4,183,0x0000,0xe5c4,0.004324
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.101162,50,0x0000,0xe5c4,183,0x0000,0xe5c4,0.004978
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.224703,50,0x0000,0xe5c4,185,0x0000,0xe5c4,0.035236
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.229590,50,0x0000,0xe5c4,185,0x0000,0xe5c4,0.004887
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.233760,50,0x0000,0xe5c4,185,0x0000,0xe5c4,0.00417
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.236817,50,0x0000,0xe5c4,185,0x0000,0xe5c4,0.003057
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.414411,50,0x0000,0xe5c4,188,0x0000,0xe5c4,0.046942
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.418338,50,0x0000,0xe5c4,188,0x0000,0xe5c4,0.003927
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.423634,50,0x0000,0xe5c4,188,0x0000,0xe5c4,0.005296
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.428597,50,0x0000,0xe5c4,188,0x0000,0xe5c4,0.004963
+Coordinator,Coordinator,Sonoff Motion 2,Motion,Coordinator,Coordinator,Sonoff Motion 2,Motion,Coordinator,Coordinator,2023-10-15 17:59:26.214463,54,0x4e52,0x0000,19,0x4e52,0x0000,0.785866
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:59:37.063143,47,0x0000,0xffff,189,0x0000,0xfffc,10.342457
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:59:53.790652,47,0x0000,0xffff,190,0x0000,0xfffc,16.727509
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.483754,54,0x0000,0x482d,192,0x0000,0xa209,0.026888
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.489280,54,0x0000,0x482d,192,0x0000,0xa209,0.005526
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.493667,54,0x0000,0x482d,192,0x0000,0xa209,0.004387
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.498734,54,0x0000,0x482d,192,0x0000,0xa209,0.005067
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.565056,54,0x0000,0x482d,194,0x0000,0xa209,0.027586
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.569993,54,0x0000,0x482d,194,0x0000,0xa209,0.004937
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.575021,54,0x0000,0x482d,194,0x0000,0xa209,0.005028
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.578233,54,0x0000,0x482d,194,0x0000,0xa209,0.003212
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.759486,54,0x0000,0x482d,197,0x0000,0xa209,0.068956
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.763313,54,0x0000,0x482d,197,0x0000,0xa209,0.003827
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.767435,54,0x0000,0x482d,197,0x0000,0xa209,0.004122
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.771069,54,0x0000,0x482d,197,0x0000,0xa209,0.003634
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.797005,54,0x0000,0x482d,198,0x0000,0xa209,0.025936
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.801149,54,0x0000,0x482d,198,0x0000,0xa209,0.004144
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.805422,54,0x0000,0x482d,198,0x0000,0xa209,0.004273
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.808739,54,0x0000,0x482d,198,0x0000,0xa209,0.003317
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.956696,54,0x0000,0x482d,201,0x0000,0xa209,0.033422
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.961480,54,0x0000,0x482d,201,0x0000,0xa209,0.004784
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.965332,54,0x0000,0x482d,201,0x0000,0xa209,0.003852
+Coordinator,Coordinator,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 2,Bulb,2023-10-15 18:00:07.969390,54,0x0000,0x482d,201,0x0000,0xa209,0.004058
+Coordinator,Coordinator,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 18:00:10.549241,47,0x0000,0xffff,202,0x0000,0xfffc,2.579851
+Philips Motion,Bulb,Philips Motion,Bulb,Broadcast,Broadcast,Philips Motion,Bulb,Broadcast,Broadcast,2023-10-15 17:55:36.436815,47,0xe5c4,0xffff,93,0xe5c4,0xfffc,2.55018
+Philips Motion,Bulb,Philips Motion,Bulb,Broadcast,Broadcast,Philips Motion,Bulb,Broadcast,Broadcast,2023-10-15 17:55:36.607175,65,0xe5c4,0xffff,94,0xe5c4,0xfffd,0.17036
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:55:36.651539,49,0x0000,0xe5c4,135,0x0000,0xe5c4,0.044364
+Philips Motion,Bulb,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,2023-10-15 17:55:37.473143,48,0xe5c4,0x0000,97,0xe5c4,0x0000,0.004357
+Philips Motion,Bulb,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,2023-10-15 17:55:37.504980,58,0xe5c4,0x0000,98,0xe5c4,0x0000,0.01115
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:55:37.574656,39,0x0000,0xe5c4,142,0x0000,0xe5c4,0.014471
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:55:37.581050,67,0x0000,0xe5c4,143,0x0000,0xe5c4,0.003703
+Philips Motion,Bulb,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,2023-10-15 17:55:37.588295,48,0xe5c4,0x0000,102,0xe5c4,0x0000,0.004718
+Philips Motion,Bulb,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,2023-10-15 17:55:43.854337,52,0xe5c4,0x0000,105,0xe5c4,0x0000,2.139836
+Philips Motion,Bulb,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,2023-10-15 17:55:43.863691,52,0xe5c4,0x0000,106,0xe5c4,0x0000,0.007308
+Philips Motion,Bulb,Philips Motion,Bulb,Broadcast,Broadcast,Philips Motion,Bulb,Broadcast,Broadcast,2023-10-15 17:56:44.927187,50,0xe5c4,0xffff,110,0xe5c4,0xfffc,0.366017
+Philips Motion,Bulb,Philips Motion,Bulb,Broadcast,Broadcast,Philips Motion,Bulb,Broadcast,Broadcast,2023-10-15 17:57:17.068946,50,0xe5c4,0xffff,112,0xe5c4,0xfffc,14.796971
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:24.873817,50,0x0000,0xe5c4,179,0x0000,0xe5c4,3.010252
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:24.877267,50,0x0000,0xe5c4,179,0x0000,0xe5c4,0.00345
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:24.882772,50,0x0000,0xe5c4,179,0x0000,0xe5c4,0.005505
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:24.887736,50,0x0000,0xe5c4,179,0x0000,0xe5c4,0.004964
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.086383,50,0x0000,0xe5c4,183,0x0000,0xe5c4,0.032501
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.091860,50,0x0000,0xe5c4,183,0x0000,0xe5c4,0.005477
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.096184,50,0x0000,0xe5c4,183,0x0000,0xe5c4,0.004324
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.101162,50,0x0000,0xe5c4,183,0x0000,0xe5c4,0.004978
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.224703,50,0x0000,0xe5c4,185,0x0000,0xe5c4,0.035236
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.229590,50,0x0000,0xe5c4,185,0x0000,0xe5c4,0.004887
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.233760,50,0x0000,0xe5c4,185,0x0000,0xe5c4,0.00417
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.236817,50,0x0000,0xe5c4,185,0x0000,0xe5c4,0.003057
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.414411,50,0x0000,0xe5c4,188,0x0000,0xe5c4,0.046942
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.418338,50,0x0000,0xe5c4,188,0x0000,0xe5c4,0.003927
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.423634,50,0x0000,0xe5c4,188,0x0000,0xe5c4,0.005296
+Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,Coordinator,Coordinator,Philips Motion,Bulb,2023-10-15 17:59:25.428597,50,0x0000,0xe5c4,188,0x0000,0xe5c4,0.004963
+Unknown,Unknown,Unknown,Unknown,Broadcast,Broadcast,Unknown,Unknown,,,2023-10-15 17:55:33.822183,10,,0xffff,77,,,0.200047
+Unknown,Unknown,Coordinator,Coordinator,Unknown,Unknown,Unknown,Unknown,,,2023-10-15 17:55:33.886635,28,0x0000,,134,,,0.064452
+Broadcast,Broadcast,Philips Motion,Bulb,Broadcast,Broadcast,Philips Motion,Bulb,Broadcast,Broadcast,2023-10-15 17:55:36.436815,47,0xe5c4,0xffff,93,0xe5c4,0xfffc,2.55018
+Broadcast,Broadcast,Philips Motion,Bulb,Broadcast,Broadcast,Philips Motion,Bulb,Broadcast,Broadcast,2023-10-15 17:55:36.607175,65,0xe5c4,0xffff,94,0xe5c4,0xfffd,0.17036
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:55:37.098405,50,0x0000,0xffff,137,0x0000,0xfffc,0.015635
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:55:53.787489,50,0x0000,0xffff,144,0x0000,0xfffc,9.921751
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:56:44.561170,50,0x0000,0xffff,158,0x0000,0xfffc,3.618299
+Broadcast,Broadcast,Philips Motion,Bulb,Broadcast,Broadcast,Philips Motion,Bulb,Broadcast,Broadcast,2023-10-15 17:56:44.927187,50,0xe5c4,0xffff,110,0xe5c4,0xfffc,0.366017
+Broadcast,Broadcast,Philips Motion,Bulb,Broadcast,Broadcast,Philips Motion,Bulb,Broadcast,Broadcast,2023-10-15 17:57:17.068946,50,0xe5c4,0xffff,112,0xe5c4,0xfffc,14.796971
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:57:18.111991,50,0x0000,0xffff,160,0x0000,0xfffc,1.043045
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:57:35.148991,50,0x0000,0xffff,161,0x0000,0xfffc,0.933232
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:59:37.063143,47,0x0000,0xffff,189,0x0000,0xfffc,10.342457
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 17:59:53.790652,47,0x0000,0xffff,190,0x0000,0xfffc,16.727509
+Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,Coordinator,Coordinator,Broadcast,Broadcast,2023-10-15 18:00:10.549241,47,0x0000,0xffff,202,0x0000,0xfffc,2.579851
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.447466,50,0x0000,0x482d,167,0x0000,0x482d,0.027198
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.450433,50,0x0000,0x482d,167,0x0000,0x482d,0.002967
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.453759,50,0x0000,0x482d,167,0x0000,0x482d,0.003326
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.457983,50,0x0000,0x482d,167,0x0000,0x482d,0.004224
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.751898,50,0x0000,0x482d,172,0x0000,0x482d,0.023298
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.755185,50,0x0000,0x482d,172,0x0000,0x482d,0.003287
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.758512,50,0x0000,0x482d,172,0x0000,0x482d,0.003327
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.762094,50,0x0000,0x482d,172,0x0000,0x482d,0.003582
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.928793,50,0x0000,0x482d,175,0x0000,0x482d,0.05037
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.933144,50,0x0000,0x482d,175,0x0000,0x482d,0.004351
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.936521,50,0x0000,0x482d,175,0x0000,0x482d,0.003377
+Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,Coordinator,Coordinator,Philips Lamp 1,Bulb,2023-10-15 17:58:36.939464,50,0x0000,0x482d,175,0x0000,0x482d,0.002943

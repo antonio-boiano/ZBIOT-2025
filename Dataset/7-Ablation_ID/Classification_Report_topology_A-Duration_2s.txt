@@ -1,0 +1,19 @@
+                      precision    recall  f1-score   support
+
+        Aqara Door 1       0.70      1.00      0.82         7
+         Coordinator       0.91      0.95      0.93       889
+       Ledvance Bulb       0.80      0.81      0.80       114
+Ledvance Smart+ Plug       0.67      0.86      0.75        14
+    Ledvance Z3 Plug       0.64      0.53      0.58        17
+           Moes Bulb       0.85      0.59      0.70        79
+      Philips Lamp 1       0.64      0.55      0.59        64
+      Philips Lamp 2       0.73      0.57      0.64        42
+      Philips Lamp 3       0.83      0.62      0.71        16
+      Philips Motion       0.57      0.62      0.59        71
+        Power Plug 1       0.80      0.78      0.79       196
+        Power Plug 2       0.86      0.82      0.84       187
+        Smart Socket       0.83      0.88      0.85       245
+
+            accuracy                           0.85      1941
+           macro avg       0.76      0.74      0.74      1941
+        weighted avg       0.85      0.85      0.85      1941

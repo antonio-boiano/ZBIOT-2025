@@ -1,0 +1,461 @@
+Packet Number,Device Name,Device Type,Source Address,Destination Address,Device Name Destination,Device Type Destination,Source Address ZigBee,Device Name ZigBee,Device Type ZigBee,Destination Address ZigBee,Device Name ZigBee Destination,Device Type ZigBee Destination,Human Command,Packet Type,Command String
+1,Aqara Motion,Motion,0x9989,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+2,Coordinator,Coordinator,0x0000,0x9989,Aqara Motion,Motion,,Unknown,Unknown,,,,0,Ack,
+3,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+4,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+5,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x482d,Philips Lamp 1,Bulb,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+6,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+7,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x482d,Philips Lamp 1,Bulb,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+8,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+9,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+10,Unknown,Unknown,,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+11,Coordinator,Coordinator,0x0000,,Unknown,Unknown,,Unknown,Unknown,,,,0,beacon,
+12,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+13,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+14,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+15,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+16,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+17,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+18,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,zdp,
+19,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+20,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+21,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+22,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,APS: Ack,
+23,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+24,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0,Route Record (0x05),
+25,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+26,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+27,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+28,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0,,
+29,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+30,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+31,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+32,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,,
+33,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+34,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+35,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+36,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+37,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+38,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+39,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+40,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+41,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+42,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+43,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+44,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+45,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0,APS: Ack,
+46,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+47,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x482d,Philips Lamp 1,Bulb,0xfffd,Broadcast,Broadcast,0,zdp,
+48,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+49,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+50,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+51,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x482d,Philips Lamp 1,Bulb,0xfffd,Broadcast,Broadcast,0,zdp,
+52,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+53,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+54,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+55,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+56,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+57,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+58,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+59,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+60,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+61,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+62,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+63,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+64,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+65,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+66,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+67,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+68,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+69,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+70,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+71,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+72,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+73,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+74,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x482d,Philips Lamp 1,Bulb,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+75,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+76,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+77,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+78,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+79,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+80,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+81,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+82,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+83,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+84,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+85,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+86,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+87,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+88,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+89,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+90,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+91,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+92,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+93,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+94,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+95,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+96,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+97,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+98,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+99,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '13', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+100,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '13', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+101,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '13', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+102,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '13', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+103,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+104,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+105,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+106,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+107,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '13', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+108,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '13', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+109,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '13', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+110,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '13', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+111,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+112,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+113,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+114,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+115,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+116,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+117,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+118,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+119,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+120,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+121,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+122,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+123,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+124,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+125,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+126,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+127,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+128,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+129,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+130,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,,Unknown,Unknown,,,,0,,
+131,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+132,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+133,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+134,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+135,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+136,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+137,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+138,Coordinator,Coordinator,0x0000,0xe5c4,Philips Motion,Bulb,0x0000,Coordinator,Coordinator,0xe5c4,Philips Motion,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '15', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+139,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+140,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+141,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+142,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+143,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+144,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+145,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '17', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+146,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '17', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+147,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '17', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+148,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '17', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+149,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+150,Unknown,Unknown,0x4676,0x3269,Unknown,Unknown,,Unknown,Unknown,,,,0,,
+151,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+152,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+153,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+154,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+155,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+156,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+157,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+158,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+159,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+160,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+161,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+162,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+163,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+164,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+165,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0,Network Status (0x03),
+166,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+167,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+168,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+169,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,Ack,
+170,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+171,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+172,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+173,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+174,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+175,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+176,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+177,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+178,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+179,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+180,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+181,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+182,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+183,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+184,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+185,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+186,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+187,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+188,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+189,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '19', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+190,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+191,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+192,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+193,Philips Lamp 1,Bulb,0x482d,0xa209,Philips Lamp 2,Bulb,,Unknown,Unknown,,,,0,,
+194,Philips Lamp 1,Bulb,0x482d,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0,Network Status (0x03),
+195,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,Ack,
+196,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+197,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+198,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+199,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+200,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+201,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+202,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+203,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+204,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+205,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+206,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+207,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+208,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+209,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+210,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+211,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+212,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x482d,Philips Lamp 1,Bulb,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+213,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+214,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x482d,Philips Lamp 1,Bulb,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+215,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+216,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+217,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+218,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+219,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+220,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+221,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+222,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+223,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+224,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+225,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+226,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+227,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+228,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+229,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+230,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x482d,Philips Lamp 1,Bulb,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+231,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+232,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+233,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+234,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+235,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+236,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+237,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+238,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+239,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+240,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+241,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+242,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+243,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+244,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+245,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+246,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+247,Sonoff Motion 2,Motion,0x4e52,0x0000,Coordinator,Coordinator,0x4e52,Sonoff Motion 2,Motion,0x0000,Coordinator,Coordinator,1,Zone Status Change Notification (0x00),"{'Sequence Number': '33', 'Command': 'Zone Status Change Notification (0x00)', 'ZoneStatus': '0x0000', 'Extended Status': '0x00', 'Zone ID': '0x00'}"
+248,Coordinator,Coordinator,0x0000,0x4e52,Sonoff Motion 2,Motion,,Unknown,Unknown,,,,0,Ack,
+249,Sonoff Motion 2,Motion,0x4e52,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+250,Coordinator,Coordinator,0x0000,0x4e52,Sonoff Motion 2,Motion,,Unknown,Unknown,,,,0,Ack,
+251,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+252,Philips Lamp 1,Bulb,0x482d,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+253,Sonoff Motion 2,Motion,0x4e52,0x0000,Coordinator,Coordinator,0x4e52,Sonoff Motion 2,Motion,0x0000,Coordinator,Coordinator,1,Zone Status Change Notification (0x00),"{'Sequence Number': '34', 'Command': 'Zone Status Change Notification (0x00)', 'ZoneStatus': '0x0001, Alarm 1', 'Extended Status': '0x00', 'Zone ID': '0x00'}"
+254,Coordinator,Coordinator,0x0000,0x4e52,Sonoff Motion 2,Motion,,Unknown,Unknown,,,,0,Ack,
+255,Sonoff Motion 2,Motion,0x4e52,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+256,Coordinator,Coordinator,0x0000,0x4e52,Sonoff Motion 2,Motion,,Unknown,Unknown,,,,0,Ack,
+257,Aqara Motion,Motion,0x9989,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+258,Coordinator,Coordinator,0x0000,0x9989,Aqara Motion,Motion,,Unknown,Unknown,,,,0,Ack,
+259,Aqara Motion,Motion,0x9989,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+260,Coordinator,Coordinator,0x0000,0x9989,Aqara Motion,Motion,,Unknown,Unknown,,,,0,Ack,
+261,Aqara Motion,Motion,0x9989,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+262,Coordinator,Coordinator,0x0000,0x9989,Aqara Motion,Motion,,Unknown,Unknown,,,,0,Ack,
+263,Aqara Motion,Motion,0x9989,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+264,Coordinator,Coordinator,0x0000,0x9989,Aqara Motion,Motion,,Unknown,Unknown,,,,0,Ack,
+265,Aqara Motion,Motion,0x9989,0x0000,Coordinator,Coordinator,,Unknown,Unknown,,,,0,,
+266,Coordinator,Coordinator,0x0000,0x9989,Aqara Motion,Motion,,Unknown,Unknown,,,,0,Ack,
+267,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+268,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+269,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+270,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+271,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+272,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+273,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+274,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+275,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+276,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+277,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+278,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+279,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+280,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+281,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+282,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+283,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+284,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+285,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+286,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+287,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+288,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+289,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+290,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+291,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+292,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+293,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+294,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+295,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '53', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+296,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+297,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+298,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+299,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+300,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+301,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+302,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+303,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+304,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+305,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+306,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+307,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+308,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+309,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+310,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+311,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+312,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+313,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+314,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+315,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+316,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+317,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+318,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+319,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0x482d,Philips Lamp 1,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '55', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+320,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+321,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1B\\x04!�\\x13\\x05!\\x0E'}"
+322,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1B\\x04!�\\x13\\x05!\\x0E'}"
+323,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1B\\x04!�\\x13\\x05!\\x0E'}"
+324,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1B\\x04!�\\x13\\x05!\\x0E'}"
+325,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1A\\x04!�\\x13\\x05!\\x0E'}"
+326,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1A\\x04!�\\x13\\x05!\\x0E'}"
+327,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1A\\x04!�\\x13\\x05!\\x0E'}"
+328,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1A\\x04!�\\x13\\x05!\\x0E'}"
+329,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1A\\x04!�\\x13\\x05!\\x0E'}"
+330,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1A\\x04!�\\x13\\x05!\\x0E'}"
+331,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1A\\x04!�\\x13\\x05!\\x0E'}"
+332,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1A\\x04!�\\x13\\x05!\\x0E'}"
+333,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+334,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+335,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+336,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+337,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1A\\x04!�\\x13\\x05!\\x0E'}"
+338,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1A\\x04!�\\x13\\x05!\\x0E'}"
+339,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1A\\x04!�\\x13\\x05!\\x0E'}"
+340,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,0xe011,Aqara Button,Button,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '92', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!S\\f\\x03(\\x1A\\x04!�\\x13\\x05!\\x0E'}"
+341,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+342,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+343,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+344,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+345,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+346,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+347,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+348,Aqara Button,Button,0xe011,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+349,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+350,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+351,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+352,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+353,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+354,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+355,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+356,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+357,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+358,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+359,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+360,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+361,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+362,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+363,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+364,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+365,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+366,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+367,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+368,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+369,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+370,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+371,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+372,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+373,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+374,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+375,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+376,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+377,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+378,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '81', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+379,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '81', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+380,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '81', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+381,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '81', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+382,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+383,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+384,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+385,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+386,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '81', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+387,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '81', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+388,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '81', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+389,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '81', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+390,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '81', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+391,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '81', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+392,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '81', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+393,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '81', 'Command': 'Read Attributes (0x00)', 'Attribute': 'OnOff (0x0000)'}"
+394,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+395,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+396,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+397,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+398,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+399,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+400,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+401,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+402,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+403,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+404,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+405,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+406,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '83', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+407,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '83', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+408,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '83', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+409,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '83', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+410,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '83', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+411,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '83', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+412,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '83', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+413,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,0x0000,Coordinator,Coordinator,0xa209,Philips Lamp 2,Bulb,0,Read Attributes (0x00),"{'Sequence Number': '83', 'Command': 'Read Attributes (0x00)', 'Attribute': 'Current Level (0x0000)'}"
+414,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+415,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+416,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+417,Coordinator,Coordinator,0x0000,0x482d,Philips Lamp 1,Bulb,,Unknown,Unknown,,,,0,,
+418,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+419,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+420,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+421,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+422,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+423,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+424,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+425,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+426,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+427,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Link Status (0x08),
+428,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+429,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+430,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+431,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+432,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+433,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+434,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+435,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,0x0000,Coordinator,Coordinator,0xfffc,Broadcast,Broadcast,0,Route Request (0x01),
+436,Coordinator,Coordinator,0x0000,0xffff,Broadcast,Broadcast,,Unknown,Unknown,,,,0,,
+437,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+438,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+439,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+440,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+441,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+442,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+443,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+444,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+445,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+446,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+447,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+448,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+449,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,0x772c,Aqara Door 2,Door,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '220', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!+\\f\\x03(\\x1E\\x04!�\\x13\\x05!\\v'}"
+450,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,0x772c,Aqara Door 2,Door,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '220', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!+\\f\\x03(\\x1E\\x04!�\\x13\\x05!\\v'}"
+451,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,0x772c,Aqara Door 2,Door,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '220', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!+\\f\\x03(\\x1E\\x04!�\\x13\\x05!\\v'}"
+452,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,0x772c,Aqara Door 2,Door,0x0000,Coordinator,Coordinator,0,Report Attributes (0x0a),"{'Manufacturer Code': 'Lumi United Technology, Ltd Shenzhen (0x115f)', 'Sequence Number': '220', 'Command': 'Report Attributes (0x0a)', 'Attribute': '0xff01', 'Data Type': 'Character String (0x42)', 'String': '\\x01!+\\f\\x03(\\x1E\\x04!�\\x13\\x05!\\v'}"
+453,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+454,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+455,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+456,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+457,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+458,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+459,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
+460,Aqara Door 2,Door,0x772c,0xe694,Smart Socket,Socket,,Unknown,Unknown,,,,0,,
