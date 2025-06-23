@@ -44,10 +44,10 @@ for category in ["Idle", "Physical_Interaction", "Power", "Scenario", "Web_Inter
         for device_name_folder in os.listdir(topology_path):
             raw_dataset_path = os.path.join(topology_path, device_name_folder)
 
-            if not os.path.isdir(raw_dataset_path) or not device_name_folder.startswith("A_4-Group_dataset"):
+            if not os.path.isdir(raw_dataset_path) or not device_name_folder.startswith("4-Group_dataset"):
                 continue
 
-            sequence_output_path = os.path.join(topology_path, "A_5_2-Sequence_Data_Fix_Duration")
+            sequence_output_path = os.path.join(topology_path, "5-Sequence_Data_Fix_Duration")
             os.makedirs(sequence_output_path, exist_ok=True)
 
             for file in os.listdir(raw_dataset_path):

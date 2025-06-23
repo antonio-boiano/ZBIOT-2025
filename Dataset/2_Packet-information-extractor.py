@@ -50,7 +50,8 @@ for category in ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Intera
                 print(f"Saved CSV file to: {output_file_path}")
 
                 df = pd.read_csv(output_file_path)
-
+                #Because different country versions of wireshark time will show different suffixes,
+                # you need to remove the
                 df[df.columns[0]] = df[df.columns[0]].str.replace(
                     r"\s西欧夏令时|\s西欧标准时间|\s西欧标准时", "", regex=True
                 )

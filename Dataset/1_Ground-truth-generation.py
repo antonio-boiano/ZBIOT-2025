@@ -1,4 +1,4 @@
-#0x65e5f se è un on off or un report attribute generato da noi
+# 0x65e5f se è un on off or un report attribute generato da noi
 
 import os
 import pandas as pd
@@ -69,7 +69,6 @@ device_name_mapping_vA = {
     '0xfffa': 'Broadcast'
 }
 
-
 device_type_mapping_vB = {
     '0x0000': 'Coordinator',
     '0x4615': 'Temperature',
@@ -136,7 +135,7 @@ device_name_mapping_vB = {
 def parse_layer_data(input_string):
     """
     Parses the given input string into a structured dictionary.
-    
+
     Args:
         input_string (str): The formatted string to parse.
 
@@ -187,40 +186,38 @@ def parse_layer_data(input_string):
     return parsed_data
 
 
-def detect_cmd(src_addr, packet,dict_mem = {},device_name = None):  
+def detect_cmd(src_addr, packet, dict_mem={}, device_name=None):
     """
     Detects the human-readable command string based on the source address and command ID.
     Args:
         src_addr (str): The source address of the packet.
         packet (pyshark.packet.packet.Packet): The pyshark packet to classify.
-    
+
     Returns:
         int: 1 if the command is human-readable, 0 otherwise.
     """
-    
+
     human_cmd = [
         'zbee_zcl_lighting.color_control.cmd.srv_rx.id',
         'zbee_zcl_general.level_control.cmd.srv_rx.id',
         'zbee_zcl_general.onoff.cmd.srv_rx.id',
         'zbee_zcl_ias.zone.cmd.srv_tx.id'
     ]
-    
-    
-    
+
     if 'ZBEE_ZCL' in packet:
         for attribute in packet['ZBEE_ZCL']._all_fields.values():
             if attribute.name in human_cmd:
                 return 1
-            
+
     cmd_id = None
     cmd_str = None
-    
+
     if src_addr is not None and src_addr != '0x0000':
         if 'ZBEE_ZCL' in packet:
-            if hasattr(packet['ZBEE_ZCL'],'cmd_id'):
+            if hasattr(packet['ZBEE_ZCL'], 'cmd_id'):
                 cmd_id = packet['ZBEE_ZCL'].cmd_id
                 cmd_str = str(packet['ZBEE_ZCL'])
-                
+
         if cmd_id is not None and cmd_str is not None:
             if cmd_id == '0x0a' and hasattr(packet['ZBEE_ZCL'], 'zbee_zcl_general_onoff_attr_onoff'):
                 if src_addr in dict_mem:
@@ -229,21 +226,21 @@ def detect_cmd(src_addr, packet,dict_mem = {},device_name = None):
                         return 1
                 else:
                     dict_mem[src_addr] = packet['ZBEE_ZCL'].zbee_zcl_general_onoff_attr_onoff
-            
-            if cmd_id == '0x0a' and device_name is not None and (device_name == 'Aqara Button' or device_name == 'Aqara Vibration'):
-                try: 
+
+            if cmd_id == '0x0a' and device_name is not None and (
+                    device_name == 'Aqara Button' or device_name == 'Aqara Vibration'):
+                try:
                     if packet['ZBEE_ZCL'].attr_id == '0xff01':
                         return 0
                     else:
                         return 1
                 except:
                     return 1
-                
+
             if cmd_id == '0x0a' and device_name is not None and device_name == 'Aqara Motion':
-                        if packet['ZBEE_ZCL'].attr_id != '0x00f7':
-                            return 1
-                
-                   
+                if packet['ZBEE_ZCL'].attr_id != '0x00f7':
+                    return 1
+
     return 0
 
 
@@ -269,7 +266,6 @@ def classify_packet(packet):
         'zbee_zcl_general_ota_cmd_srv_rx_id',
         'zbee_nwk.cmd.id'
     ]
-    
 
     def isAck(packet):
         return hasattr(packet, 'WPAN') and packet['WPAN'].fcf == '0x0002'
@@ -317,6 +313,7 @@ def strip_ansi(input_str):
     ansi_escape = re.compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])')
     return ansi_escape.sub('', input_str)
 
+
 def main(input_file):
     """
     Process a .pcapng file using pyshark, map packets to rows,
@@ -331,7 +328,7 @@ def main(input_file):
     def map_device_info(source_addr, mapping):
         """Map source address to device name/type with fallback."""
         return mapping.get(source_addr, 'Unknown')
-    
+
     def get_topology_mapping(input_file):
         """Get the device name and type mappings for the specified topology."""
         if 'Topology_A' in input_file:
@@ -340,7 +337,7 @@ def main(input_file):
             return device_name_mapping_vB, device_type_mapping_vB
         else:
             raise ValueError(f"Invalid topology:")
-            
+
     # packets = pyshark.FileCapture(input_file)  # Example filter for Zigbee
 
     try:
@@ -351,12 +348,12 @@ def main(input_file):
         return pd.DataFrame()
     rows = []
     dict_mem = {}
-    
-    device_name_mapping,device_type_mapping = get_topology_mapping(input_file)
-    
+
+    device_name_mapping, device_type_mapping = get_topology_mapping(input_file)
+
     for packet in packets:
         try:
-            
+
             # Extract WPAN information
             source_addr = safe_get_attr(packet.wpan, 'src16')
             device_name = map_device_info(source_addr, device_name_mapping)
@@ -365,7 +362,7 @@ def main(input_file):
             destination_addr = safe_get_attr(packet.wpan, 'dst16')
             device_name_dst = map_device_info(destination_addr, device_name_mapping)
             device_type_dst = map_device_info(destination_addr, device_type_mapping)
-            
+
             # Extract ZigBee NWK information
             source_addr_zb = None
             device_name_zb = None
@@ -390,8 +387,8 @@ def main(input_file):
 
             try:
                 device_name_zb_dst = map_device_info(
-                    safe_get_attr(packet.ZBEE_NWK, 'dst'),device_name_mapping
-            )
+                    safe_get_attr(packet.ZBEE_NWK, 'dst'), device_name_mapping
+                )
             except:
                 pass
 
@@ -405,7 +402,7 @@ def main(input_file):
                 pass
 
             try:
-                human_cmd = detect_cmd(source_addr_zb, packet,dict_mem,device_name_zb)
+                human_cmd = detect_cmd(source_addr_zb, packet, dict_mem, device_name_zb)
             except:
                 pass
 
@@ -446,6 +443,7 @@ def main(input_file):
     df = pd.DataFrame(rows)
     return df
 
+
 def find_and_process_pcapng(file_path):
     """
     Search for .pcapng files, process them with main(),
@@ -455,29 +453,28 @@ def find_and_process_pcapng(file_path):
         for file in files:
             if file.endswith('.pcapng'):
                 full_path = os.path.join(root, file)
-                
+
                 # Create the groundtruth subfolder if it doesn't exist
                 groundtruth_folder = os.path.join(root, "1-Groundtruth")
                 os.makedirs(groundtruth_folder, exist_ok=True)
-                
+
                 # Construct the output file path in the groundtruth subfolder
                 output_file = os.path.join(
-                    groundtruth_folder, 
+                    groundtruth_folder,
                     os.path.splitext(file)[0] + '_groundtruth.csv'
                 )
-                
+
                 print(f"Processing: {full_path} -> {output_file}")
-                
+
                 # Process the file
                 groundtruth = main(full_path)
 
                 # Save the df to CSV in the groundtruth subfolder
                 groundtruth.to_csv(output_file, index=False)
-                
-    
+
     print("All files processed successfully.")
-    
-    
+
+
 root_path = './Data'
 
 find_and_process_pcapng(root_path)
