@@ -33,7 +33,7 @@ def extract_features(current_window):
         return None
 
 
-dataset_dir = "./Data"
+dataset_dir =('./Data')
 window_sizes = [1, 2, 3, 5]  # in seconds
 
 for category in ["Idle", "Physical_Interaction", "Power", "Scenario", "Web_Interaction"]:
@@ -44,10 +44,10 @@ for category in ["Idle", "Physical_Interaction", "Power", "Scenario", "Web_Inter
         for device_name_folder in os.listdir(topology_path):
             raw_dataset_path = os.path.join(topology_path, device_name_folder)
 
-            if not os.path.isdir(raw_dataset_path) or not device_name_folder.startswith("4-Group_dataset"):
+            if not os.path.isdir(raw_dataset_path) or not device_name_folder.startswith("4-Group_dataset_ffd_only_zbee"):
                 continue
 
-            sequence_output_path = os.path.join(topology_path, "5-Sequence_Data_Fix_Duration")
+            sequence_output_path = os.path.join(topology_path, "5-Sequence_Data_Fix_Duration_ffd_only_zbee")
             os.makedirs(sequence_output_path, exist_ok=True)
 
             for file in os.listdir(raw_dataset_path):
@@ -89,6 +89,7 @@ for category in ["Idle", "Physical_Interaction", "Power", "Scenario", "Web_Inter
                                     "Device Name": dev_name,
                                     "Device Type": current_window.iloc[0, 1],
                                     "File Name": file_path
+                                    #"File Name": file_path.replace("/","\\").replace(".\\","./")
                                 }
                                 dev_df = pd.DataFrame([dev_info])
 

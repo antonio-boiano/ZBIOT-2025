@@ -75,7 +75,7 @@ device_type_mapping_vB = {
     '0x946e': 'Door',
     '0x7b10': 'Door',
     '0xd0bb': 'Motion',
-    '0x1f29': 'Motion',
+    '0x045b': 'Motion',
     '0x27d7': 'Motion',
     '0x907b': 'Door',
     '0xe01d': 'Door',
@@ -106,7 +106,7 @@ device_name_mapping_vB = {
     '0x946e': 'Sonoff Door 1',
     '0x7b10': 'Sonoff Door 2',
     '0xd0bb': 'Sonoff Motion 1',
-    '0x1f29': 'Sonoff Motion 2',
+    '0x045b': 'Sonoff Motion 2',
     '0x27d7': 'Aqara Motion',
     '0x907b': 'Aqara Door 1',
     '0xe01d': 'Aqara Door 2',
@@ -237,7 +237,7 @@ def detect_cmd(src_addr, packet, dict_mem={}, device_name=None):
                 except:
                     return 1
 
-            if cmd_id == '0x0a' and device_name is not None and device_name == 'Aqara Motion':
+            if cmd_id == '0x0a' and device_name is not None and (device_name == 'Aqara Motion' or device_name == 'Aqara Door 1' or device_name == 'Aqara Door 2'):
                 if packet['ZBEE_ZCL'].attr_id != '0x00f7':
                     return 1
 
@@ -475,6 +475,6 @@ def find_and_process_pcapng(file_path):
     print("All files processed successfully.")
 
 
-root_path = './Data'
+root_path = './Dataset/Data'
 
 find_and_process_pcapng(root_path)

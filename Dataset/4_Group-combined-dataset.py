@@ -1,13 +1,21 @@
 import os
 
-dataset_dir = "./Data"
+dataset_dir ='./Data'
 import pandas as pd
-def group_by_each_device(data):
+
+def is_rfd(device_name):
+    rfd_indicators = ['Button', 'Motion', 'Door', 'Temperature', 'Vibration']
+    return any(indicator.lower() in device_name.lower() for indicator in rfd_indicators)
+
+def group_by_each_device(data,onlyzbee=True,zbee_only_ffd=False):
     result_data = []
 
     unique_devices = pd.unique(data[['Device Name', 'Device Name Destination']].values.ravel('K'))
+   
     for device in unique_devices:
 
+        if device is None or pd.isna(device):
+            continue
 
         related_rows = (data['Device Name'] == device) | (data['Device Name Destination'] == device)
         group_data = data[related_rows].copy()
@@ -18,14 +26,18 @@ def group_by_each_device(data):
             group_data.drop(columns=['Group Type'], inplace=True)
 
         group_data['Group Type'] = None
+        
         group_data.loc[group_data['Device Name'] == device, 'Group Type'] = group_data['Device Type']
         group_data.loc[group_data['Device Name Destination'] == device, 'Group Type'] = group_data[
             'Device Type Destination']
 
         # Insert Group Type as the second column
         group_data.insert(1, 'Group Type', group_data.pop('Group Type'))
-        group_data = group_data[
-            (group_data['Device Name ZigBee'] == device) | (group_data['Device Name ZigBee Destination'] == device)]
+        
+        if onlyzbee and not (zbee_only_ffd and is_rfd(device)):
+            group_data = group_data[
+                (group_data['Device Name ZigBee'] == device) | (group_data['Device Name ZigBee Destination'] == device)]
+            
 
         result_data.append(group_data)
 
@@ -39,7 +51,7 @@ for category in ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Intera
         topology_path = os.path.join(category_path, topology)
 
         raw_data_path = os.path.join(topology_path, "3-Combined_dataset")
-        group_data_path = os.path.join(topology_path, "A_4-Group_dataset")
+        group_data_path = os.path.join(topology_path, "4-Group_dataset_ffd_only_zbee")
         os.makedirs(raw_data_path, exist_ok=True)
         os.makedirs(group_data_path, exist_ok=True)
 
@@ -51,7 +63,7 @@ for category in ["Idle", "Physical_Interaction","Power", "Scenario", "Web_Intera
                     output_file_path = os.path.join(group_data_path, f"{base_name}_group.csv")
 
                     raw_data = pd.read_csv(input_file_path)
-                    grouped_data = group_by_each_device(raw_data)
+                    grouped_data = group_by_each_device(raw_data, onlyzbee=True, zbee_only_ffd=True)
                     grouped_data.to_csv(output_file_path, index=False)
 
                     print(f"Successfully processed and saved {output_file_path}")
