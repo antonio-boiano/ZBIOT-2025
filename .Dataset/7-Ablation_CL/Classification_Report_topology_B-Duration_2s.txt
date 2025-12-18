@@ -1,0 +1,12 @@
+              precision    recall  f1-score   support
+
+        Bulb       0.84      0.86      0.85       408
+      Button       0.33      1.00      0.50         1
+ Coordinator       0.94      0.93      0.94      1145
+        Door       1.00      0.62      0.76        13
+      Motion       0.78      0.72      0.75        29
+      Socket       0.94      0.95      0.95      1211
+
+    accuracy                           0.93      2807
+   macro avg       0.81      0.85      0.79      2807
+weighted avg       0.93      0.93      0.93      2807

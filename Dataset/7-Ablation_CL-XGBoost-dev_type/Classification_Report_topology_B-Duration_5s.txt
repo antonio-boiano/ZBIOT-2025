@@ -1,0 +1,27 @@
+Task: topology_B-Duration_5s
+Hyperparameters: {'colsample_bytree': 0.4, 'gamma': 0, 'learning_rate': 0.2, 'max_depth': 8, 'min_child_weight': 0.5, 'n_estimators': 300, 'subsample': 1.0}
+
+================================================================================
+CROSS-VALIDATION SUMMARY
+================================================================================
+Accuracy:        0.9722 ± 0.0017
+Precision (avg): 0.9534 ± 0.0178
+Recall (avg):    0.9573 ± 0.0132
+F1-Macro:        0.9537 ± 0.0159
+F1-Weighted:     0.9722 ± 0.0017
+
+================================================================================
+MERGED CLASSIFICATION REPORT
+================================================================================
+              precision    recall  f1-score   support
+
+        Bulb       0.94      0.98      0.96      4228
+      Button       0.92      0.97      0.94        35
+ Coordinator       0.98      0.96      0.97     11594
+        Door       0.98      0.89      0.93        45
+      Motion       0.92      0.97      0.94       554
+      Socket       0.98      0.98      0.98     14573
+
+    accuracy                           0.97     31029
+   macro avg       0.95      0.96      0.95     31029
+weighted avg       0.97      0.97      0.97     31029

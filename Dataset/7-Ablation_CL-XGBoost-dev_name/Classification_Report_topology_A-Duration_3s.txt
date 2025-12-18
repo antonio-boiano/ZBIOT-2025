@@ -1,0 +1,32 @@
+Task: topology_A-Duration_3s
+Hyperparameters: {'colsample_bytree': 0.4, 'gamma': 0, 'learning_rate': 0.2, 'max_depth': 10, 'min_child_weight': 0.2, 'n_estimators': 300, 'subsample': 0.8}
+
+================================================================================
+CROSS-VALIDATION SUMMARY
+================================================================================
+Accuracy:        0.9080 ± 0.0051
+Precision (avg): 0.8382 ± 0.0450
+Recall (avg):    0.8407 ± 0.0349
+F1-Macro:        0.8386 ± 0.0399
+F1-Weighted:     0.9082 ± 0.0051
+
+================================================================================
+MERGED CLASSIFICATION REPORT
+================================================================================
+                      precision    recall  f1-score   support
+
+        Aqara Button       0.90      0.69      0.78        13
+          Aqara Door       0.90      0.94      0.92        48
+         Coordinator       0.97      0.95      0.96      5897
+       Ledvance Bulb       0.89      0.89      0.89       826
+Ledvance Smart+ Plug       0.83      0.87      0.85        82
+    Ledvance Z3 Plug       0.77      0.71      0.74       147
+           Moes Bulb       0.87      0.86      0.87       513
+        Philips Lamp       0.77      0.81      0.79       898
+      Philips Motion       0.73      0.72      0.73       502
+          Power Plug       0.91      0.92      0.92      3028
+        Smart Socket       0.86      0.89      0.87      1780
+
+            accuracy                           0.91     13734
+           macro avg       0.85      0.84      0.85     13734
+        weighted avg       0.91      0.91      0.91     13734
