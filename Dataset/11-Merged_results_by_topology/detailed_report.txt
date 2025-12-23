@@ -1,0 +1,52 @@
+================================================================================
+COMPRESSION ANALYSIS - DETAILED REPORT (BY TOPOLOGY)
+================================================================================
+
+
+Topology: Topology_A
+--------------------------------------------------------------------------------
+Number of Files: 44
+Total Delta Time: 6:49:17.419477 (24557.42 seconds)
+Total Original Size: 6692.56 KB (6.54 MB)
+
+Compression Results:
+  GZIP      :    2413.40 KB ( 36.06% |  63.94% savings)
+  BZIP2     :    2365.46 KB ( 35.34% |  64.66% savings)
+  LZMA      :    2017.68 KB ( 30.15% |  69.85% savings)
+  PPMD      :    2231.01 KB ( 33.34% |  66.66% savings)
+  SNAPPY    :    3208.78 KB ( 47.95% |  52.05% savings)
+  BROTLI    :    2077.46 KB ( 31.04% |  68.96% savings)
+  LZ4       :    2925.30 KB ( 43.71% |  56.29% savings)
+  LZ4_RAW   :    2905.46 KB ( 43.41% |  56.59% savings)
+  ZSTD      :    2252.71 KB ( 33.66% |  66.34% savings)
+  LZO       :    3053.61 KB ( 45.63% |  54.37% savings)
+
+Entropy Analysis:
+  8-bit Entropy:          4735.74 KB ( 70.76%)
+  16-bit Entropy:         2367.87 KB ( 35.38%)
+  Conditional Entropy:    3232.11 KB ( 48.29%)
+
+
+Topology: Topology_B
+--------------------------------------------------------------------------------
+Number of Files: 47
+Total Delta Time: 8:31:56.044565 (30716.04 seconds)
+Total Original Size: 11058.76 KB (10.80 MB)
+
+Compression Results:
+  GZIP      :    3599.19 KB ( 32.55% |  67.45% savings)
+  BZIP2     :    3505.14 KB ( 31.70% |  68.30% savings)
+  LZMA      :    2949.88 KB ( 26.67% |  73.33% savings)
+  PPMD      :    3303.15 KB ( 29.87% |  70.13% savings)
+  SNAPPY    :    4899.62 KB ( 44.31% |  55.69% savings)
+  BROTLI    :    3048.29 KB ( 27.56% |  72.44% savings)
+  LZ4       :    4390.16 KB ( 39.70% |  60.30% savings)
+  LZ4_RAW   :    4379.52 KB ( 39.60% |  60.40% savings)
+  ZSTD      :    3332.83 KB ( 30.14% |  69.86% savings)
+  LZO       :    4610.25 KB ( 41.69% |  58.31% savings)
+
+Entropy Analysis:
+  8-bit Entropy:          7684.80 KB ( 69.49%)
+  16-bit Entropy:         3842.40 KB ( 34.75%)
+  Conditional Entropy:    5187.71 KB ( 46.91%)
+

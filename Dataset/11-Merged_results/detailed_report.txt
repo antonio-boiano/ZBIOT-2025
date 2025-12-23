@@ -1,0 +1,124 @@
+================================================================================
+COMPRESSION ANALYSIS - DETAILED REPORT
+================================================================================
+
+
+Category: Idle
+--------------------------------------------------------------------------------
+Number of Files: 6
+Total Delta Time: 5:54:42.319745 (21282.32 seconds)
+Total Original Size: 7137.56 KB (6.97 MB)
+
+Compression Results:
+  GZIP      :    2599.13 KB ( 36.41% |  63.59% savings)
+  BZIP2     :    2443.44 KB ( 34.23% |  65.77% savings)
+  LZMA      :    2121.75 KB ( 29.73% |  70.27% savings)
+  PPMD      :    2319.36 KB ( 32.50% |  67.50% savings)
+  SNAPPY    :    3516.07 KB ( 49.26% |  50.74% savings)
+  BROTLI    :    2190.77 KB ( 30.69% |  69.31% savings)
+  LZ4       :    3137.06 KB ( 43.95% |  56.05% savings)
+  LZ4_RAW   :    3135.79 KB ( 43.93% |  56.07% savings)
+  ZSTD      :    2415.10 KB ( 33.84% |  66.16% savings)
+  LZO       :    3320.28 KB ( 46.52% |  53.48% savings)
+
+Entropy Analysis:
+  8-bit Entropy:          4966.62 KB ( 69.58%)
+  16-bit Entropy:         2483.31 KB ( 34.79%)
+  Conditional Entropy:    3588.48 KB ( 50.28%)
+
+
+Category: Physical_Interaction
+--------------------------------------------------------------------------------
+Number of Files: 10
+Total Delta Time: 2:10:25.001420 (7825.00 seconds)
+Total Original Size: 3206.89 KB (3.13 MB)
+
+Compression Results:
+  GZIP      :    1194.27 KB ( 37.24% |  62.76% savings)
+  BZIP2     :    1157.62 KB ( 36.10% |  63.90% savings)
+  LZMA      :     995.41 KB ( 31.04% |  68.96% savings)
+  PPMD      :    1098.96 KB ( 34.27% |  65.73% savings)
+  SNAPPY    :    1577.77 KB ( 49.20% |  50.80% savings)
+  BROTLI    :    1028.80 KB ( 32.08% |  67.92% savings)
+  LZ4       :    1435.38 KB ( 44.76% |  55.24% savings)
+  LZ4_RAW   :    1434.74 KB ( 44.74% |  55.26% savings)
+  ZSTD      :    1113.87 KB ( 34.73% |  65.27% savings)
+  LZO       :    1505.44 KB ( 46.94% |  53.06% savings)
+
+Entropy Analysis:
+  8-bit Entropy:          2285.89 KB ( 71.28%)
+  16-bit Entropy:         1142.94 KB ( 35.64%)
+  Conditional Entropy:    1604.63 KB ( 50.04%)
+
+
+Category: Power
+--------------------------------------------------------------------------------
+Number of Files: 60
+Total Delta Time: 5:08:10.792838 (18490.79 seconds)
+Total Original Size: 3334.40 KB (3.26 MB)
+
+Compression Results:
+  GZIP      :     789.39 KB ( 23.67% |  76.33% savings)
+  BZIP2     :     895.31 KB ( 26.85% |  73.15% savings)
+  LZMA      :     670.47 KB ( 20.11% |  79.89% savings)
+  PPMD      :     814.21 KB ( 24.42% |  75.58% savings)
+  SNAPPY    :    1076.29 KB ( 32.28% |  67.72% savings)
+  BROTLI    :     683.52 KB ( 20.50% |  79.50% savings)
+  LZ4       :     993.30 KB ( 29.79% |  70.21% savings)
+  LZ4_RAW   :     965.57 KB ( 28.96% |  71.04% savings)
+  ZSTD      :     724.03 KB ( 21.71% |  78.29% savings)
+  LZO       :    1001.79 KB ( 30.04% |  69.96% savings)
+
+Entropy Analysis:
+  8-bit Entropy:          2364.60 KB ( 70.92%)
+  16-bit Entropy:         1182.30 KB ( 35.46%)
+  Conditional Entropy:    1292.65 KB ( 38.77%)
+
+
+Category: Scenario
+--------------------------------------------------------------------------------
+Number of Files: 3
+Total Delta Time: 1:31:32.806955 (5492.81 seconds)
+Total Original Size: 1745.55 KB (1.70 MB)
+
+Compression Results:
+  GZIP      :     635.11 KB ( 36.38% |  63.62% savings)
+  BZIP2     :     604.18 KB ( 34.61% |  65.39% savings)
+  LZMA      :     521.00 KB ( 29.85% |  70.15% savings)
+  PPMD      :     573.91 KB ( 32.88% |  67.12% savings)
+  SNAPPY    :     851.24 KB ( 48.77% |  51.23% savings)
+  BROTLI    :     540.23 KB ( 30.95% |  69.05% savings)
+  LZ4       :     767.78 KB ( 43.99% |  56.01% savings)
+  LZ4_RAW   :     767.49 KB ( 43.97% |  56.03% savings)
+  ZSTD      :     594.06 KB ( 34.03% |  65.97% savings)
+  LZO       :     813.25 KB ( 46.59% |  53.41% savings)
+
+Entropy Analysis:
+  8-bit Entropy:          1219.40 KB ( 69.86%)
+  16-bit Entropy:          609.70 KB ( 34.93%)
+  Conditional Entropy:     879.98 KB ( 50.41%)
+
+
+Category: Web_Interaction
+--------------------------------------------------------------------------------
+Number of Files: 12
+Total Delta Time: 0:36:22.543083 (2182.54 seconds)
+Total Original Size: 2326.92 KB (2.27 MB)
+
+Compression Results:
+  GZIP      :     794.70 KB ( 34.15% |  65.85% savings)
+  BZIP2     :     770.06 KB ( 33.09% |  66.91% savings)
+  LZMA      :     658.93 KB ( 28.32% |  71.68% savings)
+  PPMD      :     727.71 KB ( 31.27% |  68.73% savings)
+  SNAPPY    :    1087.03 KB ( 46.72% |  53.28% savings)
+  BROTLI    :     682.42 KB ( 29.33% |  70.67% savings)
+  LZ4       :     981.93 KB ( 42.20% |  57.80% savings)
+  LZ4_RAW   :     981.39 KB ( 42.18% |  57.82% savings)
+  ZSTD      :     738.48 KB ( 31.74% |  68.26% savings)
+  LZO       :    1023.10 KB ( 43.97% |  56.03% savings)
+
+Entropy Analysis:
+  8-bit Entropy:          1584.04 KB ( 68.07%)
+  16-bit Entropy:          792.02 KB ( 34.04%)
+  Conditional Entropy:    1054.08 KB ( 45.30%)
+
