@@ -1,0 +1,23 @@
+\section{Traffic Analysis Methodology}
+\label{sec:methodology}
+This section describes the methodology adopted to analyze encrypted Zigbee traffic and evaluate traffic-based device profiling under different network topologies. Two classification tasks are considered: \textit{device type classification} and \textit{ndividual device identification}. The former targets coarse-grained categorization of devices based on functional roles and communication patterns, while the latter addresses fine-grained discrimination among individual devices. Although Zigbee enforces standardized message formats, device-specific characteristics remain observable due to differences in implementation, hardware, and operational behavior.
+
+\subsection{Data Preprocessing}
+\label{sec:data_pre}
+Raw Zigbee traffic captured in PCAP format was processed through a preprocessing pipeline designed to generate structured representations suitable for machine-learning-based analysis.
+
+\paragraph{Ground truth and metadata extraction}
+Each packet was associated with device-level metadata by mapping 16-bit Zigbee short addresses to device categories and labels (Table~\ref{tab:dataset}). Payload decryption was used exclusively during dataset labeling to distinguish human-triggered interactions from background traffic, while all subsequent analysis relied solely on encrypted traffic. Packet-level attributes extracted include source and destination identifiers at the IEEE~802.15.4 and Zigbee NWK layers, packet length, and timestamp.
+
+\paragraph{Filtering and feature extraction}
+To capture temporal dependencies, packet traces were segmented into non-overlapping time windows, each aggregating consecutive packets. For each device, bidirectional traffic exchanged with the \gls*{panc} was isolated, and relayed packets introduced by mesh routing were filtered by comparing Zigbee-layer source addresses with IEEE~802.15.4 transmitter addresses.
+
+For each window containing at least two packets, statistical features were extracted from packet lengths and inter-arrival times, computed separately for uplink, downlink, and aggregated traffic. Extracted metrics include mean, standard deviation, minimum, maximum, median, skewness, kurtosis, mean absolute deviation, and packet count.
+
+\subsection{Classification and Validation Strategy}
+\label{subsec:classifier}
+Both classification tasks were addressed using eXtreme Gradient Boosting (XGBoost), which is well suited for multi-class classification on structured feature sets. Hyperparameters were optimized independently for each task using grid search with cross-validation.
+
+For device type classification, the model employed 300 estimators with a maximum tree depth of 8 and moderate regularization. Individual device identification required a more expressive configuration, using the same number of estimators but deeper trees (maximum depth of 10) and additional instance subsampling to improve robustness. All remaining parameters were left at default values.
+
+Model evaluation was performed using stratified 5-fold cross-validation to preserve class distributions. Performance was assessed using both weighted and macro-averaged F1-scores. Unless otherwise stated, results are reported using the macro F1-score, which is particularly sensitive to performance on minority classes and therefore suitable for the imbalanced nature of the dataset.

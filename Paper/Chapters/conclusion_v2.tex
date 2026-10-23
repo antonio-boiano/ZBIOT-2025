@@ -1,0 +1,9 @@
+\section{Conclusions}
+\label{sec:conclusion}
+In this work, we introduced ZIOTP2026, a publicly available multi-topology dataset of Zigbee network traffic collected from 21 commercial smart home devices. With over 252,000 IEEE~802.15.4 frames captured under realistic interaction scenarios, the dataset enables systematic investigation of topology-dependent effects that are largely overlooked in existing IoT traffic datasets.
+
+Using ZIOTP2026, we showed that state-of-the-art traffic classification methods achieve excellent performance under intra-topology evaluation, but suffer significant degradation when evaluated across different network topologies, particularly for fine-grained device identification. These results highlight network topology as a key factor limiting the generalizability of Zigbee traffic analysis models.
+
+We also analyzed the trade-off between traffic storage requirements and classification accuracy. Our results show that lossy feature compression through quantization can reduce storage requirements by approximately 4--5$\times$ compared to lossless raw traffic storage, while preserving near-lossless classification accuracy. Overall, this work emphasizes the need for topology-aware analysis and storage-efficient designs in scalable IoT forensic systems.
+
+Future work will focus on extending the dataset to additional topologies and device ecosystems, and on developing topology-aware analysis and adaptive storage strategies for scalable IoT forensic systems.

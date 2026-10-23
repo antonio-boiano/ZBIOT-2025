@@ -1,0 +1,295 @@
+%% 
+%% Copyright 2007-2025 Elsevier Ltd
+%% 
+%% This file is part of the 'Elsarticle Bundle'.
+%% ---------------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.3 of this license or (at your option) any
+%% later version. The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% The list of all files belonging to the 'Elsarticle Bundle' is
+%% given in the file `manifest.txt'.
+%% 
+%% Template article for Elsevier's document class `elsarticle'
+%% with numbered style bibliographic references
+%% SP 2008/03/01
+%% $Id: elsarticle-template-num.tex 272 2025-01-09 17:36:26Z rishi $
+%%
+\documentclass[preprint,12pt]{elsarticle}
+
+%% Use the option review to obtain double line spacing
+%% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
+
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,1p,times]{elsarticle}
+%% \documentclass[final,1p,times,twocolumn]{elsarticle}
+%% \documentclass[final,3p,times]{elsarticle}
+%% \documentclass[final,3p,times,twocolumn]{elsarticle}
+%% \documentclass[final,5p,times]{elsarticle}
+%% \documentclass[final,5p,times,twocolumn]{elsarticle}
+
+%% For including figures, graphicx.sty has been loaded in
+%% elsarticle.cls. If you prefer to use the old commands
+%% please give \usepackage{epsfig}
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsmath package provides various useful equation environments.
+\usepackage{amsmath}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers.
+%% \usepackage{lineno}
+
+
+\usepackage{natbib}
+% \usepackage{graphicx}
+\usepackage{bm}
+\usepackage[utf8]{inputenc}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsmath,amssymb,amsfonts, amsthm}
+\usepackage{balance}
+\usepackage{tabularx}
+\usepackage{booktabs}
+% \usepackage{cite}
+\usepackage{color}
+\usepackage{comment}
+%\usepackage{enumitem}
+\usepackage{calc}
+\usepackage{float}
+%\usepackage{graphicx} 
+\usepackage{multirow}
+\usepackage{nicefrac}
+%\usepackage{subfigure}
+\usepackage{enumerate}
+\usepackage{textcomp}
+\usepackage{verbatim}
+\usepackage{xcolor}
+\usepackage{lipsum}  
+\usepackage{units}
+% \usepackage{subcaption}
+\usepackage{orcidlink}
+% \usepackage{pgfplots}
+% \usepackage{tikz}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}  
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+\usepackage{geometry}
+\usepackage{svg}
+\usepackage{subcaption}
+% \geometry{margin=1in}
+\usepackage{listings}
+
+% \usepackage{enumerate}
+
+\lstdefinestyle{yaml}{
+  basicstyle=\ttfamily\scriptsize,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{orange},
+  breaklines=true,
+  frame=single
+}
+% Define desaturated colors
+\definecolor{good}{HTML}{D5E8D4}    % desaturated green
+\definecolor{medium}{HTML}{FDE9D9}  % desaturated orange
+\definecolor{bad}{HTML}{F8CECC}     % desaturated red
+\definecolor{amaranth}{rgb}{0.9, 0.17, 0.31}
+
+\usepackage[acronyms,nonumberlist,nopostdot,nomain,nogroupskip,acronymlists={hidden}]{glossaries}
+
+\newglossary[algh]{hidden}{acrh}{acnh}{Hidden Acronyms}
+
+\input{acronyms.tex}
+
+
+
+\journal{Computer Networks}
+
+\begin{document}
+
+\begin{frontmatter}
+
+%% Title, authors and addresses
+
+%% use the tnoteref command within \title for footnotes;
+%% use the tnotetext command for theassociated footnote;
+%% use the fnref command within \author or \affiliation for footnotes;
+%% use the fntext command for theassociated footnote;
+%% use the corref command within \author for corresponding author footnotes;
+%% use the cortext command for theassociated footnote;
+%% use the ead command for the email address,
+%% and the form \ead[url] for the home page:
+%% \title{Title\tnoteref{label1}}
+%% \tnotetext[label1]{}
+%% \author{Name\corref{cor1}\fnref{label2}}
+%% \ead{email address}
+%% \ead[url]{home page}
+%% \fntext[label2]{}
+%% \cortext[cor1]{}
+%% \affiliation{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+%% \fntext[label3]{}
+
+\title{Analyzing Zigbee Traffic: Datasets, Classification and Storage Trade-offs}
+
+%% use optional labels to link authors explicitly to addresses:
+%% \author[label1,label2]{}
+%% \affiliation[label1]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+%%
+%% \affiliation[label2]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+
+
+%\author[a1]{Antonio Boiano}
+%\author[a2]{Dalin Zheng}
+%\author[a1]{Fabio Palmese}
+%\author[a3]{Andrea Pimpinella}
+%\author[a1]{Alessandro E. C. Redondi}
+
+%% Author affiliation
+\begin{comment}
+    
+
+\affiliation[a1]{organization={Department of Electronics, Information and Bioengineering},%Department and Organization
+            addressline={Politecnico di Milano}, 
+            city={Milan},
+            postcode={20133}, 
+            %state={},
+            country={Italy}}
+
+            
+\affiliation[a2]{organization={School of Computer Science and Technology},%Department and Organization
+            addressline={Xi’an Jiaotong University}, 
+            city={Xi’an,},
+            postcode={710049}, 
+            %state={},
+            country={China}}
+            
+\affiliation[a3]{organization={Department of Information and Production Engineering},%Department and Organization
+            addressline={University of Bergamo}, 
+            city={Bergamo},
+            postcode={24129}, 
+            %state={},
+            country={Italy}}
+
+\newcommand{\ma}[1]{\textcolor{cyan}{[Marta -- #1]}}
+\newcommand{\ab}[1]{\textcolor{green}{[Antonio -- #1]}}
+\newcommand{\mf}[1]{\textcolor{red}{[Rev -- #1]}}
+\newcommand{\mb}[1]{\textcolor{amaranth}{[Mattia -- #1]}}
+
+\end{comment}
+
+%% Abstract
+
+\begin{abstract}
+Zigbee is widely used in smart home environments due to its low power consumption and support for mesh networking, making it a relevant target for traffic-based IoT forensic analysis. However, existing studies often rely on limited datasets and fixed network configurations.
+In this paper, we analyze Zigbee network traffic from three complementary perspectives: data collection, traffic classification, and storage efficiency. We introduce ZIOTP2026, a publicly available dataset of Zigbee traffic collected from commercial smart home devices deployed under multiple network configurations and capturing realistic interaction scenarios.
+Using this dataset, we study two traffic classification tasks: device type classification and individual device identification, and evaluate their robustness under both intra-configuration and cross-configuration settings. Our results show that while high classification accuracy can be achieved under controlled conditions, performance degrades significantly when models are evaluated across different network configurations, particularly for fine-grained identification tasks.
+Finally, we investigate the trade-off between traffic storage requirements and classification accuracy. We show that lossy compression of traffic features through quantization can reduce storage requirements by approximately 4--5$\times$ compared to lossless storage of raw packet traces, while preserving near-lossless classification performance.
+Overall, our results highlight the need for topology-aware Zigbee traffic analysis and storage-efficient feature compression to enable robust and scalable IoT forensic systems.% Overall, this work provides a structured analysis of Zigbee traffic that highlights key challenges and design trade-offs for scalable IoT forensic systems.
+\end{abstract}
+
+%%Graphical abstract
+%\begin{graphicalabstract}
+%\includegraphics{grabs}
+%\end{graphicalabstract}
+
+%%Research highlights
+% \begin{highlights}
+% \item  FederNet provides an emulation platform enabling any containerized FL framework to be benchmarked within network and device emulated environments, facilitating comprehensive evaluation of algorithms, communication protocols, and optimization strategies under realistic heterogeneous conditions.
+% \item The emulation capabilities include pre-configured network profiles and device presets derived from empirical measurements, complemented by statistical perturbation models that reproduce real-world operational variability and hardware constraints.
+% \item An FL framework, FedOpt, with support for multiple communication protocols, including TCP, HTTP, MQTT, and gRPC, enabling direct protocol benchmarking and addressing the limitation of existing frameworks that are constrained to single-transport implementations.
+% \item FedOpt implements extensive algorithmic support spanning both synchronous and asynchronous federated learning paradigms, augmented with optimization techniques including dynamic client selection, adaptive sampling strategies, and model pruning capabilities.
+% \item Platform validation through medical domain experimentation on MedMNIST demonstrates better performance of asynchronous algorithms under non-IID data distributions in heterogeneous environments, while protocol benchmarking reveals MQTT's improved consistency compared to gRPC in the same heterogeneous environment.
+% \end{highlights}
+
+%% Keywords
+\begin{keyword}
+Internet of Things \sep IoT Forensics \sep Zigbee \sep Encrypted Network Traffic Analysis \sep Network Traffic Compression
+%% keywords here, in the form: keyword \sep keyword
+%% PACS codes here, in the form: \PACS code \sep code
+
+%% MSC codes here, in the form: \MSC code \sep code
+%% or \MSC[2008] code \sep code (2000 is the default)
+
+\end{keyword}
+
+\end{frontmatter}
+
+%% Add \usepackage{lineno} before \begin{document} and uncomment 
+%% following line to enable line numbers
+%% \linenumbers
+
+%% main text
+%%
+
+%% Use \section commands to start a section
+
+\input{Chapters/introduction}
+\input{Chapters/background_v2}
+\input{Chapters/sota_v2}
+\input{Chapters/dataset_v2}
+\input{Chapters/methodology_v3}
+\input{Chapters/results_v3}
+\input{Chapters/compression_v3}
+\input{Chapters/conclusion_v2}
+
+
+\section*{Acknowledgment}
+This study was carried out within the PRIN project COMPACT and received funding from Next Generation EU, Mission 4 Component 1, CUP: D53D23001340006.
+
+
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+
+During the preparation of this work, the author(s) used ChatGPT in order to assess grammar and rephrase sentences to increase overall text clarity. After using this tool, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the published article.
+
+
+
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+
+%% If you have bib database file and want bibtex to generate the
+%% bibitems, please use
+%%
+%%  \bibliographystyle{elsarticle-num} 
+%%  \bibliography{<your bibdatabase>}
+
+%% else use the following coding to input the bibitems directly in the
+%% TeX file.
+
+%% Refer following link for more details about bibliography and citations.
+%% https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management
+\bibliographystyle{elsarticle-num}   
+\bibliography{main} 
+
+\end{document}
+
+\endinput
+
+%%
+%% End of file `elsarticle-template-num.tex'.
